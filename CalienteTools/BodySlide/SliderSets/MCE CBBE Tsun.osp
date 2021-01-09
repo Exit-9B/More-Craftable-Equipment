@@ -493,4 +493,28 @@
             <Data name="Mesh_001_Tsun_Cuirass_004Remove Choker" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004Remove Choker</Data>
         </Slider>
     </SliderSet>
+    <SliderSet name="MCE - CBBE - Tsun Bracers">
+        <DataFolder>MCE CBBE Tsun</DataFolder>
+        <SourceFile>Tsun Bracers.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntlets</OutputFile>
+        <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
+        <Shape target="Mesh_001_Tsun_Cuirass_004">Mesh_001_Tsun_Cuirass_004</Shape>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandsWristSize" target="Hands">CBBE Hands.osd\HandsWristSize</Data>
+            <Data name="Mesh_001_Tsun_Cuirass_004WristSize" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Bracers.osd\Mesh_001_Tsun_Cuirass_004WristSize</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MCE - CBBE - Tsun Bracers Beast">
+        <DataFolder>MCE CBBE Tsun</DataFolder>
+        <SourceFile>Tsun Bracers Beast.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntletsBeast</OutputFile>
+        <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
+        <Shape target="Mesh_001_Tsun_Cuirass_004">Mesh_001_Tsun_Cuirass_004</Shape>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandsWristSize" target="Hands">CBBE Hands Beast.osd\HandsWristSize</Data>
+            <Data name="Mesh_001_Tsun_Cuirass_004WristSize" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Bracers Beast.osd\Mesh_001_Tsun_Cuirass_004WristSize</Data>
+        </Slider>
+    </SliderSet>
 </SliderSetInfo>
