@@ -7,6 +7,7 @@
         <OutputFile GenWeights="true">TsunCuirass</OutputFile>
         <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
         <Shape target="Mesh_001_Tsun_Cuirass_004">Mesh_001_Tsun_Cuirass_004</Shape>
+        <Shape target="Panty">Panty</Shape>
         <Shape target="Tsun">Tsun</Shape>
         <Shape target="Tsun_Breastplate">Tsun_Breastplate</Shape>
         <Slider name="AnkleSize" invert="false" small="100" big="0">
@@ -16,6 +17,7 @@
             <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
             <Data name="TsunAppleCheeks" target="Tsun" local="true">Tsun Cuirass.osd\TsunAppleCheeks</Data>
             <Data name="Tsun_BreastplateAppleCheeks" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty" local="true">Tsun Cuirass.osd\PantyAppleCheeks</Data>
         </Slider>
         <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
             <Data name="BaseShapeHRAreolaSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaSize</Data>
@@ -30,32 +32,38 @@
             <Data name="Mesh_001_Tsun_Cuirass_004Back" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004Back</Data>
             <Data name="TsunBack" target="Tsun" local="true">Tsun Cuirass.osd\TsunBack</Data>
             <Data name="Tsun_BreastplateBack" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateBack</Data>
+            <Data name="PantyBack" target="Panty" local="true">Tsun Cuirass.osd\PantyBack</Data>
         </Slider>
         <Slider name="BackArch" invert="false" small="0" big="0">
             <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
             <Data name="TsunBackArch" target="Tsun" local="true">Tsun Cuirass.osd\TsunBackArch</Data>
             <Data name="Tsun_BreastplateBackArch" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateBackArch</Data>
+            <Data name="PantyBackArch" target="Panty" local="true">Tsun Cuirass.osd\PantyBackArch</Data>
         </Slider>
         <Slider name="Belly" invert="false" small="0" big="0">
             <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
             <Data name="TsunBelly" target="Tsun" local="true">Tsun Cuirass.osd\TsunBelly</Data>
             <Data name="Tsun_BreastplateBelly" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateBelly</Data>
+            <Data name="PantyBelly" target="Panty" local="true">Tsun Cuirass.osd\PantyBelly</Data>
         </Slider>
         <Slider name="BigBelly" invert="false" small="0" big="0">
             <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
             <Data name="TsunBigBelly" target="Tsun" local="true">Tsun Cuirass.osd\TsunBigBelly</Data>
             <Data name="Tsun_BreastplateBigBelly" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty" local="true">Tsun Cuirass.osd\PantyBigBelly</Data>
         </Slider>
         <Slider name="BigButt" invert="false" small="0" big="0">
             <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
             <Data name="TsunBigButt" target="Tsun" local="true">Tsun Cuirass.osd\TsunBigButt</Data>
             <Data name="Tsun_BreastplateBigButt" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateBigButt</Data>
+            <Data name="PantyBigButt" target="Panty" local="true">Tsun Cuirass.osd\PantyBigButt</Data>
         </Slider>
         <Slider name="BigTorso" invert="false" small="0" big="0">
             <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004BigTorso" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004BigTorso</Data>
             <Data name="TsunBigTorso" target="Tsun" local="true">Tsun Cuirass.osd\TsunBigTorso</Data>
             <Data name="Tsun_BreastplateBigTorso" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty" local="true">Tsun Cuirass.osd\PantyBigTorso</Data>
         </Slider>
         <Slider name="BreastCenter" invert="false" small="0" big="0">
             <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenter</Data>
@@ -123,12 +131,14 @@
             <Data name="Mesh_001_Tsun_Cuirass_004BreastsSmall" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004BreastsSmall</Data>
             <Data name="TsunBreastsSmall" target="Tsun" local="true">Tsun Cuirass.osd\TsunBreastsSmall</Data>
             <Data name="Tsun_BreastplateBreastsSmall" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty" local="true">Tsun Cuirass.osd\PantyBreastsSmall</Data>
         </Slider>
         <Slider name="BreastsSmall2" invert="false" small="0" big="0">
             <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004BreastsSmall2" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004BreastsSmall2</Data>
             <Data name="TsunBreastsSmall2" target="Tsun" local="true">Tsun Cuirass.osd\TsunBreastsSmall2</Data>
             <Data name="Tsun_BreastplateBreastsSmall2" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateBreastsSmall2</Data>
+            <Data name="PantyBreastsSmall2" target="Panty" local="true">Tsun Cuirass.osd\PantyBreastsSmall2</Data>
         </Slider>
         <Slider name="BreastsTogether" invert="false" small="0" big="0">
             <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
@@ -148,25 +158,30 @@
             <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
             <Data name="TsunButt" target="Tsun" local="true">Tsun Cuirass.osd\TsunButt</Data>
             <Data name="Tsun_BreastplateButt" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateButt</Data>
+            <Data name="PantyButt" target="Panty" local="true">Tsun Cuirass.osd\PantyButt</Data>
         </Slider>
         <Slider name="ButtClassic" invert="false" small="0" big="0">
             <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
             <Data name="TsunButtClassic" target="Tsun" local="true">Tsun Cuirass.osd\TsunButtClassic</Data>
             <Data name="Tsun_BreastplateButtClassic" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateButtClassic</Data>
+            <Data name="PantyButtClassic" target="Panty" local="true">Tsun Cuirass.osd\PantyButtClassic</Data>
         </Slider>
         <Slider name="ButtCrack" invert="false" small="0" big="0">
             <Data name="BaseShapeHRButtCrack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtCrack</Data>
             <Data name="TsunButtCrack" target="Tsun" local="true">Tsun Cuirass.osd\TsunButtCrack</Data>
+            <Data name="PantyButtCrack" target="Panty" local="true">Tsun Cuirass.osd\PantyButtCrack</Data>
         </Slider>
         <Slider name="ButtShape2" invert="false" small="0" big="0">
             <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
             <Data name="TsunButtShape2" target="Tsun" local="true">Tsun Cuirass.osd\TsunButtShape2</Data>
             <Data name="Tsun_BreastplateButtShape2" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty" local="true">Tsun Cuirass.osd\PantyButtShape2</Data>
         </Slider>
         <Slider name="ButtSmall" invert="false" small="0" big="0">
             <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
             <Data name="TsunButtSmall" target="Tsun" local="true">Tsun Cuirass.osd\TsunButtSmall</Data>
             <Data name="Tsun_BreastplateButtSmall" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty" local="true">Tsun Cuirass.osd\PantyButtSmall</Data>
         </Slider>
         <Slider name="CalfSize" invert="false" small="0" big="0">
             <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
@@ -181,12 +196,14 @@
             <Data name="Mesh_001_Tsun_Cuirass_004ChestDepth" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004ChestDepth</Data>
             <Data name="TsunChestDepth" target="Tsun" local="true">Tsun Cuirass.osd\TsunChestDepth</Data>
             <Data name="Tsun_BreastplateChestDepth" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateChestDepth</Data>
+            <Data name="PantyChestDepth" target="Panty" local="true">Tsun Cuirass.osd\PantyChestDepth</Data>
         </Slider>
         <Slider name="ChestWidth" invert="false" small="0" big="0">
             <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004ChestWidth" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004ChestWidth</Data>
             <Data name="TsunChestWidth" target="Tsun" local="true">Tsun Cuirass.osd\TsunChestWidth</Data>
             <Data name="Tsun_BreastplateChestWidth" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateChestWidth</Data>
+            <Data name="PantyChestWidth" target="Panty" local="true">Tsun Cuirass.osd\PantyChestWidth</Data>
         </Slider>
         <Slider name="ChubbyArms" invert="false" small="0" big="0">
             <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
@@ -197,20 +214,24 @@
             <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
             <Data name="TsunChubbyButt" target="Tsun" local="true">Tsun Cuirass.osd\TsunChubbyButt</Data>
             <Data name="Tsun_BreastplateChubbyButt" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty" local="true">Tsun Cuirass.osd\PantyChubbyButt</Data>
         </Slider>
         <Slider name="ChubbyLegs" invert="false" small="0" big="0">
             <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
             <Data name="TsunChubbyLegs" target="Tsun" local="true">Tsun Cuirass.osd\TsunChubbyLegs</Data>
+            <Data name="PantyChubbyLegs" target="Panty" local="true">Tsun Cuirass.osd\PantyChubbyLegs</Data>
         </Slider>
         <Slider name="ChubbyWaist" invert="false" small="0" big="0">
             <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004ChubbyWaist" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004ChubbyWaist</Data>
             <Data name="TsunChubbyWaist" target="Tsun" local="true">Tsun Cuirass.osd\TsunChubbyWaist</Data>
             <Data name="Tsun_BreastplateChubbyWaist" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty" local="true">Tsun Cuirass.osd\PantyChubbyWaist</Data>
         </Slider>
         <Slider name="CrotchBack" invert="false" small="0" big="0">
             <Data name="BaseShapeHRCrotchBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchBack</Data>
             <Data name="TsunCrotchBack" target="Tsun" local="true">Tsun Cuirass.osd\TsunCrotchBack</Data>
+            <Data name="PantyCrotchBack" target="Panty" local="true">Tsun Cuirass.osd\PantyCrotchBack</Data>
         </Slider>
         <Slider name="DoubleMelon" invert="false" small="0" big="0">
             <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
@@ -225,26 +246,31 @@
         <Slider name="Groin" invert="false" small="0" big="0">
             <Data name="BaseShapeHRGroin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRGroin</Data>
             <Data name="TsunGroin" target="Tsun" local="true">Tsun Cuirass.osd\TsunGroin</Data>
+            <Data name="PantyGroin" target="Panty" local="true">Tsun Cuirass.osd\PantyGroin</Data>
         </Slider>
         <Slider name="HipBone" invert="false" small="0" big="0">
             <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
             <Data name="TsunHipBone" target="Tsun" local="true">Tsun Cuirass.osd\TsunHipBone</Data>
+            <Data name="PantyHipBone" target="Panty" local="true">Tsun Cuirass.osd\PantyHipBone</Data>
         </Slider>
         <Slider name="HipForward" invert="false" small="0" big="0">
             <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004HipForward" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004HipForward</Data>
             <Data name="TsunHipForward" target="Tsun" local="true">Tsun Cuirass.osd\TsunHipForward</Data>
             <Data name="Tsun_BreastplateHipForward" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateHipForward</Data>
+            <Data name="PantyHipForward" target="Panty" local="true">Tsun Cuirass.osd\PantyHipForward</Data>
         </Slider>
         <Slider name="Hips" invert="false" small="0" big="0">
             <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
             <Data name="TsunHips" target="Tsun" local="true">Tsun Cuirass.osd\TsunHips</Data>
             <Data name="Tsun_BreastplateHips" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateHips</Data>
+            <Data name="PantyHips" target="Panty" local="true">Tsun Cuirass.osd\PantyHips</Data>
         </Slider>
         <Slider name="HipUpperWidth" invert="false" small="0" big="0">
             <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
             <Data name="TsunHipUpperWidth" target="Tsun" local="true">Tsun Cuirass.osd\TsunHipUpperWidth</Data>
             <Data name="Tsun_BreastplateHipUpperWidth" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateHipUpperWidth</Data>
+            <Data name="PantyHipUpperWidth" target="Panty" local="true">Tsun Cuirass.osd\PantyHipUpperWidth</Data>
         </Slider>
         <Slider name="KneeHeight" invert="false" small="0" big="0">
             <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
@@ -261,11 +287,13 @@
         <Slider name="LegsThin" invert="false" small="0" big="0">
             <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
             <Data name="TsunLegsThin" target="Tsun" local="true">Tsun Cuirass.osd\TsunLegsThin</Data>
+            <Data name="PantyLegsThin" target="Panty" local="true">Tsun Cuirass.osd\PantyLegsThin</Data>
         </Slider>
         <Slider name="MuscleAbs" invert="false" small="0" big="0">
             <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
             <Data name="TsunMuscleAbs" target="Tsun" local="true">Tsun Cuirass.osd\TsunMuscleAbs</Data>
             <Data name="Tsun_BreastplateMuscleAbs" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateMuscleAbs</Data>
+            <Data name="PantyMuscleAbs" target="Panty" local="true">Tsun Cuirass.osd\PantyMuscleAbs</Data>
         </Slider>
         <Slider name="MuscleArms" invert="false" small="0" big="0">
             <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
@@ -275,10 +303,12 @@
         <Slider name="MuscleButt" invert="false" small="0" big="0">
             <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
             <Data name="TsunMuscleButt" target="Tsun" local="true">Tsun Cuirass.osd\TsunMuscleButt</Data>
+            <Data name="PantyMuscleButt" target="Panty" local="true">Tsun Cuirass.osd\PantyMuscleButt</Data>
         </Slider>
         <Slider name="MuscleLegs" invert="false" small="0" big="0">
             <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
             <Data name="TsunMuscleLegs" target="Tsun" local="true">Tsun Cuirass.osd\TsunMuscleLegs</Data>
+            <Data name="PantyMuscleLegs" target="Panty" local="true">Tsun Cuirass.osd\PantyMuscleLegs</Data>
         </Slider>
         <Slider name="MusclePecs" invert="false" small="0" big="0">
             <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
@@ -337,6 +367,7 @@
             <Data name="Mesh_001_Tsun_Cuirass_004PregnancyBelly" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004PregnancyBelly</Data>
             <Data name="TsunPregnancyBelly" target="Tsun" local="true">Tsun Cuirass.osd\TsunPregnancyBelly</Data>
             <Data name="Tsun_BreastplatePregnancyBelly" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplatePregnancyBelly</Data>
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">Tsun Cuirass.osd\PantyPregnancyBelly</Data>
         </Slider>
         <Slider name="PushUp" invert="false" small="0" big="0">
             <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
@@ -350,6 +381,7 @@
         <Slider name="RoundAss" invert="false" small="0" big="0">
             <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
             <Data name="TsunRoundAss" target="Tsun" local="true">Tsun Cuirass.osd\TsunRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty" local="true">Tsun Cuirass.osd\PantyRoundAss</Data>
         </Slider>
         <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
             <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
@@ -368,6 +400,7 @@
         <Slider name="SlimThighs" invert="false" small="0" big="0">
             <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
             <Data name="TsunSlimThighs" target="Tsun" local="true">Tsun Cuirass.osd\TsunSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty" local="true">Tsun Cuirass.osd\PantySlimThighs</Data>
         </Slider>
         <Slider name="SternumDepth" invert="false" small="0" big="0">
             <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumDepth</Data>
@@ -378,29 +411,34 @@
         <Slider name="Thighs" invert="false" small="0" big="0">
             <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
             <Data name="TsunThighs" target="Tsun" local="true">Tsun Cuirass.osd\TsunThighs</Data>
+            <Data name="PantyThighs" target="Panty" local="true">Tsun Cuirass.osd\PantyThighs</Data>
         </Slider>
         <Slider name="TummyTuck" invert="false" small="0" big="0">
             <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
             <Data name="TsunTummyTuck" target="Tsun" local="true">Tsun Cuirass.osd\TsunTummyTuck</Data>
             <Data name="Tsun_BreastplateTummyTuck" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty" local="true">Tsun Cuirass.osd\PantyTummyTuck</Data>
         </Slider>
         <Slider name="Waist" invert="false" small="0" big="0">
             <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004Waist" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004Waist</Data>
             <Data name="TsunWaist" target="Tsun" local="true">Tsun Cuirass.osd\TsunWaist</Data>
             <Data name="Tsun_BreastplateWaist" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateWaist</Data>
+            <Data name="PantyWaist" target="Panty" local="true">Tsun Cuirass.osd\PantyWaist</Data>
         </Slider>
         <Slider name="WaistHeight" invert="false" small="0" big="0">
             <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004WaistHeight" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004WaistHeight</Data>
             <Data name="TsunWaistHeight" target="Tsun" local="true">Tsun Cuirass.osd\TsunWaistHeight</Data>
             <Data name="Tsun_BreastplateWaistHeight" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateWaistHeight</Data>
+            <Data name="PantyWaistHeight" target="Panty" local="true">Tsun Cuirass.osd\PantyWaistHeight</Data>
         </Slider>
         <Slider name="WideWaistLine" invert="false" small="0" big="0">
             <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004WideWaistLine" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004WideWaistLine</Data>
             <Data name="TsunWideWaistLine" target="Tsun" local="true">Tsun Cuirass.osd\TsunWideWaistLine</Data>
             <Data name="Tsun_BreastplateWideWaistLine" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty" local="true">Tsun Cuirass.osd\PantyWideWaistLine</Data>
         </Slider>
         <Slider name="WristSize" invert="false" small="100" big="0">
             <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
@@ -410,6 +448,7 @@
             <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
             <Data name="Tsun7B Lower" target="Tsun" local="true">Tsun Cuirass.osd\Tsun7B Lower</Data>
             <Data name="Tsun_Breastplate7B Lower" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_Breastplate7B Lower</Data>
+            <Data name="Panty7B Lower" target="Panty" local="true">Tsun Cuirass.osd\Panty7B Lower</Data>
         </Slider>
         <Slider name="7B Upper" invert="false" small="0" big="0">
             <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
@@ -422,18 +461,21 @@
             <Data name="Mesh_001_Tsun_Cuirass_004VanillaSSEHi" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004VanillaSSEHi</Data>
             <Data name="TsunVanillaSSEHi" target="Tsun" local="true">Tsun Cuirass.osd\TsunVanillaSSEHi</Data>
             <Data name="Tsun_BreastplateVanillaSSEHi" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateVanillaSSEHi</Data>
+            <Data name="PantyVanillaSSEHi" target="Panty" local="true">Tsun Cuirass.osd\PantyVanillaSSEHi</Data>
         </Slider>
         <Slider name="VanillaSSELo" invert="false" small="0" big="0">
             <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004VanillaSSELo" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004VanillaSSELo</Data>
             <Data name="TsunVanillaSSELo" target="Tsun" local="true">Tsun Cuirass.osd\TsunVanillaSSELo</Data>
             <Data name="Tsun_BreastplateVanillaSSELo" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateVanillaSSELo</Data>
+            <Data name="PantyVanillaSSELo" target="Panty" local="true">Tsun Cuirass.osd\PantyVanillaSSELo</Data>
         </Slider>
         <Slider name="OldBaseShape" invert="false" small="0" big="0">
             <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
             <Data name="Mesh_001_Tsun_Cuirass_004OldBaseShape" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004OldBaseShape</Data>
             <Data name="TsunOldBaseShape" target="Tsun" local="true">Tsun Cuirass.osd\TsunOldBaseShape</Data>
             <Data name="Tsun_BreastplateOldBaseShape" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateOldBaseShape</Data>
+            <Data name="PantyOldBaseShape" target="Panty" local="true">Tsun Cuirass.osd\PantyOldBaseShape</Data>
         </Slider>
         <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
             <Data name="BaseShapeHRBody Zap" target="BaseShapeHR" local="true">Tsun Cuirass.osd\BaseShapeHRBody Zap</Data>
