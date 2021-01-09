@@ -4,7 +4,7 @@
         <DataFolder>MCE CBBE Giant</DataFolder>
         <SourceFile>Giant Clothes.nif</SourceFile>
         <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
-        <OutputFile GenWeights="true">GiantClothes</OutputFile>
+        <OutputFile GenWeights="true">GiantBody</OutputFile>
         <Shape target="Bra">Bra</Shape>
         <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
         <Shape target="Panty">Panty</Shape>
@@ -630,6 +630,47 @@
         </Slider>
         <Slider name="Remove Satchel" invert="false" small="0" big="0" zap="true">
             <Data name="satchelRemove Satchel" target="satchel" local="true">Giant Clothes.osd\satchelRemove Satchel</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MCE - CBBE - Giant Bracers">
+        <DataFolder>MCE CBBE Giant</DataFolder>
+        <SourceFile>Giant Bracers.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
+        <OutputFile GenWeights="true">GiantGauntlets</OutputFile>
+        <Shape target="HandFemale3rd" DataFolder="GiantgauntletF">HandFemale3rd</Shape>
+        <Shape target="_GauntletsLight_1">_GauntletsLight_1</Shape>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1Arms" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1Arms</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1BigTorso" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1BigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1ChubbyArms" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1ForearmSize" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1ForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="HandFemale3rdMuscleArms" target="HandFemale3rd" local="true">Giant Bracers.osd\HandFemale3rdMuscleArms</Data>
+            <Data name="_GauntletsLight_1MuscleArms" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1MuscleArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="HandFemale3rdShoulderWidth" target="HandFemale3rd" local="true">Giant Bracers.osd\HandFemale3rdShoulderWidth</Data>
+            <Data name="_GauntletsLight_1ShoulderWidth" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandFemale3rdWristSize" target="HandFemale3rd" local="true">Giant Bracers.osd\HandFemale3rdWristSize</Data>
+            <Data name="_GauntletsLight_1WristSize" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1WristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_17B Upper" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_17B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1VanillaSSEHi" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1VanillaSSELo" target="_GauntletsLight_1" local="true">Giant Bracers.osd\_GauntletsLight_1VanillaSSELo</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>
