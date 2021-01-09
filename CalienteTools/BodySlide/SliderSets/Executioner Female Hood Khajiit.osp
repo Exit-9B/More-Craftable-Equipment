@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Executioner Female Hood Khajiit">
+        <DataFolder>Executioner Female Hood Khajiit</DataFolder>
+        <SourceFile>Executioner Female Hood Khajiit.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputFile GenWeights="true">HoodKhajiit</OutputFile>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="cap02Weight" target="cap02" local="true">Executioner Female Hood Khajiit.osd\cap02Weight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

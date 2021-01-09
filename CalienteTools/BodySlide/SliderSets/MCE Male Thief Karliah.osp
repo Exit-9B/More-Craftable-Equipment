@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="MCE - Male - Thief Karliah Torso">
+        <DataFolder>MCE Male Thief Karliah</DataFolder>
+        <SourceFile>Thief Karliah Torso.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\ThievesGuild\M</OutputPath>
+        <OutputFile GenWeights="true">TorsoKarliah</OutputFile>
+        <Shape target="KarliahDagger">KarliahDagger</Shape>
+        <Shape target="KarliahTorso">KarliahTorso</Shape>
+        <Shape target="MaleUnderwearBody:0" DataFolder="Thief Karliah Male">MaleUnderwearBody:0</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="MaleUnderwearBody:0Weight" target="MaleUnderwearBody:0" local="true">Thief Karliah Torso.osd\MaleUnderwearBody:0Weight</Data>
+            <Data name="KarliahTorsoWeight" target="KarliahTorso" local="true">Thief Karliah Torso.osd\KarliahTorsoWeight</Data>
+            <Data name="KarliahDaggerWeight" target="KarliahDagger" local="true">Thief Karliah Torso.osd\KarliahDaggerWeight</Data>
+        </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="MaleUnderwearBody:0Body Zap" target="MaleUnderwearBody:0" local="true">Thief Karliah Torso.osd\MaleUnderwearBody:0Body Zap</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MCE - Male - Thief Karliah Hood">
+        <DataFolder>MCE Male Thief Karliah</DataFolder>
+        <SourceFile>Thief Karliah Hood.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\ThievesGuild\M</OutputPath>
+        <OutputFile GenWeights="true">KarliahHood</OutputFile>
+        <Shape target="KarliahHood">KarliahHood</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="KarliahHoodWeight" target="KarliahHood" local="true">Thief Karliah Hood.osd\KarliahHoodWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MCE - Male - Thief Karliah Gloves">
+        <DataFolder>MCE Male Thief Karliah</DataFolder>
+        <SourceFile>Thief Karliah Gloves.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\ThievesGuild\M</OutputPath>
+        <OutputFile GenWeights="true">GlovesKarliah</OutputFile>
+        <Shape target="KarliahGloves">KarliahGloves</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="KarliahGlovesWeight" target="KarliahGloves" local="true">Thief Karliah Gloves.osd\KarliahGlovesWeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

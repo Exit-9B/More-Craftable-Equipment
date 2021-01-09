@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Executioner Male Hood Argonian">
+        <DataFolder>Executioner Male Hood Argonian</DataFolder>
+        <SourceFile>Executioner Male Hood Argonian.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\M</OutputPath>
+        <OutputFile GenWeights="true">HoodArgonian</OutputFile>
+        <Shape target="_ArgonianMaleHead">_ArgonianMaleHead</Shape>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="cap02Weight" target="cap02" local="true">Executioner Male Hood Argonian.osd\cap02Weight</Data>
+        </Slider>
+        <Slider name="Head Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="_ArgonianMaleHeadHead Zap" target="_ArgonianMaleHead" local="true">Executioner Male Hood Argonian.osd\_ArgonianMaleHeadHead Zap</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
