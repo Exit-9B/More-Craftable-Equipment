@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="MCE - Female - Tsun Cuirass">
+        <DataFolder>MCE Female Tsun</DataFolder>
+        <SourceFile>Tsun Cuirass.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunCuirass</OutputFile>
+        <Shape target="FemaleUnderwear">FemaleUnderwear</Shape>
+        <Shape target="Mesh_001_Tsun_Cuirass_004">Mesh_001_Tsun_Cuirass_004</Shape>
+        <Shape target="Tsun">Tsun</Shape>
+        <Shape target="TsunFemaleBody" DataFolder="MCE Female Tsun">TsunFemaleBody</Shape>
+        <Shape target="Tsun_Breastplate">Tsun_Breastplate</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="TsunFemaleBodyWeight" target="TsunFemaleBody" local="true">Tsun Cuirass.osd\TsunFemaleBodyWeight</Data>
+            <Data name="Mesh_001_Tsun_Cuirass_004Weight" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Cuirass.osd\Mesh_001_Tsun_Cuirass_004Weight</Data>
+            <Data name="TsunWeight" target="Tsun" local="true">Tsun Cuirass.osd\TsunWeight</Data>
+            <Data name="Tsun_BreastplateWeight" target="Tsun_Breastplate" local="true">Tsun Cuirass.osd\Tsun_BreastplateWeight</Data>
+            <Data name="FemaleUnderwearWeight" target="FemaleUnderwear" local="true">Tsun Cuirass.osd\FemaleUnderwearWeight</Data>
+        </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="TsunFemaleBodyBody Zap" target="TsunFemaleBody" local="true">Tsun Cuirass.osd\TsunFemaleBodyBody Zap</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
