@@ -1,0 +1,41 @@
+<PapyrusProject
+  xmlns="PapyrusProject.xsd"
+  Flags="TESV_Papyrus_Flags.flg"
+  Output="@myproject\Scripts"
+  Game="sse"
+  Optimize="true" Anonymize="true" Package="false" Zip="false">
+  <Variables>
+    <Variable Name="modname" Value="More Craftable Equipment"/>
+    <Variable Name="plugin" Value="MoreCraftableEquipment"/>
+    <Variable Name="myproject" Value="E:\ModOrganizer\SkyrimSE\mods\@modname"/>
+  </Variables>
+  <Imports>
+    <Import>@myproject\Source\Scripts</Import>
+    <Import>E:\SteamLibrary\steamapps\common\Skyrim Special Edition\Data\Source\Scripts</Import>
+  </Imports>
+  <Scripts>
+    <Script>MCEInitScript.psc</Script>
+  </Scripts>
+  <Packages Output="@myproject">
+    <Package Name="@plugin" RootDir="@myproject">
+      <Include NoRecurse="false">Meshes</Include>
+      <Include NoRecurse="true">Scripts</Include>
+      <Include NoRecurse="false">Textures</Include>
+    </Package>
+  </Packages>
+  <ZipFiles Output="@myproject">
+    <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
+      <Include>@plugin.esp</Include>
+      <Include>@plugin.bsa</Include>
+      <Include NoRecurse="true">Source\Scripts</Include>
+    </ZipFile>
+    <ZipFile Name="@modname - CBBE Bodyslide" RootDir="@myproject" Compression="deflate">
+      <Include>CalienteTools\Bodyslide\SliderSets\MCE CBBE Executioner.osp</Include>
+      <Include>CalienteTools\Bodyslide\SliderSets\MCE CBBE Giant.osp</Include>
+      <Include>CalienteTools\Bodyslide\SliderSets\MCE CBBE Tsun.osp</Include>
+      <Include NoRecurse="true">CalienteTools\Bodyslide\ShapeData\MCE CBBE Executioner</Include>
+      <Include NoRecurse="true">CalienteTools\Bodyslide\ShapeData\MCE CBBE Giant</Include>
+      <Include NoRecurse="true">CalienteTools\Bodyslide\ShapeData\MCE CBBE Tsun</Include>
+    </ZipFile>
+  </ZipFiles>
+</PapyrusProject>
