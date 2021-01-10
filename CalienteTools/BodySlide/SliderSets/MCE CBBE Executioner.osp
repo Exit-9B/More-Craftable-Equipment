@@ -437,9 +437,6 @@
         <Slider name="BreastCenter" invert="false" small="0" big="0">
             <Data name="cap02BreastCenter" target="cap02" local="true">Executioner Hood.osd\cap02BreastCenter</Data>
         </Slider>
-        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
-            <Data name="cap02BreastCenterBig" target="cap02" local="true">Executioner Hood.osd\cap02BreastCenterBig</Data>
-        </Slider>
         <Slider name="BreastCleavage" invert="false" small="0" big="0">
             <Data name="cap02BreastCleavage" target="cap02" local="true">Executioner Hood.osd\cap02BreastCleavage</Data>
         </Slider>
@@ -469,6 +466,9 @@
         </Slider>
         <Slider name="BreastsNewSH" invert="false" small="0" big="0">
             <Data name="cap02BreastsNewSH" target="cap02" local="true">Executioner Hood.osd\cap02BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSHSymmetry" target="cap02" local="true">Executioner Hood.osd\cap02BreastsNewSHSymmetry</Data>
         </Slider>
         <Slider name="BreastsSmall" invert="false" small="0" big="0">
             <Data name="cap02BreastsSmall" target="cap02" local="true">Executioner Hood.osd\cap02BreastsSmall</Data>
@@ -554,12 +554,6 @@
         <Slider name="ShoulderWidth" invert="false" small="0" big="0">
             <Data name="cap02ShoulderWidth" target="cap02" local="true">Executioner Hood.osd\cap02ShoulderWidth</Data>
         </Slider>
-        <Slider name="SternumDepth" invert="false" small="0" big="0">
-            <Data name="cap02SternumDepth" target="cap02" local="true">Executioner Hood.osd\cap02SternumDepth</Data>
-        </Slider>
-        <Slider name="SternumHeight" invert="false" small="0" big="0">
-            <Data name="cap02SternumHeight" target="cap02" local="true">Executioner Hood.osd\cap02SternumHeight</Data>
-        </Slider>
         <Slider name="Waist" invert="false" small="0" big="0">
             <Data name="cap02Waist" target="cap02" local="true">Executioner Hood.osd\cap02Waist</Data>
         </Slider>
@@ -606,9 +600,6 @@
         <Slider name="BreastCenter" invert="false" small="0" big="0">
             <Data name="cap02BreastCenter" target="cap02" local="true">Executioner Hood Argonian.osd\cap02BreastCenter</Data>
         </Slider>
-        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
-            <Data name="cap02BreastCenterBig" target="cap02" local="true">Executioner Hood Argonian.osd\cap02BreastCenterBig</Data>
-        </Slider>
         <Slider name="BreastCleavage" invert="false" small="0" big="0">
             <Data name="cap02BreastCleavage" target="cap02" local="true">Executioner Hood Argonian.osd\cap02BreastCleavage</Data>
         </Slider>
@@ -638,6 +629,9 @@
         </Slider>
         <Slider name="BreastsNewSH" invert="false" small="0" big="0">
             <Data name="cap02BreastsNewSH" target="cap02" local="true">Executioner Hood Argonian.osd\cap02BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSHSymmetry" target="cap02" local="true">Executioner Hood Argonian.osd\cap02BreastsNewSHSymmetry</Data>
         </Slider>
         <Slider name="BreastsSmall" invert="false" small="0" big="0">
             <Data name="cap02BreastsSmall" target="cap02" local="true">Executioner Hood Argonian.osd\cap02BreastsSmall</Data>
@@ -723,12 +717,6 @@
         <Slider name="ShoulderWidth" invert="false" small="0" big="0">
             <Data name="cap02ShoulderWidth" target="cap02" local="true">Executioner Hood Argonian.osd\cap02ShoulderWidth</Data>
         </Slider>
-        <Slider name="SternumDepth" invert="false" small="0" big="0">
-            <Data name="cap02SternumDepth" target="cap02" local="true">Executioner Hood Argonian.osd\cap02SternumDepth</Data>
-        </Slider>
-        <Slider name="SternumHeight" invert="false" small="0" big="0">
-            <Data name="cap02SternumHeight" target="cap02" local="true">Executioner Hood Argonian.osd\cap02SternumHeight</Data>
-        </Slider>
         <Slider name="Waist" invert="false" small="0" big="0">
             <Data name="cap02Waist" target="cap02" local="true">Executioner Hood Argonian.osd\cap02Waist</Data>
         </Slider>
@@ -754,7 +742,7 @@
     <SliderSet name="MCE - CBBE - Executioner Hood Khajiit">
         <DataFolder>MCE CBBE Executioner</DataFolder>
         <SourceFile>Executioner Hood Khajiit.nif</SourceFile>
-        <OutputPath>meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
         <OutputFile GenWeights="true">HoodKhajiit</OutputFile>
         <Shape target="cap02">cap02</Shape>
         <Slider name="AppleCheeks" invert="false" small="0" big="0">
@@ -774,9 +762,6 @@
         </Slider>
         <Slider name="BreastCenter" invert="false" small="0" big="0">
             <Data name="cap02BreastCenter" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02BreastCenter</Data>
-        </Slider>
-        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
-            <Data name="cap02BreastCenterBig" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02BreastCenterBig</Data>
         </Slider>
         <Slider name="BreastCleavage" invert="false" small="0" big="0">
             <Data name="cap02BreastCleavage" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02BreastCleavage</Data>
@@ -807,6 +792,9 @@
         </Slider>
         <Slider name="BreastsNewSH" invert="false" small="0" big="0">
             <Data name="cap02BreastsNewSH" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSHSymmetry" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02BreastsNewSHSymmetry</Data>
         </Slider>
         <Slider name="BreastsSmall" invert="false" small="0" big="0">
             <Data name="cap02BreastsSmall" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02BreastsSmall</Data>
@@ -891,12 +879,6 @@
         </Slider>
         <Slider name="ShoulderWidth" invert="false" small="0" big="0">
             <Data name="cap02ShoulderWidth" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02ShoulderWidth</Data>
-        </Slider>
-        <Slider name="SternumDepth" invert="false" small="0" big="0">
-            <Data name="cap02SternumDepth" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02SternumDepth</Data>
-        </Slider>
-        <Slider name="SternumHeight" invert="false" small="0" big="0">
-            <Data name="cap02SternumHeight" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02SternumHeight</Data>
         </Slider>
         <Slider name="Waist" invert="false" small="0" big="0">
             <Data name="cap02Waist" target="cap02" local="true">Executioner Hood Khajiit.osd\cap02Waist</Data>
