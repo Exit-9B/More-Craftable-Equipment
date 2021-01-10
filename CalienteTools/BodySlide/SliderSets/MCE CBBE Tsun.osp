@@ -499,10 +499,37 @@
         <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
         <OutputFile GenWeights="true">TsunGauntlets</OutputFile>
         <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
-        <Shape target="Mesh_001_Tsun_Cuirass_004">Mesh_001_Tsun_Cuirass_004</Shape>
+        <Shape target="TsunGauntlets">TsunGauntlets</Shape>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsArms" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsArms</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsBigTorso" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsChubbyArms" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsForearmSize" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsMuscleArms" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsMuscleArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsShoulderWidth" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsShoulderWidth</Data>
+        </Slider>
         <Slider name="WristSize" invert="false" small="100" big="0">
             <Data name="HandsWristSize" target="Hands">CBBE Hands.osd\HandsWristSize</Data>
-            <Data name="Mesh_001_Tsun_Cuirass_004WristSize" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Bracers.osd\Mesh_001_Tsun_Cuirass_004WristSize</Data>
+            <Data name="TsunGauntletsWristSize" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="TsunGauntlets7B Upper" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntlets7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsVanillaSSEHi" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsVanillaSSELo" target="TsunGauntlets" local="true">Tsun Bracers.osd\TsunGauntletsVanillaSSELo</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="MCE - CBBE - Tsun Bracers Beast">
@@ -511,10 +538,37 @@
         <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
         <OutputFile GenWeights="true">TsunGauntletsBeast</OutputFile>
         <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
-        <Shape target="Mesh_001_Tsun_Cuirass_004">Mesh_001_Tsun_Cuirass_004</Shape>
+        <Shape target="TsunGauntlets">TsunGauntlets</Shape>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsArms" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsArms</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsBigTorso" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsChubbyArms" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsForearmSize" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsMuscleArms" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsMuscleArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsShoulderWidth" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsShoulderWidth</Data>
+        </Slider>
         <Slider name="WristSize" invert="false" small="100" big="0">
-            <Data name="HandsWristSize" target="Hands">CBBE Hands Beast.osd\HandsWristSize</Data>
-            <Data name="Mesh_001_Tsun_Cuirass_004WristSize" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun Bracers Beast.osd\Mesh_001_Tsun_Cuirass_004WristSize</Data>
+            <Data name="HandsWristSize" target="Hands">CBBE Hands.osd\HandsWristSize</Data>
+            <Data name="TsunGauntletsWristSize" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="TsunGauntlets7B Upper" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntlets7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsVanillaSSEHi" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsVanillaSSELo" target="TsunGauntlets" local="true">Tsun Bracers Beast.osd\TsunGauntletsVanillaSSELo</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>
