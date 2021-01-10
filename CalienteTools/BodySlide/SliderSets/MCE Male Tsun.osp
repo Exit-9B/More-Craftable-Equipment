@@ -4,7 +4,7 @@
         <DataFolder>MCE Male Tsun</DataFolder>
         <SourceFile>Tsun Bracers Beast.nif</SourceFile>
         <OutputPath>Meshes\MCE\Armor\Tsun\M</OutputPath>
-        <OutputFile GenWeights="true">TsunBracersArgonian</OutputFile>
+        <OutputFile GenWeights="true">TsunGauntletsBeast</OutputFile>
         <Shape target="HandMaleBigArgonian3rd">HandMaleBigArgonian3rd</Shape>
         <Shape target="Tsun_Cuirass">Tsun_Cuirass</Shape>
         <Slider name="Weight" invert="false" small="0" big="0">
