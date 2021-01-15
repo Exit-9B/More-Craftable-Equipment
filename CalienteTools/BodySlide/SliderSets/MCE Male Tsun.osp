@@ -18,4 +18,28 @@
             <Data name="Tsun_CuirassRemove Wires" target="Tsun_Cuirass" local="true">Tsun Body.osd\Tsun_CuirassRemove Wires</Data>
         </Slider>
     </SliderSet>
+    <SliderSet name="MCE - Male - Tsun Bracers">
+        <DataFolder>MCE Male Tsun</DataFolder>
+        <SourceFile>Tsun Bracers.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\M</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntlets</OutputFile>
+        <Shape target="HandMaleBig3rd">HandMaleBig3rd</Shape>
+        <Shape target="Tsun_Gauntlets">Tsun_Gauntlets</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="HandMaleBig3rdWeight" target="HandMaleBig3rd" local="true">Tsun Bracers.osd\HandMaleBig3rdWeight</Data>
+            <Data name="Tsun_GauntletsWeight" target="Tsun_Gauntlets" local="true">Tsun Bracers.osd\Tsun_GauntletsWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MCE - Male - Tsun Bracers Beast">
+        <DataFolder>MCE Male Tsun</DataFolder>
+        <SourceFile>Tsun Bracers Beast.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\M</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntletsBeast</OutputFile>
+        <Shape target="HandMaleBigArgonian3rd" DataFolder="Male Hands Argonian">HandMaleBigArgonian3rd</Shape>
+        <Shape target="Tsun_Gauntlets">Tsun_Gauntlets</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="HandMaleBigArgonian3rdWeight" target="HandMaleBigArgonian3rd">Male Hands Argonian.osd\HandMaleBigArgonian3rdWeight</Data>
+            <Data name="Tsun_GauntletsWeight" target="Tsun_Gauntlets" local="true">Tsun Bracers Beast.osd\Tsun_GauntletsWeight</Data>
+        </Slider>
+    </SliderSet>
 </SliderSetInfo>
