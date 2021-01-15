@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="MCE - Male - Giant Body">
+        <DataFolder>MCE Male Giant</DataFolder>
+        <SourceFile>Giant Body.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\M</OutputPath>
+        <OutputFile GenWeights="true">GiantBody</OutputFile>
+        <Shape target="MaleUnderwearFullBody:1">MaleUnderwearFullBody:1</Shape>
+        <Shape target="armbandv2big">armbandv2big</Shape>
+        <Shape target="cloth">cloth</Shape>
+        <Shape target="skirt">skirt</Shape>
+        <Shape target="stachel">stachel</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="armbandv2bigWeight" target="armbandv2big" local="true">Giant Body.osd\armbandv2bigWeight</Data>
+            <Data name="clothWeight" target="cloth" local="true">Giant Body.osd\clothWeight</Data>
+            <Data name="skirtWeight" target="skirt" local="true">Giant Body.osd\skirtWeight</Data>
+            <Data name="MaleUnderwearFullBody:1Weight" target="MaleUnderwearFullBody:1" local="true">Giant Body.osd\MaleUnderwearFullBody:1Weight</Data>
+            <Data name="stachelWeight" target="stachel" local="true">Giant Body.osd\stachelWeight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
