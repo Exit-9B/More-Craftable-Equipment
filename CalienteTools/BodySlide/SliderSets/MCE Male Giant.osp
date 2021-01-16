@@ -5,17 +5,27 @@
         <SourceFile>Giant Body.nif</SourceFile>
         <OutputPath>Meshes\MCE\Clothes\Giant\M</OutputPath>
         <OutputFile GenWeights="true">GiantBody</OutputFile>
-        <Shape target="MaleUnderwearFullBody:1">MaleUnderwearFullBody:1</Shape>
+        <Shape target="MaleUnderwearFullBody:1" DataFolder="MCE Male Giant">MaleUnderwearFullBody:1</Shape>
         <Shape target="armbandv2big">armbandv2big</Shape>
         <Shape target="cloth">cloth</Shape>
+        <Shape target="satchel">satchel</Shape>
         <Shape target="skirt">skirt</Shape>
-        <Shape target="stachel">stachel</Shape>
         <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="MaleUnderwearFullBody:1Weight" target="MaleUnderwearFullBody:1" local="true">Giant Body.osd\MaleUnderwearFullBody:1Weight</Data>
             <Data name="armbandv2bigWeight" target="armbandv2big" local="true">Giant Body.osd\armbandv2bigWeight</Data>
             <Data name="clothWeight" target="cloth" local="true">Giant Body.osd\clothWeight</Data>
             <Data name="skirtWeight" target="skirt" local="true">Giant Body.osd\skirtWeight</Data>
-            <Data name="MaleUnderwearFullBody:1Weight" target="MaleUnderwearFullBody:1" local="true">Giant Body.osd\MaleUnderwearFullBody:1Weight</Data>
-            <Data name="stachelWeight" target="stachel" local="true">Giant Body.osd\stachelWeight</Data>
+            <Data name="satchelWeight" target="satchel" local="true">Giant Body.osd\satchelWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="MCE - Male - Giant Boots">
+        <DataFolder>MCE Male Giant</DataFolder>
+        <SourceFile>Giant Boots.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\M</OutputPath>
+        <OutputFile GenWeights="true">GiantBoots</OutputFile>
+        <Shape target="boots">boots</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="bootsWeight" target="boots" local="true">Giant Boots.osd\bootsWeight</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>

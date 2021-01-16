@@ -22,4 +22,14 @@
             <Data name="skirtWeight" target="skirt" local="true">Giant Body.osd\skirtWeight</Data>
         </Slider>
     </SliderSet>
+    <SliderSet name="MCE - Female - Giant Boots">
+        <DataFolder>MCE Female Giant</DataFolder>
+        <SourceFile>Giant Boots.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
+        <OutputFile GenWeights="true">GiantBoots</OutputFile>
+        <Shape target="boots">boots</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="bootsWeight" target="boots" local="true">Giant Boots.osd\bootsWeight</Data>
+        </Slider>
+    </SliderSet>
 </SliderSetInfo>
