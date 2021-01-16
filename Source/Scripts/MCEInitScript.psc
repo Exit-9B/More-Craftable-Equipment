@@ -12,7 +12,7 @@ LeveledItem Property LItemMiscVendorMiscItems75  Auto
 GlobalVariable Property MCE_CraftingLoomEnabled  Auto
 
 Event OnInit()
-	RegisterForSingleUpdate(2) ; workaround double init bug
+	RegisterForSingleUpdate(2)
 EndEvent
 
 Event OnUpdate()
