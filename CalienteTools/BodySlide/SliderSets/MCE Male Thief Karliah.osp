@@ -32,9 +32,11 @@
         <SourceFile>Thief Karliah Gloves.nif</SourceFile>
         <OutputPath>Meshes\MCE\Armor\ThievesGuild\M</OutputPath>
         <OutputFile GenWeights="true">GlovesKarliah</OutputFile>
+        <Shape target="HandMaleBig3rd">HandMaleBig3rd</Shape>
         <Shape target="KarliahGloves">KarliahGloves</Shape>
         <Slider name="Weight" invert="false" small="0" big="0">
             <Data name="KarliahGlovesWeight" target="KarliahGloves" local="true">Thief Karliah Gloves.osd\KarliahGlovesWeight</Data>
+            <Data name="HandMaleBig3rdWeight" target="HandMaleBig3rd" local="true">Thief Karliah Gloves.osd\HandMaleBig3rdWeight</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>
