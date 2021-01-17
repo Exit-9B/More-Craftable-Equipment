@@ -6,6 +6,7 @@ Perk Property MCEMatchingSet  Auto
 Perk Property MCEMatchingSetHeavy  Auto
 
 MiscObject Property MCEThread  Auto
+MiscObject Property Leather01  Auto
 LeveledItem Property LItemClothesAll  Auto
 LeveledItem Property LItemMiscVendorMiscItems75  Auto
 
@@ -21,6 +22,7 @@ Event OnUpdate()
 	PlayerRef.AddPerk(MCEMatchingSetHeavy)
 
 	LItemClothesAll.AddForm(MCEThread, 1, 10)
+	LItemClothesAll.AddForm(Leather01, 1, 5)
 	LItemMiscVendorMiscItems75.AddForm(MCEThread, 1, 10)
 
 	MCE_CraftingLoomEnabled.SetValueInt(1)
