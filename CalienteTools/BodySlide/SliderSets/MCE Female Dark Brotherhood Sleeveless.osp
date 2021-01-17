@@ -4,7 +4,7 @@
         <DataFolder>MCE Female Dark Brotherhood Sleeveless</DataFolder>
         <SourceFile>MCE Female Dark Brotherhood Sleeveless.nif</SourceFile>
         <OutputPath>Meshes\MCE\Armor\DBArmor</OutputPath>
-        <OutputFile GenWeights="true">DBArmorSleeveless_F</OutputFile>
+        <OutputFile GenWeights="true">DBArmorSleeveLess_F</OutputFile>
         <Shape target="DBtorso">DBtorso</Shape>
         <Shape target="FemaleUnderwearBody:0">FemaleUnderwearBody:0</Shape>
         <Slider name="Weight" invert="false" small="0" big="0">
