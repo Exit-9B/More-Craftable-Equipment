@@ -7,13 +7,13 @@
         <OutputFile GenWeights="true">GiantBody</OutputFile>
         <Shape target="Bra">Bra</Shape>
         <Shape target="FemaleUnderwear">FemaleUnderwear</Shape>
-        <Shape target="ForswornFemaleBody" DataFolder="MCE Female Giant">ForswornFemaleBody</Shape>
+        <Shape target="GiantFemaleBody" DataFolder="MCE Female Giant">GiantFemaleBody</Shape>
         <Shape target="armband">armband</Shape>
         <Shape target="cloth">cloth</Shape>
         <Shape target="satchel">satchel</Shape>
         <Shape target="skirt">skirt</Shape>
         <Slider name="Weight" invert="false" small="0" big="0">
-            <Data name="ForswornFemaleBodyWeight" target="ForswornFemaleBody" local="true">Giant Body.osd\ForswornFemaleBodyWeight</Data>
+            <Data name="GiantFemaleBodyWeight" target="GiantFemaleBody" local="true">Giant Body.osd\GiantFemaleBodyWeight</Data>
             <Data name="FemaleUnderwearWeight" target="FemaleUnderwear" local="true">Giant Body.osd\FemaleUnderwearWeight</Data>
             <Data name="BraWeight" target="Bra" local="true">Giant Body.osd\BraWeight</Data>
             <Data name="satchelWeight" target="satchel" local="true">Giant Body.osd\satchelWeight</Data>
