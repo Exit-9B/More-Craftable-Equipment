@@ -1,6 +1,259 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <SliderSetInfo version="1">
     <SliderSet name="CBBE MCE - Body - Dark Brotherhood Short-Sleeved">
+        <DataFolder>CBBE MCE\Body</DataFolder>
+        <SourceFile>Dark Brotherhood Short-Sleeved.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\DBArmor</OutputPath>
+        <OutputFile GenWeights="true">DBArmorSleeveless_F</OutputFile>
+        <Shape target="CBBE" DataFolder="MCE CBBE Dark Brotherhood Sleeveless">CBBE</Shape>
+        <Shape target="DBtorso">DBtorso</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="DBtorsoAnkleSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="DBtorsoAppleCheeks" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="DBtorsoArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="DBtorsoBack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="DBtorsoBackArch" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="DBtorsoBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="DBtorsoBigBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="DBtorsoBigButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="CBBEBigTorso" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEBigTorso</Data>
+            <Data name="DBtorsoBigTorso" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastCenter" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastCenterBig" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastFlatness2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastFlatness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastGravity2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastPerkiness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreasts" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="CBBEBreastsFantasy" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEBreastsFantasy</Data>
+            <Data name="DBtorsoBreastsFantasy" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsGone" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsNewSH" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsSmall" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsSmall2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsTogether" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastTopSlope" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="DBtorsoButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="DBtorsoButtClassic" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="DBtorsoButtCrack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="DBtorsoButtShape2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="DBtorsoButtSmall" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="DBtorsoCalfSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="DBtorsoCalfSmooth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="DBtorsoChestDepth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="DBtorsoChestWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="CBBEChubbyArms" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEChubbyArms</Data>
+            <Data name="DBtorsoChubbyArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="DBtorsoChubbyButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DBtorsoChubbyLegs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="DBtorsoChubbyWaist" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="DBtorsoCrotchBack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DBtorsoDoubleMelon" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="CBBEForearmSize" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEForearmSize</Data>
+            <Data name="DBtorsoForearmSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="DBtorsoGroin" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="DBtorsoHipBone" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="DBtorsoHipForward" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="DBtorsoHips" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="DBtorsoHipUpperWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DBtorsoKneeHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="DBtorsoKneeShape" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="DBtorsoLegShapeClassic" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="DBtorsoLegsThin" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="DBtorsoMuscleAbs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="CBBEMuscleArms" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEMuscleArms</Data>
+            <Data name="DBtorsoMuscleArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="DBtorsoMuscleButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="DBtorsoMuscleLegs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="DBtorsoMusclePecs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DBtorsoNeckSeam" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="DBtorsoNippleDown" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNippleDown</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="DBtorsoNipplePerkiness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="DBtorsoNipplePerkManga" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="DBtorsoNippleUp" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="DBtorsoPregnancyBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="DBtorsoPushUp" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="DBtorsoRibsProminance" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="DBtorsoRoundAss" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="DBtorsoShoulderSmooth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="DBtorsoShoulderTweak" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="DBtorsoShoulderWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="DBtorsoSlimThighs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DBtorsoThighs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="DBtorsoTummyTuck" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="DBtorsoWaist" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="DBtorsoWaistHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="DBtorsoWideWaistLine" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="CBBEWristSize" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEWristSize</Data>
+            <Data name="DBtorsoWristSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="DBtorso7B Lower" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorso7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="CBBE7B Upper" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBE7B Upper</Data>
+            <Data name="DBtorso7B Upper" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorso7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="CBBEVanillaSSEHi" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEVanillaSSEHi</Data>
+            <Data name="DBtorsoVanillaSSEHi" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="CBBEVanillaSSELo" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEVanillaSSELo</Data>
+            <Data name="DBtorsoVanillaSSELo" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="DBtorsoOldBaseShape" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
     <SliderSet name="CBBE MCE - Body - Executioner">
         <DataFolder>CBBE MCE\Body</DataFolder>
         <SourceFile>Executioner.nif</SourceFile>
@@ -944,259 +1197,6 @@
         </Slider>
         <Slider name="Remove Satchel" invert="false" small="0" big="0" zap="true">
             <Data name="satchelRemove Satchel" target="satchel" local="true">Giant.osd\satchelRemove Satchel</Data>
-        </Slider>
-    </SliderSet>
-        <DataFolder>CBBE MCE\Body</DataFolder>
-        <SourceFile>Dark Brotherhood Short-Sleeved.nif</SourceFile>
-        <OutputPath>Meshes\MCE\Armor\DBArmor</OutputPath>
-        <OutputFile GenWeights="true">DBArmorSleeveless_F</OutputFile>
-        <Shape target="CBBE" DataFolder="MCE CBBE Dark Brotherhood Sleeveless">CBBE</Shape>
-        <Shape target="DBtorso">DBtorso</Shape>
-        <Slider name="AnkleSize" invert="false" small="100" big="0">
-            <Data name="DBtorsoAnkleSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoAnkleSize</Data>
-        </Slider>
-        <Slider name="AppleCheeks" invert="false" small="0" big="0">
-            <Data name="DBtorsoAppleCheeks" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoAppleCheeks</Data>
-        </Slider>
-        <Slider name="Arms" invert="false" small="0" big="0">
-            <Data name="DBtorsoArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoArms</Data>
-        </Slider>
-        <Slider name="Back" invert="false" small="0" big="0">
-            <Data name="DBtorsoBack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBack</Data>
-        </Slider>
-        <Slider name="BackArch" invert="false" small="0" big="0">
-            <Data name="DBtorsoBackArch" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBackArch</Data>
-        </Slider>
-        <Slider name="Belly" invert="false" small="0" big="0">
-            <Data name="DBtorsoBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBelly</Data>
-        </Slider>
-        <Slider name="BigBelly" invert="false" small="0" big="0">
-            <Data name="DBtorsoBigBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigBelly</Data>
-        </Slider>
-        <Slider name="BigButt" invert="false" small="0" big="0">
-            <Data name="DBtorsoBigButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigButt</Data>
-        </Slider>
-        <Slider name="BigTorso" invert="false" small="0" big="0">
-            <Data name="CBBEBigTorso" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEBigTorso</Data>
-            <Data name="DBtorsoBigTorso" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigTorso</Data>
-        </Slider>
-        <Slider name="BreastCenter" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastCenter" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastCenter</Data>
-        </Slider>
-        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastCenterBig" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastCenterBig</Data>
-        </Slider>
-        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastFlatness2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastFlatness2</Data>
-        </Slider>
-        <Slider name="BreastFlatness" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastFlatness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastFlatness</Data>
-        </Slider>
-        <Slider name="BreastGravity2" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastGravity2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastGravity2</Data>
-        </Slider>
-        <Slider name="BreastHeight" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastHeight</Data>
-        </Slider>
-        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastPerkiness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastPerkiness</Data>
-        </Slider>
-        <Slider name="Breasts" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreasts" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreasts</Data>
-        </Slider>
-        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
-            <Data name="CBBEBreastsFantasy" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEBreastsFantasy</Data>
-            <Data name="DBtorsoBreastsFantasy" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsFantasy</Data>
-        </Slider>
-        <Slider name="BreastsGone" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastsGone" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsGone</Data>
-        </Slider>
-        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastsNewSH" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsNewSH</Data>
-        </Slider>
-        <Slider name="BreastsSmall" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastsSmall" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsSmall</Data>
-        </Slider>
-        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastsSmall2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsSmall2</Data>
-        </Slider>
-        <Slider name="BreastsTogether" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastsTogether" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsTogether</Data>
-        </Slider>
-        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastTopSlope" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastTopSlope</Data>
-        </Slider>
-        <Slider name="BreastWidth" invert="false" small="0" big="0">
-            <Data name="DBtorsoBreastWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastWidth</Data>
-        </Slider>
-        <Slider name="Butt" invert="false" small="0" big="0">
-            <Data name="DBtorsoButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButt</Data>
-        </Slider>
-        <Slider name="ButtClassic" invert="false" small="0" big="0">
-            <Data name="DBtorsoButtClassic" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtClassic</Data>
-        </Slider>
-        <Slider name="ButtCrack" invert="false" small="0" big="0">
-            <Data name="DBtorsoButtCrack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtCrack</Data>
-        </Slider>
-        <Slider name="ButtShape2" invert="false" small="0" big="0">
-            <Data name="DBtorsoButtShape2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtShape2</Data>
-        </Slider>
-        <Slider name="ButtSmall" invert="false" small="0" big="0">
-            <Data name="DBtorsoButtSmall" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtSmall</Data>
-        </Slider>
-        <Slider name="CalfSize" invert="false" small="0" big="0">
-            <Data name="DBtorsoCalfSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCalfSize</Data>
-        </Slider>
-        <Slider name="CalfSmooth" invert="false" small="0" big="0">
-            <Data name="DBtorsoCalfSmooth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCalfSmooth</Data>
-        </Slider>
-        <Slider name="ChestDepth" invert="false" small="0" big="0">
-            <Data name="DBtorsoChestDepth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChestDepth</Data>
-        </Slider>
-        <Slider name="ChestWidth" invert="false" small="0" big="0">
-            <Data name="DBtorsoChestWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChestWidth</Data>
-        </Slider>
-        <Slider name="ChubbyArms" invert="false" small="0" big="0">
-            <Data name="CBBEChubbyArms" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEChubbyArms</Data>
-            <Data name="DBtorsoChubbyArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyArms</Data>
-        </Slider>
-        <Slider name="ChubbyButt" invert="false" small="0" big="0">
-            <Data name="DBtorsoChubbyButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyButt</Data>
-        </Slider>
-        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
-            <Data name="DBtorsoChubbyLegs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyLegs</Data>
-        </Slider>
-        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
-            <Data name="DBtorsoChubbyWaist" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyWaist</Data>
-        </Slider>
-        <Slider name="CrotchBack" invert="false" small="0" big="0">
-            <Data name="DBtorsoCrotchBack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCrotchBack</Data>
-        </Slider>
-        <Slider name="DoubleMelon" invert="false" small="0" big="0">
-            <Data name="DBtorsoDoubleMelon" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoDoubleMelon</Data>
-        </Slider>
-        <Slider name="ForearmSize" invert="false" small="0" big="0">
-            <Data name="CBBEForearmSize" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEForearmSize</Data>
-            <Data name="DBtorsoForearmSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoForearmSize</Data>
-        </Slider>
-        <Slider name="Groin" invert="false" small="0" big="0">
-            <Data name="DBtorsoGroin" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoGroin</Data>
-        </Slider>
-        <Slider name="HipBone" invert="false" small="0" big="0">
-            <Data name="DBtorsoHipBone" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipBone</Data>
-        </Slider>
-        <Slider name="HipForward" invert="false" small="0" big="0">
-            <Data name="DBtorsoHipForward" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipForward</Data>
-        </Slider>
-        <Slider name="Hips" invert="false" small="0" big="0">
-            <Data name="DBtorsoHips" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHips</Data>
-        </Slider>
-        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
-            <Data name="DBtorsoHipUpperWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipUpperWidth</Data>
-        </Slider>
-        <Slider name="KneeHeight" invert="false" small="0" big="0">
-            <Data name="DBtorsoKneeHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoKneeHeight</Data>
-        </Slider>
-        <Slider name="KneeShape" invert="false" small="0" big="0">
-            <Data name="DBtorsoKneeShape" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoKneeShape</Data>
-        </Slider>
-        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
-            <Data name="DBtorsoLegShapeClassic" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoLegShapeClassic</Data>
-        </Slider>
-        <Slider name="LegsThin" invert="false" small="0" big="0">
-            <Data name="DBtorsoLegsThin" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoLegsThin</Data>
-        </Slider>
-        <Slider name="MuscleAbs" invert="false" small="0" big="0">
-            <Data name="DBtorsoMuscleAbs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleAbs</Data>
-        </Slider>
-        <Slider name="MuscleArms" invert="false" small="0" big="0">
-            <Data name="CBBEMuscleArms" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEMuscleArms</Data>
-            <Data name="DBtorsoMuscleArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleArms</Data>
-        </Slider>
-        <Slider name="MuscleButt" invert="false" small="0" big="0">
-            <Data name="DBtorsoMuscleButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleButt</Data>
-        </Slider>
-        <Slider name="MuscleLegs" invert="false" small="0" big="0">
-            <Data name="DBtorsoMuscleLegs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleLegs</Data>
-        </Slider>
-        <Slider name="MusclePecs" invert="false" small="0" big="0">
-            <Data name="DBtorsoMusclePecs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMusclePecs</Data>
-        </Slider>
-        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
-            <Data name="DBtorsoNeckSeam" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNeckSeam</Data>
-        </Slider>
-        <Slider name="NippleDown" invert="false" small="0" big="0">
-            <Data name="DBtorsoNippleDown" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNippleDown</Data>
-        </Slider>
-        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
-            <Data name="DBtorsoNipplePerkiness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNipplePerkiness</Data>
-        </Slider>
-        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
-            <Data name="DBtorsoNipplePerkManga" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNipplePerkManga</Data>
-        </Slider>
-        <Slider name="NippleUp" invert="false" small="0" big="0">
-            <Data name="DBtorsoNippleUp" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNippleUp</Data>
-        </Slider>
-        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
-            <Data name="DBtorsoPregnancyBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoPregnancyBelly</Data>
-        </Slider>
-        <Slider name="PushUp" invert="false" small="0" big="0">
-            <Data name="DBtorsoPushUp" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoPushUp</Data>
-        </Slider>
-        <Slider name="RibsProminance" invert="false" small="0" big="0">
-            <Data name="DBtorsoRibsProminance" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoRibsProminance</Data>
-        </Slider>
-        <Slider name="RoundAss" invert="false" small="0" big="0">
-            <Data name="DBtorsoRoundAss" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoRoundAss</Data>
-        </Slider>
-        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
-            <Data name="DBtorsoShoulderSmooth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderSmooth</Data>
-        </Slider>
-        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
-            <Data name="DBtorsoShoulderTweak" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderTweak</Data>
-        </Slider>
-        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
-            <Data name="DBtorsoShoulderWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderWidth</Data>
-        </Slider>
-        <Slider name="SlimThighs" invert="false" small="0" big="0">
-            <Data name="DBtorsoSlimThighs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoSlimThighs</Data>
-        </Slider>
-        <Slider name="Thighs" invert="false" small="0" big="0">
-            <Data name="DBtorsoThighs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoThighs</Data>
-        </Slider>
-        <Slider name="TummyTuck" invert="false" small="0" big="0">
-            <Data name="DBtorsoTummyTuck" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoTummyTuck</Data>
-        </Slider>
-        <Slider name="Waist" invert="false" small="0" big="0">
-            <Data name="DBtorsoWaist" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWaist</Data>
-        </Slider>
-        <Slider name="WaistHeight" invert="false" small="0" big="0">
-            <Data name="DBtorsoWaistHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWaistHeight</Data>
-        </Slider>
-        <Slider name="WideWaistLine" invert="false" small="0" big="0">
-            <Data name="DBtorsoWideWaistLine" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWideWaistLine</Data>
-        </Slider>
-        <Slider name="WristSize" invert="false" small="100" big="0">
-            <Data name="CBBEWristSize" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEWristSize</Data>
-            <Data name="DBtorsoWristSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWristSize</Data>
-        </Slider>
-        <Slider name="7B Lower" invert="false" small="0" big="0">
-            <Data name="DBtorso7B Lower" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorso7B Lower</Data>
-        </Slider>
-        <Slider name="7B Upper" invert="false" small="0" big="0">
-            <Data name="CBBE7B Upper" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBE7B Upper</Data>
-            <Data name="DBtorso7B Upper" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorso7B Upper</Data>
-        </Slider>
-        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
-            <Data name="CBBEVanillaSSEHi" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEVanillaSSEHi</Data>
-            <Data name="DBtorsoVanillaSSEHi" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoVanillaSSEHi</Data>
-        </Slider>
-        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
-            <Data name="CBBEVanillaSSELo" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEVanillaSSELo</Data>
-            <Data name="DBtorsoVanillaSSELo" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoVanillaSSELo</Data>
-        </Slider>
-        <Slider name="OldBaseShape" invert="false" small="0" big="0">
-            <Data name="DBtorsoOldBaseShape" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoOldBaseShape</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="CBBE MCE - Body - Tsun">
