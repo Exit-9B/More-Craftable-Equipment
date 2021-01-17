@@ -10,6 +10,7 @@ LeveledItem Property LItemClothesAll  Auto
 LeveledItem Property LItemMiscVendorMiscItems75  Auto
 
 GlobalVariable Property MCE_CraftingLoomEnabled  Auto
+ObjectReference Property MCE_LoomEnableMarker  Auto
 
 Event OnInit()
 	RegisterForSingleUpdate(2)
@@ -23,4 +24,5 @@ Event OnUpdate()
 	LItemMiscVendorMiscItems75.AddForm(MCEThread, 1, 10)
 
 	MCE_CraftingLoomEnabled.SetValueInt(1)
+	MCE_LoomEnableMarker.Enable()
 EndEvent
