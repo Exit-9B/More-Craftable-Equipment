@@ -12,119 +12,98 @@
         <Shape target="cloth">cloth</Shape>
         <Shape target="satchel">satchel</Shape>
         <Shape target="skirt">skirt</Shape>
-        <Slider name="AnkleSize" invert="false" small="100" big="0">
-            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
-        </Slider>
         <Slider name="AppleCheeks" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty" local="true">Giant Clothes.osd\PantyAppleCheeks</Data>
             <Data name="BraAppleCheeks" target="Bra" local="true">Giant Clothes.osd\BraAppleCheeks</Data>
             <Data name="satchelAppleCheeks" target="satchel" local="true">Giant Clothes.osd\satchelAppleCheeks</Data>
             <Data name="clothAppleCheeks" target="cloth" local="true">Giant Clothes.osd\clothAppleCheeks</Data>
             <Data name="skirtAppleCheeks" target="skirt" local="true">Giant Clothes.osd\skirtAppleCheeks</Data>
-            <Data name="PantyAppleCheeks" target="Panty" local="true">Giant Clothes.osd\PantyAppleCheeks</Data>
-        </Slider>
-        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
-            <Data name="BaseShapeHRAreolaSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaSize</Data>
         </Slider>
         <Slider name="Arms" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
             <Data name="BraArms" target="Bra" local="true">Giant Clothes.osd\BraArms</Data>
             <Data name="satchelArms" target="satchel" local="true">Giant Clothes.osd\satchelArms</Data>
             <Data name="armbandArms" target="armband" local="true">Giant Clothes.osd\armbandArms</Data>
             <Data name="clothArms" target="cloth" local="true">Giant Clothes.osd\clothArms</Data>
         </Slider>
         <Slider name="Back" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="PantyBack" target="Panty" local="true">Giant Clothes.osd\PantyBack</Data>
             <Data name="BraBack" target="Bra" local="true">Giant Clothes.osd\BraBack</Data>
             <Data name="satchelBack" target="satchel" local="true">Giant Clothes.osd\satchelBack</Data>
             <Data name="clothBack" target="cloth" local="true">Giant Clothes.osd\clothBack</Data>
             <Data name="skirtBack" target="skirt" local="true">Giant Clothes.osd\skirtBack</Data>
-            <Data name="PantyBack" target="Panty" local="true">Giant Clothes.osd\PantyBack</Data>
         </Slider>
         <Slider name="BackArch" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="PantyBackArch" target="Panty" local="true">Giant Clothes.osd\PantyBackArch</Data>
             <Data name="BraBackArch" target="Bra" local="true">Giant Clothes.osd\BraBackArch</Data>
             <Data name="satchelBackArch" target="satchel" local="true">Giant Clothes.osd\satchelBackArch</Data>
             <Data name="clothBackArch" target="cloth" local="true">Giant Clothes.osd\clothBackArch</Data>
             <Data name="skirtBackArch" target="skirt" local="true">Giant Clothes.osd\skirtBackArch</Data>
-            <Data name="PantyBackArch" target="Panty" local="true">Giant Clothes.osd\PantyBackArch</Data>
         </Slider>
         <Slider name="Belly" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="PantyBelly" target="Panty" local="true">Giant Clothes.osd\PantyBelly</Data>
             <Data name="BraBelly" target="Bra" local="true">Giant Clothes.osd\BraBelly</Data>
             <Data name="satchelBelly" target="satchel" local="true">Giant Clothes.osd\satchelBelly</Data>
             <Data name="clothBelly" target="cloth" local="true">Giant Clothes.osd\clothBelly</Data>
             <Data name="skirtBelly" target="skirt" local="true">Giant Clothes.osd\skirtBelly</Data>
-            <Data name="PantyBelly" target="Panty" local="true">Giant Clothes.osd\PantyBelly</Data>
         </Slider>
         <Slider name="BigBelly" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty" local="true">Giant Clothes.osd\PantyBigBelly</Data>
             <Data name="BraBigBelly" target="Bra" local="true">Giant Clothes.osd\BraBigBelly</Data>
             <Data name="satchelBigBelly" target="satchel" local="true">Giant Clothes.osd\satchelBigBelly</Data>
             <Data name="clothBigBelly" target="cloth" local="true">Giant Clothes.osd\clothBigBelly</Data>
             <Data name="skirtBigBelly" target="skirt" local="true">Giant Clothes.osd\skirtBigBelly</Data>
-            <Data name="PantyBigBelly" target="Panty" local="true">Giant Clothes.osd\PantyBigBelly</Data>
         </Slider>
         <Slider name="BigButt" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="PantyBigButt" target="Panty" local="true">Giant Clothes.osd\PantyBigButt</Data>
             <Data name="BraBigButt" target="Bra" local="true">Giant Clothes.osd\BraBigButt</Data>
             <Data name="satchelBigButt" target="satchel" local="true">Giant Clothes.osd\satchelBigButt</Data>
             <Data name="clothBigButt" target="cloth" local="true">Giant Clothes.osd\clothBigButt</Data>
             <Data name="skirtBigButt" target="skirt" local="true">Giant Clothes.osd\skirtBigButt</Data>
-            <Data name="PantyBigButt" target="Panty" local="true">Giant Clothes.osd\PantyBigButt</Data>
         </Slider>
         <Slider name="BigTorso" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty" local="true">Giant Clothes.osd\PantyBigTorso</Data>
             <Data name="BraBigTorso" target="Bra" local="true">Giant Clothes.osd\BraBigTorso</Data>
             <Data name="satchelBigTorso" target="satchel" local="true">Giant Clothes.osd\satchelBigTorso</Data>
             <Data name="armbandBigTorso" target="armband" local="true">Giant Clothes.osd\armbandBigTorso</Data>
             <Data name="clothBigTorso" target="cloth" local="true">Giant Clothes.osd\clothBigTorso</Data>
             <Data name="skirtBigTorso" target="skirt" local="true">Giant Clothes.osd\skirtBigTorso</Data>
-            <Data name="PantyBigTorso" target="Panty" local="true">Giant Clothes.osd\PantyBigTorso</Data>
         </Slider>
         <Slider name="BreastCenter" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenter</Data>
             <Data name="BraBreastCenter" target="Bra" local="true">Giant Clothes.osd\BraBreastCenter</Data>
             <Data name="satchelBreastCenter" target="satchel" local="true">Giant Clothes.osd\satchelBreastCenter</Data>
             <Data name="armbandBreastCenter" target="armband" local="true">Giant Clothes.osd\armbandBreastCenter</Data>
             <Data name="clothBreastCenter" target="cloth" local="true">Giant Clothes.osd\clothBreastCenter</Data>
         </Slider>
         <Slider name="BreastCenterBig" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastCenterBig" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenterBig</Data>
             <Data name="BraBreastCenterBig" target="Bra" local="true">Giant Clothes.osd\BraBreastCenterBig</Data>
             <Data name="satchelBreastCenterBig" target="satchel" local="true">Giant Clothes.osd\satchelBreastCenterBig</Data>
             <Data name="clothBreastCenterBig" target="cloth" local="true">Giant Clothes.osd\clothBreastCenterBig</Data>
         </Slider>
         <Slider name="BreastCleavage" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastCleavage" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCleavage</Data>
             <Data name="BraBreastCleavage" target="Bra" local="true">Giant Clothes.osd\BraBreastCleavage</Data>
             <Data name="satchelBreastCleavage" target="satchel" local="true">Giant Clothes.osd\satchelBreastCleavage</Data>
             <Data name="armbandBreastCleavage" target="armband" local="true">Giant Clothes.osd\armbandBreastCleavage</Data>
             <Data name="clothBreastCleavage" target="cloth" local="true">Giant Clothes.osd\clothBreastCleavage</Data>
         </Slider>
         <Slider name="BreastFlatness2" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
             <Data name="BraBreastFlatness2" target="Bra" local="true">Giant Clothes.osd\BraBreastFlatness2</Data>
             <Data name="satchelBreastFlatness2" target="satchel" local="true">Giant Clothes.osd\satchelBreastFlatness2</Data>
             <Data name="armbandBreastFlatness2" target="armband" local="true">Giant Clothes.osd\armbandBreastFlatness2</Data>
             <Data name="clothBreastFlatness2" target="cloth" local="true">Giant Clothes.osd\clothBreastFlatness2</Data>
         </Slider>
         <Slider name="BreastFlatness" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
             <Data name="BraBreastFlatness" target="Bra" local="true">Giant Clothes.osd\BraBreastFlatness</Data>
             <Data name="satchelBreastFlatness" target="satchel" local="true">Giant Clothes.osd\satchelBreastFlatness</Data>
             <Data name="armbandBreastFlatness" target="armband" local="true">Giant Clothes.osd\armbandBreastFlatness</Data>
             <Data name="clothBreastFlatness" target="cloth" local="true">Giant Clothes.osd\clothBreastFlatness</Data>
         </Slider>
         <Slider name="BreastGravity2" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
             <Data name="BraBreastGravity2" target="Bra" local="true">Giant Clothes.osd\BraBreastGravity2</Data>
             <Data name="satchelBreastGravity2" target="satchel" local="true">Giant Clothes.osd\satchelBreastGravity2</Data>
             <Data name="armbandBreastGravity2" target="armband" local="true">Giant Clothes.osd\armbandBreastGravity2</Data>
             <Data name="clothBreastGravity2" target="cloth" local="true">Giant Clothes.osd\clothBreastGravity2</Data>
         </Slider>
         <Slider name="BreastHeight" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
             <Data name="BraBreastHeight" target="Bra" local="true">Giant Clothes.osd\BraBreastHeight</Data>
             <Data name="satchelBreastHeight" target="satchel" local="true">Giant Clothes.osd\satchelBreastHeight</Data>
             <Data name="armbandBreastHeight" target="armband" local="true">Giant Clothes.osd\armbandBreastHeight</Data>
@@ -132,388 +111,325 @@
             <Data name="skirtBreastHeight" target="skirt" local="true">Giant Clothes.osd\skirtBreastHeight</Data>
         </Slider>
         <Slider name="BreastPerkiness" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
             <Data name="BraBreastPerkiness" target="Bra" local="true">Giant Clothes.osd\BraBreastPerkiness</Data>
             <Data name="satchelBreastPerkiness" target="satchel" local="true">Giant Clothes.osd\satchelBreastPerkiness</Data>
             <Data name="clothBreastPerkiness" target="cloth" local="true">Giant Clothes.osd\clothBreastPerkiness</Data>
         </Slider>
         <Slider name="Breasts" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
             <Data name="BraBreasts" target="Bra" local="true">Giant Clothes.osd\BraBreasts</Data>
             <Data name="satchelBreasts" target="satchel" local="true">Giant Clothes.osd\satchelBreasts</Data>
             <Data name="armbandBreasts" target="armband" local="true">Giant Clothes.osd\armbandBreasts</Data>
             <Data name="clothBreasts" target="cloth" local="true">Giant Clothes.osd\clothBreasts</Data>
         </Slider>
         <Slider name="BreastsFantasy" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
             <Data name="BraBreastsFantasy" target="Bra" local="true">Giant Clothes.osd\BraBreastsFantasy</Data>
             <Data name="satchelBreastsFantasy" target="satchel" local="true">Giant Clothes.osd\satchelBreastsFantasy</Data>
             <Data name="armbandBreastsFantasy" target="armband" local="true">Giant Clothes.osd\armbandBreastsFantasy</Data>
             <Data name="clothBreastsFantasy" target="cloth" local="true">Giant Clothes.osd\clothBreastsFantasy</Data>
         </Slider>
         <Slider name="BreastsGone" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
             <Data name="BraBreastsGone" target="Bra" local="true">Giant Clothes.osd\BraBreastsGone</Data>
             <Data name="satchelBreastsGone" target="satchel" local="true">Giant Clothes.osd\satchelBreastsGone</Data>
             <Data name="armbandBreastsGone" target="armband" local="true">Giant Clothes.osd\armbandBreastsGone</Data>
             <Data name="clothBreastsGone" target="cloth" local="true">Giant Clothes.osd\clothBreastsGone</Data>
         </Slider>
         <Slider name="BreastsNewSH" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
             <Data name="BraBreastsNewSH" target="Bra" local="true">Giant Clothes.osd\BraBreastsNewSH</Data>
             <Data name="satchelBreastsNewSH" target="satchel" local="true">Giant Clothes.osd\satchelBreastsNewSH</Data>
             <Data name="armbandBreastsNewSH" target="armband" local="true">Giant Clothes.osd\armbandBreastsNewSH</Data>
             <Data name="clothBreastsNewSH" target="cloth" local="true">Giant Clothes.osd\clothBreastsNewSH</Data>
         </Slider>
         <Slider name="BreastsSmall" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty" local="true">Giant Clothes.osd\PantyBreastsSmall</Data>
             <Data name="BraBreastsSmall" target="Bra" local="true">Giant Clothes.osd\BraBreastsSmall</Data>
             <Data name="satchelBreastsSmall" target="satchel" local="true">Giant Clothes.osd\satchelBreastsSmall</Data>
             <Data name="armbandBreastsSmall" target="armband" local="true">Giant Clothes.osd\armbandBreastsSmall</Data>
             <Data name="clothBreastsSmall" target="cloth" local="true">Giant Clothes.osd\clothBreastsSmall</Data>
             <Data name="skirtBreastsSmall" target="skirt" local="true">Giant Clothes.osd\skirtBreastsSmall</Data>
-            <Data name="PantyBreastsSmall" target="Panty" local="true">Giant Clothes.osd\PantyBreastsSmall</Data>
         </Slider>
         <Slider name="BreastsSmall2" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="PantyBreastsSmall2" target="Panty" local="true">Giant Clothes.osd\PantyBreastsSmall2</Data>
             <Data name="BraBreastsSmall2" target="Bra" local="true">Giant Clothes.osd\BraBreastsSmall2</Data>
             <Data name="satchelBreastsSmall2" target="satchel" local="true">Giant Clothes.osd\satchelBreastsSmall2</Data>
             <Data name="armbandBreastsSmall2" target="armband" local="true">Giant Clothes.osd\armbandBreastsSmall2</Data>
             <Data name="clothBreastsSmall2" target="cloth" local="true">Giant Clothes.osd\clothBreastsSmall2</Data>
             <Data name="skirtBreastsSmall2" target="skirt" local="true">Giant Clothes.osd\skirtBreastsSmall2</Data>
-            <Data name="PantyBreastsSmall2" target="Panty" local="true">Giant Clothes.osd\PantyBreastsSmall2</Data>
         </Slider>
         <Slider name="BreastsTogether" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
             <Data name="BraBreastsTogether" target="Bra" local="true">Giant Clothes.osd\BraBreastsTogether</Data>
             <Data name="satchelBreastsTogether" target="satchel" local="true">Giant Clothes.osd\satchelBreastsTogether</Data>
             <Data name="armbandBreastsTogether" target="armband" local="true">Giant Clothes.osd\armbandBreastsTogether</Data>
             <Data name="clothBreastsTogether" target="cloth" local="true">Giant Clothes.osd\clothBreastsTogether</Data>
         </Slider>
         <Slider name="BreastTopSlope" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
             <Data name="BraBreastTopSlope" target="Bra" local="true">Giant Clothes.osd\BraBreastTopSlope</Data>
             <Data name="satchelBreastTopSlope" target="satchel" local="true">Giant Clothes.osd\satchelBreastTopSlope</Data>
             <Data name="clothBreastTopSlope" target="cloth" local="true">Giant Clothes.osd\clothBreastTopSlope</Data>
         </Slider>
         <Slider name="BreastWidth" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
             <Data name="BraBreastWidth" target="Bra" local="true">Giant Clothes.osd\BraBreastWidth</Data>
             <Data name="satchelBreastWidth" target="satchel" local="true">Giant Clothes.osd\satchelBreastWidth</Data>
             <Data name="clothBreastWidth" target="cloth" local="true">Giant Clothes.osd\clothBreastWidth</Data>
         </Slider>
         <Slider name="Butt" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="PantyButt" target="Panty" local="true">Giant Clothes.osd\PantyButt</Data>
             <Data name="BraButt" target="Bra" local="true">Giant Clothes.osd\BraButt</Data>
             <Data name="satchelButt" target="satchel" local="true">Giant Clothes.osd\satchelButt</Data>
             <Data name="clothButt" target="cloth" local="true">Giant Clothes.osd\clothButt</Data>
             <Data name="skirtButt" target="skirt" local="true">Giant Clothes.osd\skirtButt</Data>
-            <Data name="PantyButt" target="Panty" local="true">Giant Clothes.osd\PantyButt</Data>
         </Slider>
         <Slider name="ButtClassic" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="PantyButtClassic" target="Panty" local="true">Giant Clothes.osd\PantyButtClassic</Data>
             <Data name="BraButtClassic" target="Bra" local="true">Giant Clothes.osd\BraButtClassic</Data>
             <Data name="satchelButtClassic" target="satchel" local="true">Giant Clothes.osd\satchelButtClassic</Data>
             <Data name="clothButtClassic" target="cloth" local="true">Giant Clothes.osd\clothButtClassic</Data>
             <Data name="skirtButtClassic" target="skirt" local="true">Giant Clothes.osd\skirtButtClassic</Data>
-            <Data name="PantyButtClassic" target="Panty" local="true">Giant Clothes.osd\PantyButtClassic</Data>
         </Slider>
         <Slider name="ButtCrack" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRButtCrack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtCrack</Data>
+            <Data name="PantyButtCrack" target="Panty" local="true">Giant Clothes.osd\PantyButtCrack</Data>
             <Data name="satchelButtCrack" target="satchel" local="true">Giant Clothes.osd\satchelButtCrack</Data>
             <Data name="clothButtCrack" target="cloth" local="true">Giant Clothes.osd\clothButtCrack</Data>
             <Data name="skirtButtCrack" target="skirt" local="true">Giant Clothes.osd\skirtButtCrack</Data>
-            <Data name="PantyButtCrack" target="Panty" local="true">Giant Clothes.osd\PantyButtCrack</Data>
         </Slider>
         <Slider name="ButtShape2" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty" local="true">Giant Clothes.osd\PantyButtShape2</Data>
             <Data name="BraButtShape2" target="Bra" local="true">Giant Clothes.osd\BraButtShape2</Data>
             <Data name="satchelButtShape2" target="satchel" local="true">Giant Clothes.osd\satchelButtShape2</Data>
             <Data name="clothButtShape2" target="cloth" local="true">Giant Clothes.osd\clothButtShape2</Data>
             <Data name="skirtButtShape2" target="skirt" local="true">Giant Clothes.osd\skirtButtShape2</Data>
-            <Data name="PantyButtShape2" target="Panty" local="true">Giant Clothes.osd\PantyButtShape2</Data>
         </Slider>
         <Slider name="ButtSmall" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty" local="true">Giant Clothes.osd\PantyButtSmall</Data>
             <Data name="BraButtSmall" target="Bra" local="true">Giant Clothes.osd\BraButtSmall</Data>
             <Data name="satchelButtSmall" target="satchel" local="true">Giant Clothes.osd\satchelButtSmall</Data>
             <Data name="clothButtSmall" target="cloth" local="true">Giant Clothes.osd\clothButtSmall</Data>
             <Data name="skirtButtSmall" target="skirt" local="true">Giant Clothes.osd\skirtButtSmall</Data>
-            <Data name="PantyButtSmall" target="Panty" local="true">Giant Clothes.osd\PantyButtSmall</Data>
-        </Slider>
-        <Slider name="CalfSize" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
-        </Slider>
-        <Slider name="CalfSmooth" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
         </Slider>
         <Slider name="ChestDepth" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="PantyChestDepth" target="Panty" local="true">Giant Clothes.osd\PantyChestDepth</Data>
             <Data name="BraChestDepth" target="Bra" local="true">Giant Clothes.osd\BraChestDepth</Data>
             <Data name="satchelChestDepth" target="satchel" local="true">Giant Clothes.osd\satchelChestDepth</Data>
             <Data name="armbandChestDepth" target="armband" local="true">Giant Clothes.osd\armbandChestDepth</Data>
             <Data name="clothChestDepth" target="cloth" local="true">Giant Clothes.osd\clothChestDepth</Data>
             <Data name="skirtChestDepth" target="skirt" local="true">Giant Clothes.osd\skirtChestDepth</Data>
-            <Data name="PantyChestDepth" target="Panty" local="true">Giant Clothes.osd\PantyChestDepth</Data>
         </Slider>
         <Slider name="ChestWidth" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="PantyChestWidth" target="Panty" local="true">Giant Clothes.osd\PantyChestWidth</Data>
             <Data name="BraChestWidth" target="Bra" local="true">Giant Clothes.osd\BraChestWidth</Data>
             <Data name="satchelChestWidth" target="satchel" local="true">Giant Clothes.osd\satchelChestWidth</Data>
             <Data name="armbandChestWidth" target="armband" local="true">Giant Clothes.osd\armbandChestWidth</Data>
             <Data name="clothChestWidth" target="cloth" local="true">Giant Clothes.osd\clothChestWidth</Data>
             <Data name="skirtChestWidth" target="skirt" local="true">Giant Clothes.osd\skirtChestWidth</Data>
-            <Data name="PantyChestWidth" target="Panty" local="true">Giant Clothes.osd\PantyChestWidth</Data>
         </Slider>
         <Slider name="ChubbyArms" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
             <Data name="BraChubbyArms" target="Bra" local="true">Giant Clothes.osd\BraChubbyArms</Data>
             <Data name="satchelChubbyArms" target="satchel" local="true">Giant Clothes.osd\satchelChubbyArms</Data>
             <Data name="armbandChubbyArms" target="armband" local="true">Giant Clothes.osd\armbandChubbyArms</Data>
             <Data name="clothChubbyArms" target="cloth" local="true">Giant Clothes.osd\clothChubbyArms</Data>
         </Slider>
         <Slider name="ChubbyButt" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty" local="true">Giant Clothes.osd\PantyChubbyButt</Data>
             <Data name="BraChubbyButt" target="Bra" local="true">Giant Clothes.osd\BraChubbyButt</Data>
             <Data name="satchelChubbyButt" target="satchel" local="true">Giant Clothes.osd\satchelChubbyButt</Data>
             <Data name="clothChubbyButt" target="cloth" local="true">Giant Clothes.osd\clothChubbyButt</Data>
             <Data name="skirtChubbyButt" target="skirt" local="true">Giant Clothes.osd\skirtChubbyButt</Data>
-            <Data name="PantyChubbyButt" target="Panty" local="true">Giant Clothes.osd\PantyChubbyButt</Data>
         </Slider>
         <Slider name="ChubbyLegs" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="PantyChubbyLegs" target="Panty" local="true">Giant Clothes.osd\PantyChubbyLegs</Data>
             <Data name="satchelChubbyLegs" target="satchel" local="true">Giant Clothes.osd\satchelChubbyLegs</Data>
             <Data name="clothChubbyLegs" target="cloth" local="true">Giant Clothes.osd\clothChubbyLegs</Data>
             <Data name="skirtChubbyLegs" target="skirt" local="true">Giant Clothes.osd\skirtChubbyLegs</Data>
-            <Data name="PantyChubbyLegs" target="Panty" local="true">Giant Clothes.osd\PantyChubbyLegs</Data>
         </Slider>
         <Slider name="ChubbyWaist" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty" local="true">Giant Clothes.osd\PantyChubbyWaist</Data>
             <Data name="BraChubbyWaist" target="Bra" local="true">Giant Clothes.osd\BraChubbyWaist</Data>
             <Data name="satchelChubbyWaist" target="satchel" local="true">Giant Clothes.osd\satchelChubbyWaist</Data>
             <Data name="armbandChubbyWaist" target="armband" local="true">Giant Clothes.osd\armbandChubbyWaist</Data>
             <Data name="clothChubbyWaist" target="cloth" local="true">Giant Clothes.osd\clothChubbyWaist</Data>
             <Data name="skirtChubbyWaist" target="skirt" local="true">Giant Clothes.osd\skirtChubbyWaist</Data>
-            <Data name="PantyChubbyWaist" target="Panty" local="true">Giant Clothes.osd\PantyChubbyWaist</Data>
         </Slider>
         <Slider name="CrotchBack" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRCrotchBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchBack</Data>
+            <Data name="PantyCrotchBack" target="Panty" local="true">Giant Clothes.osd\PantyCrotchBack</Data>
             <Data name="satchelCrotchBack" target="satchel" local="true">Giant Clothes.osd\satchelCrotchBack</Data>
             <Data name="clothCrotchBack" target="cloth" local="true">Giant Clothes.osd\clothCrotchBack</Data>
             <Data name="skirtCrotchBack" target="skirt" local="true">Giant Clothes.osd\skirtCrotchBack</Data>
-            <Data name="PantyCrotchBack" target="Panty" local="true">Giant Clothes.osd\PantyCrotchBack</Data>
         </Slider>
         <Slider name="DoubleMelon" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
             <Data name="BraDoubleMelon" target="Bra" local="true">Giant Clothes.osd\BraDoubleMelon</Data>
             <Data name="satchelDoubleMelon" target="satchel" local="true">Giant Clothes.osd\satchelDoubleMelon</Data>
             <Data name="armbandDoubleMelon" target="armband" local="true">Giant Clothes.osd\armbandDoubleMelon</Data>
             <Data name="clothDoubleMelon" target="cloth" local="true">Giant Clothes.osd\clothDoubleMelon</Data>
         </Slider>
         <Slider name="ForearmSize" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
             <Data name="armbandForearmSize" target="armband" local="true">Giant Clothes.osd\armbandForearmSize</Data>
         </Slider>
         <Slider name="Groin" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRGroin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRGroin</Data>
+            <Data name="PantyGroin" target="Panty" local="true">Giant Clothes.osd\PantyGroin</Data>
             <Data name="clothGroin" target="cloth" local="true">Giant Clothes.osd\clothGroin</Data>
             <Data name="skirtGroin" target="skirt" local="true">Giant Clothes.osd\skirtGroin</Data>
-            <Data name="PantyGroin" target="Panty" local="true">Giant Clothes.osd\PantyGroin</Data>
         </Slider>
         <Slider name="HipBone" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="PantyHipBone" target="Panty" local="true">Giant Clothes.osd\PantyHipBone</Data>
             <Data name="satchelHipBone" target="satchel" local="true">Giant Clothes.osd\satchelHipBone</Data>
             <Data name="clothHipBone" target="cloth" local="true">Giant Clothes.osd\clothHipBone</Data>
             <Data name="skirtHipBone" target="skirt" local="true">Giant Clothes.osd\skirtHipBone</Data>
-            <Data name="PantyHipBone" target="Panty" local="true">Giant Clothes.osd\PantyHipBone</Data>
         </Slider>
         <Slider name="HipForward" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="PantyHipForward" target="Panty" local="true">Giant Clothes.osd\PantyHipForward</Data>
             <Data name="BraHipForward" target="Bra" local="true">Giant Clothes.osd\BraHipForward</Data>
             <Data name="satchelHipForward" target="satchel" local="true">Giant Clothes.osd\satchelHipForward</Data>
             <Data name="clothHipForward" target="cloth" local="true">Giant Clothes.osd\clothHipForward</Data>
             <Data name="skirtHipForward" target="skirt" local="true">Giant Clothes.osd\skirtHipForward</Data>
-            <Data name="PantyHipForward" target="Panty" local="true">Giant Clothes.osd\PantyHipForward</Data>
         </Slider>
         <Slider name="Hips" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="PantyHips" target="Panty" local="true">Giant Clothes.osd\PantyHips</Data>
             <Data name="BraHips" target="Bra" local="true">Giant Clothes.osd\BraHips</Data>
             <Data name="satchelHips" target="satchel" local="true">Giant Clothes.osd\satchelHips</Data>
             <Data name="clothHips" target="cloth" local="true">Giant Clothes.osd\clothHips</Data>
             <Data name="skirtHips" target="skirt" local="true">Giant Clothes.osd\skirtHips</Data>
-            <Data name="PantyHips" target="Panty" local="true">Giant Clothes.osd\PantyHips</Data>
         </Slider>
         <Slider name="HipUpperWidth" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="PantyHipUpperWidth" target="Panty" local="true">Giant Clothes.osd\PantyHipUpperWidth</Data>
             <Data name="BraHipUpperWidth" target="Bra" local="true">Giant Clothes.osd\BraHipUpperWidth</Data>
             <Data name="satchelHipUpperWidth" target="satchel" local="true">Giant Clothes.osd\satchelHipUpperWidth</Data>
             <Data name="clothHipUpperWidth" target="cloth" local="true">Giant Clothes.osd\clothHipUpperWidth</Data>
             <Data name="skirtHipUpperWidth" target="skirt" local="true">Giant Clothes.osd\skirtHipUpperWidth</Data>
-            <Data name="PantyHipUpperWidth" target="Panty" local="true">Giant Clothes.osd\PantyHipUpperWidth</Data>
         </Slider>
         <Slider name="KneeHeight" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
             <Data name="skirtKneeHeight" target="skirt" local="true">Giant Clothes.osd\skirtKneeHeight</Data>
         </Slider>
         <Slider name="KneeShape" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeShape</Data>
             <Data name="skirtKneeShape" target="skirt" local="true">Giant Clothes.osd\skirtKneeShape</Data>
         </Slider>
         <Slider name="LegShapeClassic" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
             <Data name="skirtLegShapeClassic" target="skirt" local="true">Giant Clothes.osd\skirtLegShapeClassic</Data>
         </Slider>
         <Slider name="LegsThin" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
-            <Data name="skirtLegsThin" target="skirt" local="true">Giant Clothes.osd\skirtLegsThin</Data>
             <Data name="PantyLegsThin" target="Panty" local="true">Giant Clothes.osd\PantyLegsThin</Data>
+            <Data name="skirtLegsThin" target="skirt" local="true">Giant Clothes.osd\skirtLegsThin</Data>
         </Slider>
         <Slider name="MuscleAbs" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="PantyMuscleAbs" target="Panty" local="true">Giant Clothes.osd\PantyMuscleAbs</Data>
             <Data name="BraMuscleAbs" target="Bra" local="true">Giant Clothes.osd\BraMuscleAbs</Data>
             <Data name="satchelMuscleAbs" target="satchel" local="true">Giant Clothes.osd\satchelMuscleAbs</Data>
             <Data name="clothMuscleAbs" target="cloth" local="true">Giant Clothes.osd\clothMuscleAbs</Data>
             <Data name="skirtMuscleAbs" target="skirt" local="true">Giant Clothes.osd\skirtMuscleAbs</Data>
-            <Data name="PantyMuscleAbs" target="Panty" local="true">Giant Clothes.osd\PantyMuscleAbs</Data>
         </Slider>
         <Slider name="MuscleArms" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
             <Data name="BraMuscleArms" target="Bra" local="true">Giant Clothes.osd\BraMuscleArms</Data>
             <Data name="satchelMuscleArms" target="satchel" local="true">Giant Clothes.osd\satchelMuscleArms</Data>
             <Data name="armbandMuscleArms" target="armband" local="true">Giant Clothes.osd\armbandMuscleArms</Data>
             <Data name="clothMuscleArms" target="cloth" local="true">Giant Clothes.osd\clothMuscleArms</Data>
         </Slider>
         <Slider name="MuscleButt" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="PantyMuscleButt" target="Panty" local="true">Giant Clothes.osd\PantyMuscleButt</Data>
             <Data name="satchelMuscleButt" target="satchel" local="true">Giant Clothes.osd\satchelMuscleButt</Data>
             <Data name="clothMuscleButt" target="cloth" local="true">Giant Clothes.osd\clothMuscleButt</Data>
             <Data name="skirtMuscleButt" target="skirt" local="true">Giant Clothes.osd\skirtMuscleButt</Data>
-            <Data name="PantyMuscleButt" target="Panty" local="true">Giant Clothes.osd\PantyMuscleButt</Data>
         </Slider>
         <Slider name="MuscleLegs" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
-            <Data name="skirtMuscleLegs" target="skirt" local="true">Giant Clothes.osd\skirtMuscleLegs</Data>
             <Data name="PantyMuscleLegs" target="Panty" local="true">Giant Clothes.osd\PantyMuscleLegs</Data>
+            <Data name="skirtMuscleLegs" target="skirt" local="true">Giant Clothes.osd\skirtMuscleLegs</Data>
         </Slider>
         <Slider name="MusclePecs" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
             <Data name="BraMusclePecs" target="Bra" local="true">Giant Clothes.osd\BraMusclePecs</Data>
             <Data name="satchelMusclePecs" target="satchel" local="true">Giant Clothes.osd\satchelMusclePecs</Data>
             <Data name="clothMusclePecs" target="cloth" local="true">Giant Clothes.osd\clothMusclePecs</Data>
         </Slider>
         <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
-            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">Giant Clothes.osd\BraNeckSeam</Data>
             <Data name="satchelNeckSeam" target="satchel" local="true">Giant Clothes.osd\satchelNeckSeam</Data>
             <Data name="clothNeckSeam" target="cloth" local="true">Giant Clothes.osd\clothNeckSeam</Data>
         </Slider>
         <Slider name="NipBGone" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNipBGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipBGone</Data>
             <Data name="BraNipBGone" target="Bra" local="true">Giant Clothes.osd\BraNipBGone</Data>
             <Data name="satchelNipBGone" target="satchel" local="true">Giant Clothes.osd\satchelNipBGone</Data>
             <Data name="clothNipBGone" target="cloth" local="true">Giant Clothes.osd\clothNipBGone</Data>
         </Slider>
         <Slider name="NippleDistance" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNippleDistance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDistance</Data>
             <Data name="BraNippleDistance" target="Bra" local="true">Giant Clothes.osd\BraNippleDistance</Data>
             <Data name="satchelNippleDistance" target="satchel" local="true">Giant Clothes.osd\satchelNippleDistance</Data>
             <Data name="clothNippleDistance" target="cloth" local="true">Giant Clothes.osd\clothNippleDistance</Data>
         </Slider>
         <Slider name="NippleDown" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNippleDown" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDown</Data>
             <Data name="BraNippleDown" target="Bra" local="true">Giant Clothes.osd\BraNippleDown</Data>
             <Data name="satchelNippleDown" target="satchel" local="true">Giant Clothes.osd\satchelNippleDown</Data>
             <Data name="clothNippleDown" target="cloth" local="true">Giant Clothes.osd\clothNippleDown</Data>
         </Slider>
         <Slider name="NippleLength" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNippleLength" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleLength</Data>
             <Data name="BraNippleLength" target="Bra" local="true">Giant Clothes.osd\BraNippleLength</Data>
             <Data name="clothNippleLength" target="cloth" local="true">Giant Clothes.osd\clothNippleLength</Data>
         </Slider>
         <Slider name="NippleManga" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNippleManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleManga</Data>
             <Data name="BraNippleManga" target="Bra" local="true">Giant Clothes.osd\BraNippleManga</Data>
             <Data name="satchelNippleManga" target="satchel" local="true">Giant Clothes.osd\satchelNippleManga</Data>
             <Data name="clothNippleManga" target="cloth" local="true">Giant Clothes.osd\clothNippleManga</Data>
         </Slider>
         <Slider name="NipplePerkiness" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNipplePerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkiness</Data>
             <Data name="BraNipplePerkiness" target="Bra" local="true">Giant Clothes.osd\BraNipplePerkiness</Data>
             <Data name="satchelNipplePerkiness" target="satchel" local="true">Giant Clothes.osd\satchelNipplePerkiness</Data>
             <Data name="clothNipplePerkiness" target="cloth" local="true">Giant Clothes.osd\clothNipplePerkiness</Data>
         </Slider>
         <Slider name="NipplePerkManga" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNipplePerkManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkManga</Data>
             <Data name="BraNipplePerkManga" target="Bra" local="true">Giant Clothes.osd\BraNipplePerkManga</Data>
             <Data name="satchelNipplePerkManga" target="satchel" local="true">Giant Clothes.osd\satchelNipplePerkManga</Data>
             <Data name="clothNipplePerkManga" target="cloth" local="true">Giant Clothes.osd\clothNipplePerkManga</Data>
         </Slider>
         <Slider name="NippleSize" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNippleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleSize</Data>
             <Data name="BraNippleSize" target="Bra" local="true">Giant Clothes.osd\BraNippleSize</Data>
             <Data name="satchelNippleSize" target="satchel" local="true">Giant Clothes.osd\satchelNippleSize</Data>
             <Data name="clothNippleSize" target="cloth" local="true">Giant Clothes.osd\clothNippleSize</Data>
         </Slider>
         <Slider name="NippleTip" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNippleTip" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTip</Data>
             <Data name="BraNippleTip" target="Bra" local="true">Giant Clothes.osd\BraNippleTip</Data>
             <Data name="satchelNippleTip" target="satchel" local="true">Giant Clothes.osd\satchelNippleTip</Data>
             <Data name="clothNippleTip" target="cloth" local="true">Giant Clothes.osd\clothNippleTip</Data>
         </Slider>
         <Slider name="NippleTipManga" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNippleTipManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTipManga</Data>
             <Data name="BraNippleTipManga" target="Bra" local="true">Giant Clothes.osd\BraNippleTipManga</Data>
             <Data name="clothNippleTipManga" target="cloth" local="true">Giant Clothes.osd\clothNippleTipManga</Data>
         </Slider>
         <Slider name="NippleUp" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRNippleUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleUp</Data>
             <Data name="BraNippleUp" target="Bra" local="true">Giant Clothes.osd\BraNippleUp</Data>
             <Data name="satchelNippleUp" target="satchel" local="true">Giant Clothes.osd\satchelNippleUp</Data>
             <Data name="clothNippleUp" target="cloth" local="true">Giant Clothes.osd\clothNippleUp</Data>
         </Slider>
         <Slider name="PregnancyBelly" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">Giant Clothes.osd\PantyPregnancyBelly</Data>
             <Data name="BraPregnancyBelly" target="Bra" local="true">Giant Clothes.osd\BraPregnancyBelly</Data>
             <Data name="satchelPregnancyBelly" target="satchel" local="true">Giant Clothes.osd\satchelPregnancyBelly</Data>
             <Data name="armbandPregnancyBelly" target="armband" local="true">Giant Clothes.osd\armbandPregnancyBelly</Data>
             <Data name="clothPregnancyBelly" target="cloth" local="true">Giant Clothes.osd\clothPregnancyBelly</Data>
             <Data name="skirtPregnancyBelly" target="skirt" local="true">Giant Clothes.osd\skirtPregnancyBelly</Data>
-            <Data name="PantyPregnancyBelly" target="Panty" local="true">Giant Clothes.osd\PantyPregnancyBelly</Data>
         </Slider>
         <Slider name="PushUp" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
             <Data name="BraPushUp" target="Bra" local="true">Giant Clothes.osd\BraPushUp</Data>
             <Data name="satchelPushUp" target="satchel" local="true">Giant Clothes.osd\satchelPushUp</Data>
             <Data name="clothPushUp" target="cloth" local="true">Giant Clothes.osd\clothPushUp</Data>
         </Slider>
         <Slider name="RibsProminance" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
             <Data name="BraRibsProminance" target="Bra" local="true">Giant Clothes.osd\BraRibsProminance</Data>
             <Data name="satchelRibsProminance" target="satchel" local="true">Giant Clothes.osd\satchelRibsProminance</Data>
             <Data name="clothRibsProminance" target="cloth" local="true">Giant Clothes.osd\clothRibsProminance</Data>
         </Slider>
         <Slider name="RoundAss" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty" local="true">Giant Clothes.osd\PantyRoundAss</Data>
             <Data name="satchelRoundAss" target="satchel" local="true">Giant Clothes.osd\satchelRoundAss</Data>
             <Data name="clothRoundAss" target="cloth" local="true">Giant Clothes.osd\clothRoundAss</Data>
             <Data name="skirtRoundAss" target="skirt" local="true">Giant Clothes.osd\skirtRoundAss</Data>
-            <Data name="PantyRoundAss" target="Panty" local="true">Giant Clothes.osd\PantyRoundAss</Data>
         </Slider>
         <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
             <Data name="BraShoulderSmooth" target="Bra" local="true">Giant Clothes.osd\BraShoulderSmooth</Data>
             <Data name="satchelShoulderSmooth" target="satchel" local="true">Giant Clothes.osd\satchelShoulderSmooth</Data>
             <Data name="armbandShoulderSmooth" target="armband" local="true">Giant Clothes.osd\armbandShoulderSmooth</Data>
             <Data name="clothShoulderSmooth" target="cloth" local="true">Giant Clothes.osd\clothShoulderSmooth</Data>
         </Slider>
         <Slider name="ShoulderTweak" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
             <Data name="BraShoulderTweak" target="Bra" local="true">Giant Clothes.osd\BraShoulderTweak</Data>
             <Data name="satchelShoulderTweak" target="satchel" local="true">Giant Clothes.osd\satchelShoulderTweak</Data>
             <Data name="clothShoulderTweak" target="cloth" local="true">Giant Clothes.osd\clothShoulderTweak</Data>
         </Slider>
         <Slider name="ShoulderWidth" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
             <Data name="BraShoulderWidth" target="Bra" local="true">Giant Clothes.osd\BraShoulderWidth</Data>
             <Data name="satchelShoulderWidth" target="satchel" local="true">Giant Clothes.osd\satchelShoulderWidth</Data>
             <Data name="armbandShoulderWidth" target="armband" local="true">Giant Clothes.osd\armbandShoulderWidth</Data>
@@ -521,74 +437,61 @@
             <Data name="skirtShoulderWidth" target="skirt" local="true">Giant Clothes.osd\skirtShoulderWidth</Data>
         </Slider>
         <Slider name="SlimThighs" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty" local="true">Giant Clothes.osd\PantySlimThighs</Data>
             <Data name="satchelSlimThighs" target="satchel" local="true">Giant Clothes.osd\satchelSlimThighs</Data>
             <Data name="clothSlimThighs" target="cloth" local="true">Giant Clothes.osd\clothSlimThighs</Data>
             <Data name="skirtSlimThighs" target="skirt" local="true">Giant Clothes.osd\skirtSlimThighs</Data>
-            <Data name="PantySlimThighs" target="Panty" local="true">Giant Clothes.osd\PantySlimThighs</Data>
         </Slider>
         <Slider name="SternumDepth" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumDepth</Data>
             <Data name="BraSternumDepth" target="Bra" local="true">Giant Clothes.osd\BraSternumDepth</Data>
             <Data name="satchelSternumDepth" target="satchel" local="true">Giant Clothes.osd\satchelSternumDepth</Data>
             <Data name="clothSternumDepth" target="cloth" local="true">Giant Clothes.osd\clothSternumDepth</Data>
         </Slider>
         <Slider name="SternumHeight" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRSternumHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumHeight</Data>
             <Data name="BraSternumHeight" target="Bra" local="true">Giant Clothes.osd\BraSternumHeight</Data>
             <Data name="satchelSternumHeight" target="satchel" local="true">Giant Clothes.osd\satchelSternumHeight</Data>
             <Data name="clothSternumHeight" target="cloth" local="true">Giant Clothes.osd\clothSternumHeight</Data>
         </Slider>
         <Slider name="Thighs" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
-            <Data name="skirtThighs" target="skirt" local="true">Giant Clothes.osd\skirtThighs</Data>
             <Data name="PantyThighs" target="Panty" local="true">Giant Clothes.osd\PantyThighs</Data>
+            <Data name="skirtThighs" target="skirt" local="true">Giant Clothes.osd\skirtThighs</Data>
         </Slider>
         <Slider name="TummyTuck" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty" local="true">Giant Clothes.osd\PantyTummyTuck</Data>
             <Data name="BraTummyTuck" target="Bra" local="true">Giant Clothes.osd\BraTummyTuck</Data>
             <Data name="clothTummyTuck" target="cloth" local="true">Giant Clothes.osd\clothTummyTuck</Data>
             <Data name="skirtTummyTuck" target="skirt" local="true">Giant Clothes.osd\skirtTummyTuck</Data>
-            <Data name="PantyTummyTuck" target="Panty" local="true">Giant Clothes.osd\PantyTummyTuck</Data>
         </Slider>
         <Slider name="Waist" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="PantyWaist" target="Panty" local="true">Giant Clothes.osd\PantyWaist</Data>
             <Data name="BraWaist" target="Bra" local="true">Giant Clothes.osd\BraWaist</Data>
             <Data name="satchelWaist" target="satchel" local="true">Giant Clothes.osd\satchelWaist</Data>
             <Data name="armbandWaist" target="armband" local="true">Giant Clothes.osd\armbandWaist</Data>
             <Data name="clothWaist" target="cloth" local="true">Giant Clothes.osd\clothWaist</Data>
             <Data name="skirtWaist" target="skirt" local="true">Giant Clothes.osd\skirtWaist</Data>
-            <Data name="PantyWaist" target="Panty" local="true">Giant Clothes.osd\PantyWaist</Data>
         </Slider>
         <Slider name="WaistHeight" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="PantyWaistHeight" target="Panty" local="true">Giant Clothes.osd\PantyWaistHeight</Data>
             <Data name="BraWaistHeight" target="Bra" local="true">Giant Clothes.osd\BraWaistHeight</Data>
             <Data name="satchelWaistHeight" target="satchel" local="true">Giant Clothes.osd\satchelWaistHeight</Data>
             <Data name="clothWaistHeight" target="cloth" local="true">Giant Clothes.osd\clothWaistHeight</Data>
             <Data name="skirtWaistHeight" target="skirt" local="true">Giant Clothes.osd\skirtWaistHeight</Data>
-            <Data name="PantyWaistHeight" target="Panty" local="true">Giant Clothes.osd\PantyWaistHeight</Data>
         </Slider>
         <Slider name="WideWaistLine" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty" local="true">Giant Clothes.osd\PantyWideWaistLine</Data>
             <Data name="BraWideWaistLine" target="Bra" local="true">Giant Clothes.osd\BraWideWaistLine</Data>
             <Data name="satchelWideWaistLine" target="satchel" local="true">Giant Clothes.osd\satchelWideWaistLine</Data>
             <Data name="clothWideWaistLine" target="cloth" local="true">Giant Clothes.osd\clothWideWaistLine</Data>
             <Data name="skirtWideWaistLine" target="skirt" local="true">Giant Clothes.osd\skirtWideWaistLine</Data>
-            <Data name="PantyWideWaistLine" target="Panty" local="true">Giant Clothes.osd\PantyWideWaistLine</Data>
-        </Slider>
-        <Slider name="WristSize" invert="false" small="100" big="0">
-            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
         </Slider>
         <Slider name="7B Lower" invert="false" small="0" big="0">
-            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="Panty7B Lower" target="Panty" local="true">Giant Clothes.osd\Panty7B Lower</Data>
             <Data name="Bra7B Lower" target="Bra" local="true">Giant Clothes.osd\Bra7B Lower</Data>
             <Data name="satchel7B Lower" target="satchel" local="true">Giant Clothes.osd\satchel7B Lower</Data>
             <Data name="cloth7B Lower" target="cloth" local="true">Giant Clothes.osd\cloth7B Lower</Data>
             <Data name="skirt7B Lower" target="skirt" local="true">Giant Clothes.osd\skirt7B Lower</Data>
-            <Data name="Panty7B Lower" target="Panty" local="true">Giant Clothes.osd\Panty7B Lower</Data>
         </Slider>
         <Slider name="7B Upper" invert="false" small="0" big="0">
-            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
             <Data name="Bra7B Upper" target="Bra" local="true">Giant Clothes.osd\Bra7B Upper</Data>
             <Data name="satchel7B Upper" target="satchel" local="true">Giant Clothes.osd\satchel7B Upper</Data>
             <Data name="armband7B Upper" target="armband" local="true">Giant Clothes.osd\armband7B Upper</Data>
@@ -596,31 +499,28 @@
             <Data name="skirt7B Upper" target="skirt" local="true">Giant Clothes.osd\skirt7B Upper</Data>
         </Slider>
         <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="PantyVanillaSSEHi" target="Panty" local="true">Giant Clothes.osd\PantyVanillaSSEHi</Data>
             <Data name="BraVanillaSSEHi" target="Bra" local="true">Giant Clothes.osd\BraVanillaSSEHi</Data>
             <Data name="satchelVanillaSSEHi" target="satchel" local="true">Giant Clothes.osd\satchelVanillaSSEHi</Data>
             <Data name="armbandVanillaSSEHi" target="armband" local="true">Giant Clothes.osd\armbandVanillaSSEHi</Data>
             <Data name="clothVanillaSSEHi" target="cloth" local="true">Giant Clothes.osd\clothVanillaSSEHi</Data>
             <Data name="skirtVanillaSSEHi" target="skirt" local="true">Giant Clothes.osd\skirtVanillaSSEHi</Data>
-            <Data name="PantyVanillaSSEHi" target="Panty" local="true">Giant Clothes.osd\PantyVanillaSSEHi</Data>
         </Slider>
         <Slider name="VanillaSSELo" invert="false" small="0" big="0">
-            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="PantyVanillaSSELo" target="Panty" local="true">Giant Clothes.osd\PantyVanillaSSELo</Data>
             <Data name="BraVanillaSSELo" target="Bra" local="true">Giant Clothes.osd\BraVanillaSSELo</Data>
             <Data name="satchelVanillaSSELo" target="satchel" local="true">Giant Clothes.osd\satchelVanillaSSELo</Data>
             <Data name="armbandVanillaSSELo" target="armband" local="true">Giant Clothes.osd\armbandVanillaSSELo</Data>
             <Data name="clothVanillaSSELo" target="cloth" local="true">Giant Clothes.osd\clothVanillaSSELo</Data>
             <Data name="skirtVanillaSSELo" target="skirt" local="true">Giant Clothes.osd\skirtVanillaSSELo</Data>
-            <Data name="PantyVanillaSSELo" target="Panty" local="true">Giant Clothes.osd\PantyVanillaSSELo</Data>
         </Slider>
         <Slider name="OldBaseShape" invert="false" small="0" big="0">
-            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="PantyOldBaseShape" target="Panty" local="true">Giant Clothes.osd\PantyOldBaseShape</Data>
             <Data name="BraOldBaseShape" target="Bra" local="true">Giant Clothes.osd\BraOldBaseShape</Data>
             <Data name="satchelOldBaseShape" target="satchel" local="true">Giant Clothes.osd\satchelOldBaseShape</Data>
             <Data name="armbandOldBaseShape" target="armband" local="true">Giant Clothes.osd\armbandOldBaseShape</Data>
             <Data name="clothOldBaseShape" target="cloth" local="true">Giant Clothes.osd\clothOldBaseShape</Data>
             <Data name="skirtOldBaseShape" target="skirt" local="true">Giant Clothes.osd\skirtOldBaseShape</Data>
-            <Data name="PantyOldBaseShape" target="Panty" local="true">Giant Clothes.osd\PantyOldBaseShape</Data>
         </Slider>
         <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
             <Data name="BaseShapeHRBody Zap" target="BaseShapeHR" local="true">Giant Clothes.osd\BaseShapeHRBody Zap</Data>
