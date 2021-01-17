@@ -21,6 +21,9 @@
             <Data name="clothWeight" target="cloth" local="true">Giant Body.osd\clothWeight</Data>
             <Data name="skirtWeight" target="skirt" local="true">Giant Body.osd\skirtWeight</Data>
         </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="GiantFemaleBodyBody Zap" target="GiantFemaleBody" local="true">Giant Body.osd\GiantFemaleBodyBody Zap</Data>
+        </Slider>
     </SliderSet>
     <SliderSet name="MCE - Female - Giant Boots">
         <DataFolder>MCE Female Giant</DataFolder>
