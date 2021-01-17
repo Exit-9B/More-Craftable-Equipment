@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Male MCE - Body - Giant">
+        <DataFolder>Male MCE\Body</DataFolder>
+        <SourceFile>Giant.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\M</OutputPath>
+        <OutputFile GenWeights="true">GiantBody</OutputFile>
+        <Shape target="MaleUnderwearFullBody:1" DataFolder="MCE Male Giant">MaleUnderwearFullBody:1</Shape>
+        <Shape target="armbandv2big">armbandv2big</Shape>
+        <Shape target="cloth">cloth</Shape>
+        <Shape target="satchel">satchel</Shape>
+        <Shape target="skirt">skirt</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="MaleUnderwearFullBody:1Weight" target="MaleUnderwearFullBody:1" local="true">Giant.osd\MaleUnderwearFullBody:1Weight</Data>
+            <Data name="armbandv2bigWeight" target="armbandv2big" local="true">Giant.osd\armbandv2bigWeight</Data>
+            <Data name="clothWeight" target="cloth" local="true">Giant.osd\clothWeight</Data>
+            <Data name="skirtWeight" target="skirt" local="true">Giant.osd\skirtWeight</Data>
+            <Data name="satchelWeight" target="satchel" local="true">Giant.osd\satchelWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Male MCE - Body - Thief Karliah">
+        <DataFolder>Male MCE\Body</DataFolder>
+        <SourceFile>Thief Karliah.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\ThievesGuild\M</OutputPath>
+        <OutputFile GenWeights="true">TorsoKarliah</OutputFile>
+        <Shape target="KarliahDagger">KarliahDagger</Shape>
+        <Shape target="KarliahTorso">KarliahTorso</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="KarliahTorsoWeight" target="KarliahTorso" local="true">Thief Karliah.osd\KarliahTorsoWeight</Data>
+            <Data name="KarliahDaggerWeight" target="KarliahDagger" local="true">Thief Karliah.osd\KarliahDaggerWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Male MCE - Body - Tsun">
+        <DataFolder>Male MCE\Body</DataFolder>
+        <SourceFile>Tsun.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\M</OutputPath>
+        <OutputFile GenWeights="true">TsunCuirass</OutputFile>
+        <Shape target="BodyMale_Tsun" DataFolder="MCE Male Tsun">BodyMale_Tsun</Shape>
+        <Shape target="Tsun_Cuirass">Tsun_Cuirass</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="BodyMale_TsunWeight" target="BodyMale_Tsun" local="true">Tsun.osd\BodyMale_TsunWeight</Data>
+            <Data name="Tsun_CuirassWeight" target="Tsun_Cuirass" local="true">Tsun.osd\Tsun_CuirassWeight</Data>
+        </Slider>
+        <Slider name="Remove Bracers" invert="false" small="0" big="0" zap="true">
+            <Data name="Tsun_CuirassRemove Bracers" target="Tsun_Cuirass" local="true">Tsun.osd\Tsun_CuirassRemove Bracers</Data>
+        </Slider>
+        <Slider name="Remove Wires" invert="false" small="0" big="0" zap="true">
+            <Data name="Tsun_CuirassRemove Wires" target="Tsun_Cuirass" local="true">Tsun.osd\Tsun_CuirassRemove Wires</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Male MCE - Feet - Giant">
+        <DataFolder>Male MCE\Feet</DataFolder>
+        <SourceFile>Giant.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\M</OutputPath>
+        <OutputFile GenWeights="true">GiantBoots</OutputFile>
+        <Shape target="boots">boots</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="bootsWeight" target="boots" local="true">Giant.osd\bootsWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Male MCE - Hands - Thief Karliah">
+        <DataFolder>Male MCE\Hands</DataFolder>
+        <SourceFile>Thief Karliah.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\ThievesGuild\M</OutputPath>
+        <OutputFile GenWeights="true">GlovesKarliah</OutputFile>
+        <Shape target="HandMaleBig3rd" DataFolder="MCE Male Thief Karliah">HandMaleBig3rd</Shape>
+        <Shape target="KarliahGloves">KarliahGloves</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="HandMaleBig3rdWeight" target="HandMaleBig3rd" local="true">Thief Karliah.osd\HandMaleBig3rdWeight</Data>
+            <Data name="KarliahGlovesWeight" target="KarliahGloves" local="true">Thief Karliah.osd\KarliahGlovesWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Male MCE - Hands - Tsun">
+        <DataFolder>Male MCE\Hands</DataFolder>
+        <SourceFile>Tsun.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\M</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntlets</OutputFile>
+        <Shape target="HandMaleBig3rd" DataFolder="MCE Male Tsun">HandMaleBig3rd</Shape>
+        <Shape target="Tsun_Gauntlets">Tsun_Gauntlets</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="HandMaleBig3rdWeight" target="HandMaleBig3rd" local="true">Tsun.osd\HandMaleBig3rdWeight</Data>
+            <Data name="Tsun_GauntletsWeight" target="Tsun_Gauntlets" local="true">Tsun.osd\Tsun_GauntletsWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Male MCE - Hands - Tsun (Arg)">
+        <DataFolder>Male MCE\Hands</DataFolder>
+        <SourceFile>Tsun (Arg).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\M</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntletsBeast</OutputFile>
+        <Shape target="HandMaleBigArgonian3rd" DataFolder="Male Hands Argonian">HandMaleBigArgonian3rd</Shape>
+        <Shape target="Tsun_Gauntlets">Tsun_Gauntlets</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="HandMaleBigArgonian3rdWeight" target="HandMaleBigArgonian3rd">Male Hands Argonian.osd\HandMaleBigArgonian3rdWeight</Data>
+            <Data name="Tsun_GauntletsWeight" target="Tsun_Gauntlets" local="true">Tsun (Arg).osd\Tsun_GauntletsWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Male MCE - Hoods - Executioner (Arg)">
+        <DataFolder>Male MCE\Hoods</DataFolder>
+        <SourceFile>Executioner (Arg).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\M</OutputPath>
+        <OutputFile GenWeights="true">HoodArgonian</OutputFile>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="cap02Weight" target="cap02" local="true">Executioner (Arg).osd\cap02Weight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Male MCE - Hoods - Executioner (Kha)">
+        <DataFolder>Male MCE\Hoods</DataFolder>
+        <SourceFile>Executioner (Kha).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\M</OutputPath>
+        <OutputFile GenWeights="true">HoodKhajiit</OutputFile>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="cap02Weight" target="cap02" local="true">Executioner (Kha).osd\cap02Weight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

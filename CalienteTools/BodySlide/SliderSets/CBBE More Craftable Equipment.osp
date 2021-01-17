@@ -1,0 +1,2242 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE MCE - Body - Dark Brotherhood Short-Sleeved">
+    <SliderSet name="CBBE MCE - Body - Executioner">
+        <DataFolder>CBBE MCE\Body</DataFolder>
+        <SourceFile>Executioner.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputFile GenWeights="true">Body</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="Panty">Panty</Shape>
+        <Shape target="torsor">torsor</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRAnkleSize</Data>
+            <Data name="torsorAnkleSize" target="torsor" local="true">Executioner.osd\torsorAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="torsorAppleCheeks" target="torsor" local="true">Executioner.osd\torsorAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty" local="true">Executioner.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
+            <Data name="BaseShapeHRAreolaSize" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRAreolaSize</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRarms</Data>
+            <Data name="torsorArms" target="torsor" local="true">Executioner.osd\torsorArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBack</Data>
+            <Data name="torsorBack" target="torsor" local="true">Executioner.osd\torsorBack</Data>
+            <Data name="PantyBack" target="Panty" local="true">Executioner.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBackArch</Data>
+            <Data name="torsorBackArch" target="torsor" local="true">Executioner.osd\torsorBackArch</Data>
+            <Data name="PantyBackArch" target="Panty" local="true">Executioner.osd\PantyBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBelly</Data>
+            <Data name="torsorBelly" target="torsor" local="true">Executioner.osd\torsorBelly</Data>
+            <Data name="PantyBelly" target="Panty" local="true">Executioner.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBigBelly</Data>
+            <Data name="torsorBigBelly" target="torsor" local="true">Executioner.osd\torsorBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty" local="true">Executioner.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBigButt</Data>
+            <Data name="torsorBigButt" target="torsor" local="true">Executioner.osd\torsorBigButt</Data>
+            <Data name="PantyBigButt" target="Panty" local="true">Executioner.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBigTorso</Data>
+            <Data name="torsorBigTorso" target="torsor" local="true">Executioner.osd\torsorBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty" local="true">Executioner.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastCenter</Data>
+            <Data name="torsorBreastCenter" target="torsor" local="true">Executioner.osd\torsorBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenterBig" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCleavage" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastCleavage</Data>
+            <Data name="torsorBreastCleavage" target="torsor" local="true">Executioner.osd\torsorBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastFlatness2</Data>
+            <Data name="torsorBreastFlatness2" target="torsor" local="true">Executioner.osd\torsorBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastFlattness</Data>
+            <Data name="torsorBreastFlatness" target="torsor" local="true">Executioner.osd\torsorBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastGravity2</Data>
+            <Data name="torsorBreastGravity2" target="torsor" local="true">Executioner.osd\torsorBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastHeight</Data>
+            <Data name="torsorBreastHeight" target="torsor" local="true">Executioner.osd\torsorBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastPerkiness</Data>
+            <Data name="torsorBreastPerkiness" target="torsor" local="true">Executioner.osd\torsorBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreasts</Data>
+            <Data name="torsorBreasts" target="torsor" local="true">Executioner.osd\torsorBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastsFantasy</Data>
+            <Data name="torsorBreastsFantasy" target="torsor" local="true">Executioner.osd\torsorBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastsGone</Data>
+            <Data name="torsorBreastsGone" target="torsor" local="true">Executioner.osd\torsorBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastsNewSH</Data>
+            <Data name="torsorBreastsNewSH" target="torsor" local="true">Executioner.osd\torsorBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="torsorBreastsNewSHSymmetry" target="torsor" local="true">Executioner.osd\torsorBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="torsorBreastsSmall" target="torsor" local="true">Executioner.osd\torsorBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty" local="true">Executioner.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="torsorBreastsSmall2" target="torsor" local="true">Executioner.osd\torsorBreastsSmall2</Data>
+            <Data name="PantyBreastsSmall2" target="Panty" local="true">Executioner.osd\PantyBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastsTogether</Data>
+            <Data name="torsorBreastsTogether" target="torsor" local="true">Executioner.osd\torsorBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastTopSlope</Data>
+            <Data name="torsorBreastTopSlope" target="torsor" local="true">Executioner.osd\torsorBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBreastWidth</Data>
+            <Data name="torsorBreastWidth" target="torsor" local="true">Executioner.osd\torsorBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRButt</Data>
+            <Data name="torsorButt" target="torsor" local="true">Executioner.osd\torsorButt</Data>
+            <Data name="PantyButt" target="Panty" local="true">Executioner.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRButtClassic</Data>
+            <Data name="torsorButtClassic" target="torsor" local="true">Executioner.osd\torsorButtClassic</Data>
+            <Data name="PantyButtClassic" target="Panty" local="true">Executioner.osd\PantyButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtCrack" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRButtCrack</Data>
+            <Data name="torsorButtCrack" target="torsor" local="true">Executioner.osd\torsorButtCrack</Data>
+            <Data name="PantyButtCrack" target="Panty" local="true">Executioner.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRButtShape2</Data>
+            <Data name="torsorButtShape2" target="torsor" local="true">Executioner.osd\torsorButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty" local="true">Executioner.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRButtSmall</Data>
+            <Data name="torsorButtSmall" target="torsor" local="true">Executioner.osd\torsorButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty" local="true">Executioner.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRCalfSize</Data>
+            <Data name="torsorCalfSize" target="torsor" local="true">Executioner.osd\torsorCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRCalfSmooth</Data>
+            <Data name="torsorCalfSmooth" target="torsor" local="true">Executioner.osd\torsorCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRChestDepth</Data>
+            <Data name="torsorChestDepth" target="torsor" local="true">Executioner.osd\torsorChestDepth</Data>
+            <Data name="PantyChestDepth" target="Panty" local="true">Executioner.osd\PantyChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRChestWidth</Data>
+            <Data name="torsorChestWidth" target="torsor" local="true">Executioner.osd\torsorChestWidth</Data>
+            <Data name="PantyChestWidth" target="Panty" local="true">Executioner.osd\PantyChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRChubbyArms</Data>
+            <Data name="torsorChubbyArms" target="torsor" local="true">Executioner.osd\torsorChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="torsorChubbyButt" target="torsor" local="true">Executioner.osd\torsorChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty" local="true">Executioner.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="torsorChubbyLegs" target="torsor" local="true">Executioner.osd\torsorChubbyLegs</Data>
+            <Data name="PantyChubbyLegs" target="Panty" local="true">Executioner.osd\PantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="torsorChubbyWaist" target="torsor" local="true">Executioner.osd\torsorChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty" local="true">Executioner.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchBack" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRCrotchBack</Data>
+            <Data name="torsorCrotchBack" target="torsor" local="true">Executioner.osd\torsorCrotchBack</Data>
+            <Data name="PantyCrotchBack" target="Panty" local="true">Executioner.osd\PantyCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRDoubleMelon</Data>
+            <Data name="torsorDoubleMelon" target="torsor" local="true">Executioner.osd\torsorDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRGroin" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRGroin</Data>
+            <Data name="torsorGroin" target="torsor" local="true">Executioner.osd\torsorGroin</Data>
+            <Data name="PantyGroin" target="Panty" local="true">Executioner.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRHipbone</Data>
+            <Data name="torsorHipBone" target="torsor" local="true">Executioner.osd\torsorHipBone</Data>
+            <Data name="PantyHipBone" target="Panty" local="true">Executioner.osd\PantyHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRHipForward</Data>
+            <Data name="torsorHipForward" target="torsor" local="true">Executioner.osd\torsorHipForward</Data>
+            <Data name="PantyHipForward" target="Panty" local="true">Executioner.osd\PantyHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRHips</Data>
+            <Data name="torsorHips" target="torsor" local="true">Executioner.osd\torsorHips</Data>
+            <Data name="PantyHips" target="Panty" local="true">Executioner.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="torsorHipUpperWidth" target="torsor" local="true">Executioner.osd\torsorHipUpperWidth</Data>
+            <Data name="PantyHipUpperWidth" target="Panty" local="true">Executioner.osd\PantyHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRKneeHeight</Data>
+            <Data name="torsorKneeHeight" target="torsor" local="true">Executioner.osd\torsorKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRKneeShape</Data>
+            <Data name="torsorKneeShape" target="torsor" local="true">Executioner.osd\torsorKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRLegShapeClassic</Data>
+            <Data name="torsorLegShapeClassic" target="torsor" local="true">Executioner.osd\torsorLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRLegsThin</Data>
+            <Data name="torsorLegsThin" target="torsor" local="true">Executioner.osd\torsorLegsThin</Data>
+            <Data name="PantyLegsThin" target="Panty" local="true">Executioner.osd\PantyLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="torsorMuscleAbs" target="torsor" local="true">Executioner.osd\torsorMuscleAbs</Data>
+            <Data name="PantyMuscleAbs" target="Panty" local="true">Executioner.osd\PantyMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRMuscleArms</Data>
+            <Data name="torsorMuscleArms" target="torsor" local="true">Executioner.osd\torsorMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="torsorMuscleButt" target="torsor" local="true">Executioner.osd\torsorMuscleButt</Data>
+            <Data name="PantyMuscleButt" target="Panty" local="true">Executioner.osd\PantyMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="torsorMuscleLegs" target="torsor" local="true">Executioner.osd\torsorMuscleLegs</Data>
+            <Data name="PantyMuscleLegs" target="Panty" local="true">Executioner.osd\PantyMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRMusclePecs</Data>
+            <Data name="torsorMusclePecs" target="torsor" local="true">Executioner.osd\torsorMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNeckSeam</Data>
+            <Data name="torsorNeckSeam" target="torsor" local="true">Executioner.osd\torsorNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipBGone" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNipBGone</Data>
+            <Data name="torsorNipBGone" target="torsor" local="true">Executioner.osd\torsorNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDistance" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNippleDistance</Data>
+            <Data name="torsorNippleDistance" target="torsor" local="true">Executioner.osd\torsorNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDown" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNippleDown</Data>
+            <Data name="torsorNippleDown" target="torsor" local="true">Executioner.osd\torsorNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleLength" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNippleLength</Data>
+            <Data name="torsorNippleLength" target="torsor" local="true">Executioner.osd\torsorNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleManga" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNippleManga</Data>
+            <Data name="torsorNippleManga" target="torsor" local="true">Executioner.osd\torsorNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkiness" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNipplePerkiness</Data>
+            <Data name="torsorNipplePerkiness" target="torsor" local="true">Executioner.osd\torsorNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkManga" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNipplePerkManga</Data>
+            <Data name="torsorNipplePerkManga" target="torsor" local="true">Executioner.osd\torsorNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSize" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNippleSize</Data>
+            <Data name="torsorNippleSize" target="torsor" local="true">Executioner.osd\torsorNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTip" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNippleTip</Data>
+            <Data name="torsorNippleTip" target="torsor" local="true">Executioner.osd\torsorNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTipManga" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNippleTipManga</Data>
+            <Data name="torsorNippleTipManga" target="torsor" local="true">Executioner.osd\torsorNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleUp" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRNippleUp</Data>
+            <Data name="torsorNippleUp" target="torsor" local="true">Executioner.osd\torsorNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="torsorPregnancyBelly" target="torsor" local="true">Executioner.osd\torsorPregnancyBelly</Data>
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">Executioner.osd\PantyPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRPushUp</Data>
+            <Data name="torsorPushUp" target="torsor" local="true">Executioner.osd\torsorPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRRibsProminance</Data>
+            <Data name="torsorRibsProminance" target="torsor" local="true">Executioner.osd\torsorRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRRoundAss</Data>
+            <Data name="torsorRoundAss" target="torsor" local="true">Executioner.osd\torsorRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty" local="true">Executioner.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRShoulderSmooth</Data>
+            <Data name="torsorShoulderSmooth" target="torsor" local="true">Executioner.osd\torsorShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRshouldertweak</Data>
+            <Data name="torsorShoulderTweak" target="torsor" local="true">Executioner.osd\torsorShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRshoulderWidth</Data>
+            <Data name="torsorShoulderWidth" target="torsor" local="true">Executioner.osd\torsorShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="torsorSlimThighs" target="torsor" local="true">Executioner.osd\torsorSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty" local="true">Executioner.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumHeight" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRThighs</Data>
+            <Data name="torsorThighs" target="torsor" local="true">Executioner.osd\torsorThighs</Data>
+            <Data name="PantyThighs" target="Panty" local="true">Executioner.osd\PantyThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="torsorTummyTuck" target="torsor" local="true">Executioner.osd\torsorTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty" local="true">Executioner.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRwaist</Data>
+            <Data name="torsorWaist" target="torsor" local="true">Executioner.osd\torsorWaist</Data>
+            <Data name="PantyWaist" target="Panty" local="true">Executioner.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="torsorWaistHeight" target="torsor" local="true">Executioner.osd\torsorWaistHeight</Data>
+            <Data name="PantyWaistHeight" target="Panty" local="true">Executioner.osd\PantyWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="torsorWideWaistLine" target="torsor" local="true">Executioner.osd\torsorWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty" local="true">Executioner.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHR7B Lower</Data>
+            <Data name="torsor7B Lower" target="torsor" local="true">Executioner.osd\torsor7B Lower</Data>
+            <Data name="Panty7B Lower" target="Panty" local="true">Executioner.osd\Panty7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHR7B Upper</Data>
+            <Data name="torsor7B Upper" target="torsor" local="true">Executioner.osd\torsor7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="torsorVanillaSSEHi" target="torsor" local="true">Executioner.osd\torsorVanillaSSEHi</Data>
+            <Data name="PantyVanillaSSEHi" target="Panty" local="true">Executioner.osd\PantyVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="torsorVanillaSSELo" target="torsor" local="true">Executioner.osd\torsorVanillaSSELo</Data>
+            <Data name="PantyVanillaSSELo" target="Panty" local="true">Executioner.osd\PantyVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="torsorOldBaseShape" target="torsor" local="true">Executioner.osd\torsorOldBaseShape</Data>
+            <Data name="PantyOldBaseShape" target="Panty" local="true">Executioner.osd\PantyOldBaseShape</Data>
+        </Slider>
+        <Slider name="Remove Dagger" invert="false" small="0" big="0" zap="true">
+            <Data name="torsorRemove Dagger" target="torsor" local="true">Executioner.osd\torsorRemove Dagger</Data>
+        </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="BaseShapeHRBody Zap" target="BaseShapeHR" local="true">Executioner.osd\BaseShapeHRBody Zap</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Body - Giant">
+        <DataFolder>CBBE MCE\Body</DataFolder>
+        <SourceFile>Giant.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
+        <OutputFile GenWeights="true">GiantBody</OutputFile>
+        <Shape target="Bra">Bra</Shape>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="Panty">Panty</Shape>
+        <Shape target="armband">armband</Shape>
+        <Shape target="cloth">cloth</Shape>
+        <Shape target="satchel">satchel</Shape>
+        <Shape target="skirt">skirt</Shape>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="PantyAppleCheeks" target="Panty" local="true">Giant.osd\PantyAppleCheeks</Data>
+            <Data name="BraAppleCheeks" target="Bra" local="true">Giant.osd\BraAppleCheeks</Data>
+            <Data name="satchelAppleCheeks" target="satchel" local="true">Giant.osd\satchelAppleCheeks</Data>
+            <Data name="clothAppleCheeks" target="cloth" local="true">Giant.osd\clothAppleCheeks</Data>
+            <Data name="skirtAppleCheeks" target="skirt" local="true">Giant.osd\skirtAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BraArms" target="Bra" local="true">Giant.osd\BraArms</Data>
+            <Data name="satchelArms" target="satchel" local="true">Giant.osd\satchelArms</Data>
+            <Data name="armbandArms" target="armband" local="true">Giant.osd\armbandArms</Data>
+            <Data name="clothArms" target="cloth" local="true">Giant.osd\clothArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="PantyBack" target="Panty" local="true">Giant.osd\PantyBack</Data>
+            <Data name="BraBack" target="Bra" local="true">Giant.osd\BraBack</Data>
+            <Data name="satchelBack" target="satchel" local="true">Giant.osd\satchelBack</Data>
+            <Data name="clothBack" target="cloth" local="true">Giant.osd\clothBack</Data>
+            <Data name="skirtBack" target="skirt" local="true">Giant.osd\skirtBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="PantyBackArch" target="Panty" local="true">Giant.osd\PantyBackArch</Data>
+            <Data name="BraBackArch" target="Bra" local="true">Giant.osd\BraBackArch</Data>
+            <Data name="satchelBackArch" target="satchel" local="true">Giant.osd\satchelBackArch</Data>
+            <Data name="clothBackArch" target="cloth" local="true">Giant.osd\clothBackArch</Data>
+            <Data name="skirtBackArch" target="skirt" local="true">Giant.osd\skirtBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="PantyBelly" target="Panty" local="true">Giant.osd\PantyBelly</Data>
+            <Data name="BraBelly" target="Bra" local="true">Giant.osd\BraBelly</Data>
+            <Data name="satchelBelly" target="satchel" local="true">Giant.osd\satchelBelly</Data>
+            <Data name="clothBelly" target="cloth" local="true">Giant.osd\clothBelly</Data>
+            <Data name="skirtBelly" target="skirt" local="true">Giant.osd\skirtBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="PantyBigBelly" target="Panty" local="true">Giant.osd\PantyBigBelly</Data>
+            <Data name="BraBigBelly" target="Bra" local="true">Giant.osd\BraBigBelly</Data>
+            <Data name="satchelBigBelly" target="satchel" local="true">Giant.osd\satchelBigBelly</Data>
+            <Data name="clothBigBelly" target="cloth" local="true">Giant.osd\clothBigBelly</Data>
+            <Data name="skirtBigBelly" target="skirt" local="true">Giant.osd\skirtBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="PantyBigButt" target="Panty" local="true">Giant.osd\PantyBigButt</Data>
+            <Data name="BraBigButt" target="Bra" local="true">Giant.osd\BraBigButt</Data>
+            <Data name="satchelBigButt" target="satchel" local="true">Giant.osd\satchelBigButt</Data>
+            <Data name="clothBigButt" target="cloth" local="true">Giant.osd\clothBigButt</Data>
+            <Data name="skirtBigButt" target="skirt" local="true">Giant.osd\skirtBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="PantyBigTorso" target="Panty" local="true">Giant.osd\PantyBigTorso</Data>
+            <Data name="BraBigTorso" target="Bra" local="true">Giant.osd\BraBigTorso</Data>
+            <Data name="satchelBigTorso" target="satchel" local="true">Giant.osd\satchelBigTorso</Data>
+            <Data name="armbandBigTorso" target="armband" local="true">Giant.osd\armbandBigTorso</Data>
+            <Data name="clothBigTorso" target="cloth" local="true">Giant.osd\clothBigTorso</Data>
+            <Data name="skirtBigTorso" target="skirt" local="true">Giant.osd\skirtBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="BraBreastCenter" target="Bra" local="true">Giant.osd\BraBreastCenter</Data>
+            <Data name="satchelBreastCenter" target="satchel" local="true">Giant.osd\satchelBreastCenter</Data>
+            <Data name="armbandBreastCenter" target="armband" local="true">Giant.osd\armbandBreastCenter</Data>
+            <Data name="clothBreastCenter" target="cloth" local="true">Giant.osd\clothBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="BraBreastCenterBig" target="Bra" local="true">Giant.osd\BraBreastCenterBig</Data>
+            <Data name="satchelBreastCenterBig" target="satchel" local="true">Giant.osd\satchelBreastCenterBig</Data>
+            <Data name="clothBreastCenterBig" target="cloth" local="true">Giant.osd\clothBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BraBreastCleavage" target="Bra" local="true">Giant.osd\BraBreastCleavage</Data>
+            <Data name="satchelBreastCleavage" target="satchel" local="true">Giant.osd\satchelBreastCleavage</Data>
+            <Data name="armbandBreastCleavage" target="armband" local="true">Giant.osd\armbandBreastCleavage</Data>
+            <Data name="clothBreastCleavage" target="cloth" local="true">Giant.osd\clothBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BraBreastFlatness2" target="Bra" local="true">Giant.osd\BraBreastFlatness2</Data>
+            <Data name="satchelBreastFlatness2" target="satchel" local="true">Giant.osd\satchelBreastFlatness2</Data>
+            <Data name="armbandBreastFlatness2" target="armband" local="true">Giant.osd\armbandBreastFlatness2</Data>
+            <Data name="clothBreastFlatness2" target="cloth" local="true">Giant.osd\clothBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BraBreastFlatness" target="Bra" local="true">Giant.osd\BraBreastFlatness</Data>
+            <Data name="satchelBreastFlatness" target="satchel" local="true">Giant.osd\satchelBreastFlatness</Data>
+            <Data name="armbandBreastFlatness" target="armband" local="true">Giant.osd\armbandBreastFlatness</Data>
+            <Data name="clothBreastFlatness" target="cloth" local="true">Giant.osd\clothBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BraBreastGravity2" target="Bra" local="true">Giant.osd\BraBreastGravity2</Data>
+            <Data name="satchelBreastGravity2" target="satchel" local="true">Giant.osd\satchelBreastGravity2</Data>
+            <Data name="armbandBreastGravity2" target="armband" local="true">Giant.osd\armbandBreastGravity2</Data>
+            <Data name="clothBreastGravity2" target="cloth" local="true">Giant.osd\clothBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BraBreastHeight" target="Bra" local="true">Giant.osd\BraBreastHeight</Data>
+            <Data name="satchelBreastHeight" target="satchel" local="true">Giant.osd\satchelBreastHeight</Data>
+            <Data name="armbandBreastHeight" target="armband" local="true">Giant.osd\armbandBreastHeight</Data>
+            <Data name="clothBreastHeight" target="cloth" local="true">Giant.osd\clothBreastHeight</Data>
+            <Data name="skirtBreastHeight" target="skirt" local="true">Giant.osd\skirtBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BraBreastPerkiness" target="Bra" local="true">Giant.osd\BraBreastPerkiness</Data>
+            <Data name="satchelBreastPerkiness" target="satchel" local="true">Giant.osd\satchelBreastPerkiness</Data>
+            <Data name="clothBreastPerkiness" target="cloth" local="true">Giant.osd\clothBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BraBreasts" target="Bra" local="true">Giant.osd\BraBreasts</Data>
+            <Data name="satchelBreasts" target="satchel" local="true">Giant.osd\satchelBreasts</Data>
+            <Data name="armbandBreasts" target="armband" local="true">Giant.osd\armbandBreasts</Data>
+            <Data name="clothBreasts" target="cloth" local="true">Giant.osd\clothBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BraBreastsFantasy" target="Bra" local="true">Giant.osd\BraBreastsFantasy</Data>
+            <Data name="satchelBreastsFantasy" target="satchel" local="true">Giant.osd\satchelBreastsFantasy</Data>
+            <Data name="armbandBreastsFantasy" target="armband" local="true">Giant.osd\armbandBreastsFantasy</Data>
+            <Data name="clothBreastsFantasy" target="cloth" local="true">Giant.osd\clothBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BraBreastsGone" target="Bra" local="true">Giant.osd\BraBreastsGone</Data>
+            <Data name="satchelBreastsGone" target="satchel" local="true">Giant.osd\satchelBreastsGone</Data>
+            <Data name="armbandBreastsGone" target="armband" local="true">Giant.osd\armbandBreastsGone</Data>
+            <Data name="clothBreastsGone" target="cloth" local="true">Giant.osd\clothBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BraBreastsNewSH" target="Bra" local="true">Giant.osd\BraBreastsNewSH</Data>
+            <Data name="satchelBreastsNewSH" target="satchel" local="true">Giant.osd\satchelBreastsNewSH</Data>
+            <Data name="armbandBreastsNewSH" target="armband" local="true">Giant.osd\armbandBreastsNewSH</Data>
+            <Data name="clothBreastsNewSH" target="cloth" local="true">Giant.osd\clothBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="PantyBreastsSmall" target="Panty" local="true">Giant.osd\PantyBreastsSmall</Data>
+            <Data name="BraBreastsSmall" target="Bra" local="true">Giant.osd\BraBreastsSmall</Data>
+            <Data name="satchelBreastsSmall" target="satchel" local="true">Giant.osd\satchelBreastsSmall</Data>
+            <Data name="armbandBreastsSmall" target="armband" local="true">Giant.osd\armbandBreastsSmall</Data>
+            <Data name="clothBreastsSmall" target="cloth" local="true">Giant.osd\clothBreastsSmall</Data>
+            <Data name="skirtBreastsSmall" target="skirt" local="true">Giant.osd\skirtBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="PantyBreastsSmall2" target="Panty" local="true">Giant.osd\PantyBreastsSmall2</Data>
+            <Data name="BraBreastsSmall2" target="Bra" local="true">Giant.osd\BraBreastsSmall2</Data>
+            <Data name="satchelBreastsSmall2" target="satchel" local="true">Giant.osd\satchelBreastsSmall2</Data>
+            <Data name="armbandBreastsSmall2" target="armband" local="true">Giant.osd\armbandBreastsSmall2</Data>
+            <Data name="clothBreastsSmall2" target="cloth" local="true">Giant.osd\clothBreastsSmall2</Data>
+            <Data name="skirtBreastsSmall2" target="skirt" local="true">Giant.osd\skirtBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BraBreastsTogether" target="Bra" local="true">Giant.osd\BraBreastsTogether</Data>
+            <Data name="satchelBreastsTogether" target="satchel" local="true">Giant.osd\satchelBreastsTogether</Data>
+            <Data name="armbandBreastsTogether" target="armband" local="true">Giant.osd\armbandBreastsTogether</Data>
+            <Data name="clothBreastsTogether" target="cloth" local="true">Giant.osd\clothBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BraBreastTopSlope" target="Bra" local="true">Giant.osd\BraBreastTopSlope</Data>
+            <Data name="satchelBreastTopSlope" target="satchel" local="true">Giant.osd\satchelBreastTopSlope</Data>
+            <Data name="clothBreastTopSlope" target="cloth" local="true">Giant.osd\clothBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BraBreastWidth" target="Bra" local="true">Giant.osd\BraBreastWidth</Data>
+            <Data name="satchelBreastWidth" target="satchel" local="true">Giant.osd\satchelBreastWidth</Data>
+            <Data name="clothBreastWidth" target="cloth" local="true">Giant.osd\clothBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="PantyButt" target="Panty" local="true">Giant.osd\PantyButt</Data>
+            <Data name="BraButt" target="Bra" local="true">Giant.osd\BraButt</Data>
+            <Data name="satchelButt" target="satchel" local="true">Giant.osd\satchelButt</Data>
+            <Data name="clothButt" target="cloth" local="true">Giant.osd\clothButt</Data>
+            <Data name="skirtButt" target="skirt" local="true">Giant.osd\skirtButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="PantyButtClassic" target="Panty" local="true">Giant.osd\PantyButtClassic</Data>
+            <Data name="BraButtClassic" target="Bra" local="true">Giant.osd\BraButtClassic</Data>
+            <Data name="satchelButtClassic" target="satchel" local="true">Giant.osd\satchelButtClassic</Data>
+            <Data name="clothButtClassic" target="cloth" local="true">Giant.osd\clothButtClassic</Data>
+            <Data name="skirtButtClassic" target="skirt" local="true">Giant.osd\skirtButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="PantyButtCrack" target="Panty" local="true">Giant.osd\PantyButtCrack</Data>
+            <Data name="satchelButtCrack" target="satchel" local="true">Giant.osd\satchelButtCrack</Data>
+            <Data name="clothButtCrack" target="cloth" local="true">Giant.osd\clothButtCrack</Data>
+            <Data name="skirtButtCrack" target="skirt" local="true">Giant.osd\skirtButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="PantyButtShape2" target="Panty" local="true">Giant.osd\PantyButtShape2</Data>
+            <Data name="BraButtShape2" target="Bra" local="true">Giant.osd\BraButtShape2</Data>
+            <Data name="satchelButtShape2" target="satchel" local="true">Giant.osd\satchelButtShape2</Data>
+            <Data name="clothButtShape2" target="cloth" local="true">Giant.osd\clothButtShape2</Data>
+            <Data name="skirtButtShape2" target="skirt" local="true">Giant.osd\skirtButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="PantyButtSmall" target="Panty" local="true">Giant.osd\PantyButtSmall</Data>
+            <Data name="BraButtSmall" target="Bra" local="true">Giant.osd\BraButtSmall</Data>
+            <Data name="satchelButtSmall" target="satchel" local="true">Giant.osd\satchelButtSmall</Data>
+            <Data name="clothButtSmall" target="cloth" local="true">Giant.osd\clothButtSmall</Data>
+            <Data name="skirtButtSmall" target="skirt" local="true">Giant.osd\skirtButtSmall</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="PantyChestDepth" target="Panty" local="true">Giant.osd\PantyChestDepth</Data>
+            <Data name="BraChestDepth" target="Bra" local="true">Giant.osd\BraChestDepth</Data>
+            <Data name="satchelChestDepth" target="satchel" local="true">Giant.osd\satchelChestDepth</Data>
+            <Data name="armbandChestDepth" target="armband" local="true">Giant.osd\armbandChestDepth</Data>
+            <Data name="clothChestDepth" target="cloth" local="true">Giant.osd\clothChestDepth</Data>
+            <Data name="skirtChestDepth" target="skirt" local="true">Giant.osd\skirtChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="PantyChestWidth" target="Panty" local="true">Giant.osd\PantyChestWidth</Data>
+            <Data name="BraChestWidth" target="Bra" local="true">Giant.osd\BraChestWidth</Data>
+            <Data name="satchelChestWidth" target="satchel" local="true">Giant.osd\satchelChestWidth</Data>
+            <Data name="armbandChestWidth" target="armband" local="true">Giant.osd\armbandChestWidth</Data>
+            <Data name="clothChestWidth" target="cloth" local="true">Giant.osd\clothChestWidth</Data>
+            <Data name="skirtChestWidth" target="skirt" local="true">Giant.osd\skirtChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BraChubbyArms" target="Bra" local="true">Giant.osd\BraChubbyArms</Data>
+            <Data name="satchelChubbyArms" target="satchel" local="true">Giant.osd\satchelChubbyArms</Data>
+            <Data name="armbandChubbyArms" target="armband" local="true">Giant.osd\armbandChubbyArms</Data>
+            <Data name="clothChubbyArms" target="cloth" local="true">Giant.osd\clothChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="PantyChubbyButt" target="Panty" local="true">Giant.osd\PantyChubbyButt</Data>
+            <Data name="BraChubbyButt" target="Bra" local="true">Giant.osd\BraChubbyButt</Data>
+            <Data name="satchelChubbyButt" target="satchel" local="true">Giant.osd\satchelChubbyButt</Data>
+            <Data name="clothChubbyButt" target="cloth" local="true">Giant.osd\clothChubbyButt</Data>
+            <Data name="skirtChubbyButt" target="skirt" local="true">Giant.osd\skirtChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="PantyChubbyLegs" target="Panty" local="true">Giant.osd\PantyChubbyLegs</Data>
+            <Data name="satchelChubbyLegs" target="satchel" local="true">Giant.osd\satchelChubbyLegs</Data>
+            <Data name="clothChubbyLegs" target="cloth" local="true">Giant.osd\clothChubbyLegs</Data>
+            <Data name="skirtChubbyLegs" target="skirt" local="true">Giant.osd\skirtChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="PantyChubbyWaist" target="Panty" local="true">Giant.osd\PantyChubbyWaist</Data>
+            <Data name="BraChubbyWaist" target="Bra" local="true">Giant.osd\BraChubbyWaist</Data>
+            <Data name="satchelChubbyWaist" target="satchel" local="true">Giant.osd\satchelChubbyWaist</Data>
+            <Data name="armbandChubbyWaist" target="armband" local="true">Giant.osd\armbandChubbyWaist</Data>
+            <Data name="clothChubbyWaist" target="cloth" local="true">Giant.osd\clothChubbyWaist</Data>
+            <Data name="skirtChubbyWaist" target="skirt" local="true">Giant.osd\skirtChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="PantyCrotchBack" target="Panty" local="true">Giant.osd\PantyCrotchBack</Data>
+            <Data name="satchelCrotchBack" target="satchel" local="true">Giant.osd\satchelCrotchBack</Data>
+            <Data name="clothCrotchBack" target="cloth" local="true">Giant.osd\clothCrotchBack</Data>
+            <Data name="skirtCrotchBack" target="skirt" local="true">Giant.osd\skirtCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BraDoubleMelon" target="Bra" local="true">Giant.osd\BraDoubleMelon</Data>
+            <Data name="satchelDoubleMelon" target="satchel" local="true">Giant.osd\satchelDoubleMelon</Data>
+            <Data name="armbandDoubleMelon" target="armband" local="true">Giant.osd\armbandDoubleMelon</Data>
+            <Data name="clothDoubleMelon" target="cloth" local="true">Giant.osd\clothDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="armbandForearmSize" target="armband" local="true">Giant.osd\armbandForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="PantyGroin" target="Panty" local="true">Giant.osd\PantyGroin</Data>
+            <Data name="clothGroin" target="cloth" local="true">Giant.osd\clothGroin</Data>
+            <Data name="skirtGroin" target="skirt" local="true">Giant.osd\skirtGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="PantyHipBone" target="Panty" local="true">Giant.osd\PantyHipBone</Data>
+            <Data name="satchelHipBone" target="satchel" local="true">Giant.osd\satchelHipBone</Data>
+            <Data name="clothHipBone" target="cloth" local="true">Giant.osd\clothHipBone</Data>
+            <Data name="skirtHipBone" target="skirt" local="true">Giant.osd\skirtHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="PantyHipForward" target="Panty" local="true">Giant.osd\PantyHipForward</Data>
+            <Data name="BraHipForward" target="Bra" local="true">Giant.osd\BraHipForward</Data>
+            <Data name="satchelHipForward" target="satchel" local="true">Giant.osd\satchelHipForward</Data>
+            <Data name="clothHipForward" target="cloth" local="true">Giant.osd\clothHipForward</Data>
+            <Data name="skirtHipForward" target="skirt" local="true">Giant.osd\skirtHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="PantyHips" target="Panty" local="true">Giant.osd\PantyHips</Data>
+            <Data name="BraHips" target="Bra" local="true">Giant.osd\BraHips</Data>
+            <Data name="satchelHips" target="satchel" local="true">Giant.osd\satchelHips</Data>
+            <Data name="clothHips" target="cloth" local="true">Giant.osd\clothHips</Data>
+            <Data name="skirtHips" target="skirt" local="true">Giant.osd\skirtHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="PantyHipUpperWidth" target="Panty" local="true">Giant.osd\PantyHipUpperWidth</Data>
+            <Data name="BraHipUpperWidth" target="Bra" local="true">Giant.osd\BraHipUpperWidth</Data>
+            <Data name="satchelHipUpperWidth" target="satchel" local="true">Giant.osd\satchelHipUpperWidth</Data>
+            <Data name="clothHipUpperWidth" target="cloth" local="true">Giant.osd\clothHipUpperWidth</Data>
+            <Data name="skirtHipUpperWidth" target="skirt" local="true">Giant.osd\skirtHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="skirtKneeHeight" target="skirt" local="true">Giant.osd\skirtKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="skirtKneeShape" target="skirt" local="true">Giant.osd\skirtKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="skirtLegShapeClassic" target="skirt" local="true">Giant.osd\skirtLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="PantyLegsThin" target="Panty" local="true">Giant.osd\PantyLegsThin</Data>
+            <Data name="skirtLegsThin" target="skirt" local="true">Giant.osd\skirtLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="PantyMuscleAbs" target="Panty" local="true">Giant.osd\PantyMuscleAbs</Data>
+            <Data name="BraMuscleAbs" target="Bra" local="true">Giant.osd\BraMuscleAbs</Data>
+            <Data name="satchelMuscleAbs" target="satchel" local="true">Giant.osd\satchelMuscleAbs</Data>
+            <Data name="clothMuscleAbs" target="cloth" local="true">Giant.osd\clothMuscleAbs</Data>
+            <Data name="skirtMuscleAbs" target="skirt" local="true">Giant.osd\skirtMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BraMuscleArms" target="Bra" local="true">Giant.osd\BraMuscleArms</Data>
+            <Data name="satchelMuscleArms" target="satchel" local="true">Giant.osd\satchelMuscleArms</Data>
+            <Data name="armbandMuscleArms" target="armband" local="true">Giant.osd\armbandMuscleArms</Data>
+            <Data name="clothMuscleArms" target="cloth" local="true">Giant.osd\clothMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="PantyMuscleButt" target="Panty" local="true">Giant.osd\PantyMuscleButt</Data>
+            <Data name="satchelMuscleButt" target="satchel" local="true">Giant.osd\satchelMuscleButt</Data>
+            <Data name="clothMuscleButt" target="cloth" local="true">Giant.osd\clothMuscleButt</Data>
+            <Data name="skirtMuscleButt" target="skirt" local="true">Giant.osd\skirtMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="PantyMuscleLegs" target="Panty" local="true">Giant.osd\PantyMuscleLegs</Data>
+            <Data name="skirtMuscleLegs" target="skirt" local="true">Giant.osd\skirtMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BraMusclePecs" target="Bra" local="true">Giant.osd\BraMusclePecs</Data>
+            <Data name="satchelMusclePecs" target="satchel" local="true">Giant.osd\satchelMusclePecs</Data>
+            <Data name="clothMusclePecs" target="cloth" local="true">Giant.osd\clothMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BraNeckSeam" target="Bra" local="true">Giant.osd\BraNeckSeam</Data>
+            <Data name="satchelNeckSeam" target="satchel" local="true">Giant.osd\satchelNeckSeam</Data>
+            <Data name="clothNeckSeam" target="cloth" local="true">Giant.osd\clothNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="BraNipBGone" target="Bra" local="true">Giant.osd\BraNipBGone</Data>
+            <Data name="satchelNipBGone" target="satchel" local="true">Giant.osd\satchelNipBGone</Data>
+            <Data name="clothNipBGone" target="cloth" local="true">Giant.osd\clothNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="BraNippleDistance" target="Bra" local="true">Giant.osd\BraNippleDistance</Data>
+            <Data name="satchelNippleDistance" target="satchel" local="true">Giant.osd\satchelNippleDistance</Data>
+            <Data name="clothNippleDistance" target="cloth" local="true">Giant.osd\clothNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BraNippleDown" target="Bra" local="true">Giant.osd\BraNippleDown</Data>
+            <Data name="satchelNippleDown" target="satchel" local="true">Giant.osd\satchelNippleDown</Data>
+            <Data name="clothNippleDown" target="cloth" local="true">Giant.osd\clothNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BraNippleLength" target="Bra" local="true">Giant.osd\BraNippleLength</Data>
+            <Data name="clothNippleLength" target="cloth" local="true">Giant.osd\clothNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="BraNippleManga" target="Bra" local="true">Giant.osd\BraNippleManga</Data>
+            <Data name="satchelNippleManga" target="satchel" local="true">Giant.osd\satchelNippleManga</Data>
+            <Data name="clothNippleManga" target="cloth" local="true">Giant.osd\clothNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BraNipplePerkiness" target="Bra" local="true">Giant.osd\BraNipplePerkiness</Data>
+            <Data name="satchelNipplePerkiness" target="satchel" local="true">Giant.osd\satchelNipplePerkiness</Data>
+            <Data name="clothNipplePerkiness" target="cloth" local="true">Giant.osd\clothNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="BraNipplePerkManga" target="Bra" local="true">Giant.osd\BraNipplePerkManga</Data>
+            <Data name="satchelNipplePerkManga" target="satchel" local="true">Giant.osd\satchelNipplePerkManga</Data>
+            <Data name="clothNipplePerkManga" target="cloth" local="true">Giant.osd\clothNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="BraNippleSize" target="Bra" local="true">Giant.osd\BraNippleSize</Data>
+            <Data name="satchelNippleSize" target="satchel" local="true">Giant.osd\satchelNippleSize</Data>
+            <Data name="clothNippleSize" target="cloth" local="true">Giant.osd\clothNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BraNippleTip" target="Bra" local="true">Giant.osd\BraNippleTip</Data>
+            <Data name="satchelNippleTip" target="satchel" local="true">Giant.osd\satchelNippleTip</Data>
+            <Data name="clothNippleTip" target="cloth" local="true">Giant.osd\clothNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="BraNippleTipManga" target="Bra" local="true">Giant.osd\BraNippleTipManga</Data>
+            <Data name="clothNippleTipManga" target="cloth" local="true">Giant.osd\clothNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BraNippleUp" target="Bra" local="true">Giant.osd\BraNippleUp</Data>
+            <Data name="satchelNippleUp" target="satchel" local="true">Giant.osd\satchelNippleUp</Data>
+            <Data name="clothNippleUp" target="cloth" local="true">Giant.osd\clothNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">Giant.osd\PantyPregnancyBelly</Data>
+            <Data name="BraPregnancyBelly" target="Bra" local="true">Giant.osd\BraPregnancyBelly</Data>
+            <Data name="satchelPregnancyBelly" target="satchel" local="true">Giant.osd\satchelPregnancyBelly</Data>
+            <Data name="armbandPregnancyBelly" target="armband" local="true">Giant.osd\armbandPregnancyBelly</Data>
+            <Data name="clothPregnancyBelly" target="cloth" local="true">Giant.osd\clothPregnancyBelly</Data>
+            <Data name="skirtPregnancyBelly" target="skirt" local="true">Giant.osd\skirtPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BraPushUp" target="Bra" local="true">Giant.osd\BraPushUp</Data>
+            <Data name="satchelPushUp" target="satchel" local="true">Giant.osd\satchelPushUp</Data>
+            <Data name="clothPushUp" target="cloth" local="true">Giant.osd\clothPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BraRibsProminance" target="Bra" local="true">Giant.osd\BraRibsProminance</Data>
+            <Data name="satchelRibsProminance" target="satchel" local="true">Giant.osd\satchelRibsProminance</Data>
+            <Data name="clothRibsProminance" target="cloth" local="true">Giant.osd\clothRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="PantyRoundAss" target="Panty" local="true">Giant.osd\PantyRoundAss</Data>
+            <Data name="satchelRoundAss" target="satchel" local="true">Giant.osd\satchelRoundAss</Data>
+            <Data name="clothRoundAss" target="cloth" local="true">Giant.osd\clothRoundAss</Data>
+            <Data name="skirtRoundAss" target="skirt" local="true">Giant.osd\skirtRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BraShoulderSmooth" target="Bra" local="true">Giant.osd\BraShoulderSmooth</Data>
+            <Data name="satchelShoulderSmooth" target="satchel" local="true">Giant.osd\satchelShoulderSmooth</Data>
+            <Data name="armbandShoulderSmooth" target="armband" local="true">Giant.osd\armbandShoulderSmooth</Data>
+            <Data name="clothShoulderSmooth" target="cloth" local="true">Giant.osd\clothShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BraShoulderTweak" target="Bra" local="true">Giant.osd\BraShoulderTweak</Data>
+            <Data name="satchelShoulderTweak" target="satchel" local="true">Giant.osd\satchelShoulderTweak</Data>
+            <Data name="clothShoulderTweak" target="cloth" local="true">Giant.osd\clothShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BraShoulderWidth" target="Bra" local="true">Giant.osd\BraShoulderWidth</Data>
+            <Data name="satchelShoulderWidth" target="satchel" local="true">Giant.osd\satchelShoulderWidth</Data>
+            <Data name="armbandShoulderWidth" target="armband" local="true">Giant.osd\armbandShoulderWidth</Data>
+            <Data name="clothShoulderWidth" target="cloth" local="true">Giant.osd\clothShoulderWidth</Data>
+            <Data name="skirtShoulderWidth" target="skirt" local="true">Giant.osd\skirtShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="PantySlimThighs" target="Panty" local="true">Giant.osd\PantySlimThighs</Data>
+            <Data name="satchelSlimThighs" target="satchel" local="true">Giant.osd\satchelSlimThighs</Data>
+            <Data name="clothSlimThighs" target="cloth" local="true">Giant.osd\clothSlimThighs</Data>
+            <Data name="skirtSlimThighs" target="skirt" local="true">Giant.osd\skirtSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="BraSternumDepth" target="Bra" local="true">Giant.osd\BraSternumDepth</Data>
+            <Data name="satchelSternumDepth" target="satchel" local="true">Giant.osd\satchelSternumDepth</Data>
+            <Data name="clothSternumDepth" target="cloth" local="true">Giant.osd\clothSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="BraSternumHeight" target="Bra" local="true">Giant.osd\BraSternumHeight</Data>
+            <Data name="satchelSternumHeight" target="satchel" local="true">Giant.osd\satchelSternumHeight</Data>
+            <Data name="clothSternumHeight" target="cloth" local="true">Giant.osd\clothSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="PantyThighs" target="Panty" local="true">Giant.osd\PantyThighs</Data>
+            <Data name="skirtThighs" target="skirt" local="true">Giant.osd\skirtThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="PantyTummyTuck" target="Panty" local="true">Giant.osd\PantyTummyTuck</Data>
+            <Data name="BraTummyTuck" target="Bra" local="true">Giant.osd\BraTummyTuck</Data>
+            <Data name="clothTummyTuck" target="cloth" local="true">Giant.osd\clothTummyTuck</Data>
+            <Data name="skirtTummyTuck" target="skirt" local="true">Giant.osd\skirtTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="PantyWaist" target="Panty" local="true">Giant.osd\PantyWaist</Data>
+            <Data name="BraWaist" target="Bra" local="true">Giant.osd\BraWaist</Data>
+            <Data name="satchelWaist" target="satchel" local="true">Giant.osd\satchelWaist</Data>
+            <Data name="armbandWaist" target="armband" local="true">Giant.osd\armbandWaist</Data>
+            <Data name="clothWaist" target="cloth" local="true">Giant.osd\clothWaist</Data>
+            <Data name="skirtWaist" target="skirt" local="true">Giant.osd\skirtWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="PantyWaistHeight" target="Panty" local="true">Giant.osd\PantyWaistHeight</Data>
+            <Data name="BraWaistHeight" target="Bra" local="true">Giant.osd\BraWaistHeight</Data>
+            <Data name="satchelWaistHeight" target="satchel" local="true">Giant.osd\satchelWaistHeight</Data>
+            <Data name="clothWaistHeight" target="cloth" local="true">Giant.osd\clothWaistHeight</Data>
+            <Data name="skirtWaistHeight" target="skirt" local="true">Giant.osd\skirtWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="PantyWideWaistLine" target="Panty" local="true">Giant.osd\PantyWideWaistLine</Data>
+            <Data name="BraWideWaistLine" target="Bra" local="true">Giant.osd\BraWideWaistLine</Data>
+            <Data name="satchelWideWaistLine" target="satchel" local="true">Giant.osd\satchelWideWaistLine</Data>
+            <Data name="clothWideWaistLine" target="cloth" local="true">Giant.osd\clothWideWaistLine</Data>
+            <Data name="skirtWideWaistLine" target="skirt" local="true">Giant.osd\skirtWideWaistLine</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="Panty7B Lower" target="Panty" local="true">Giant.osd\Panty7B Lower</Data>
+            <Data name="Bra7B Lower" target="Bra" local="true">Giant.osd\Bra7B Lower</Data>
+            <Data name="satchel7B Lower" target="satchel" local="true">Giant.osd\satchel7B Lower</Data>
+            <Data name="cloth7B Lower" target="cloth" local="true">Giant.osd\cloth7B Lower</Data>
+            <Data name="skirt7B Lower" target="skirt" local="true">Giant.osd\skirt7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="Bra7B Upper" target="Bra" local="true">Giant.osd\Bra7B Upper</Data>
+            <Data name="satchel7B Upper" target="satchel" local="true">Giant.osd\satchel7B Upper</Data>
+            <Data name="armband7B Upper" target="armband" local="true">Giant.osd\armband7B Upper</Data>
+            <Data name="cloth7B Upper" target="cloth" local="true">Giant.osd\cloth7B Upper</Data>
+            <Data name="skirt7B Upper" target="skirt" local="true">Giant.osd\skirt7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="PantyVanillaSSEHi" target="Panty" local="true">Giant.osd\PantyVanillaSSEHi</Data>
+            <Data name="BraVanillaSSEHi" target="Bra" local="true">Giant.osd\BraVanillaSSEHi</Data>
+            <Data name="satchelVanillaSSEHi" target="satchel" local="true">Giant.osd\satchelVanillaSSEHi</Data>
+            <Data name="armbandVanillaSSEHi" target="armband" local="true">Giant.osd\armbandVanillaSSEHi</Data>
+            <Data name="clothVanillaSSEHi" target="cloth" local="true">Giant.osd\clothVanillaSSEHi</Data>
+            <Data name="skirtVanillaSSEHi" target="skirt" local="true">Giant.osd\skirtVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="PantyVanillaSSELo" target="Panty" local="true">Giant.osd\PantyVanillaSSELo</Data>
+            <Data name="BraVanillaSSELo" target="Bra" local="true">Giant.osd\BraVanillaSSELo</Data>
+            <Data name="satchelVanillaSSELo" target="satchel" local="true">Giant.osd\satchelVanillaSSELo</Data>
+            <Data name="armbandVanillaSSELo" target="armband" local="true">Giant.osd\armbandVanillaSSELo</Data>
+            <Data name="clothVanillaSSELo" target="cloth" local="true">Giant.osd\clothVanillaSSELo</Data>
+            <Data name="skirtVanillaSSELo" target="skirt" local="true">Giant.osd\skirtVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="PantyOldBaseShape" target="Panty" local="true">Giant.osd\PantyOldBaseShape</Data>
+            <Data name="BraOldBaseShape" target="Bra" local="true">Giant.osd\BraOldBaseShape</Data>
+            <Data name="satchelOldBaseShape" target="satchel" local="true">Giant.osd\satchelOldBaseShape</Data>
+            <Data name="armbandOldBaseShape" target="armband" local="true">Giant.osd\armbandOldBaseShape</Data>
+            <Data name="clothOldBaseShape" target="cloth" local="true">Giant.osd\clothOldBaseShape</Data>
+            <Data name="skirtOldBaseShape" target="skirt" local="true">Giant.osd\skirtOldBaseShape</Data>
+        </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="BaseShapeHRBody Zap" target="BaseShapeHR" local="true">Giant.osd\BaseShapeHRBody Zap</Data>
+        </Slider>
+        <Slider name="Remove Armbands" invert="false" small="0" big="0" zap="true">
+            <Data name="armbandRemove Armbands" target="armband" local="true">Giant.osd\armbandRemove Armbands</Data>
+        </Slider>
+        <Slider name="Remove Satchel" invert="false" small="0" big="0" zap="true">
+            <Data name="satchelRemove Satchel" target="satchel" local="true">Giant.osd\satchelRemove Satchel</Data>
+        </Slider>
+    </SliderSet>
+        <DataFolder>CBBE MCE\Body</DataFolder>
+        <SourceFile>Dark Brotherhood Short-Sleeved.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\DBArmor</OutputPath>
+        <OutputFile GenWeights="true">DBArmorSleeveless_F</OutputFile>
+        <Shape target="CBBE" DataFolder="MCE CBBE Dark Brotherhood Sleeveless">CBBE</Shape>
+        <Shape target="DBtorso">DBtorso</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="DBtorsoAnkleSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="DBtorsoAppleCheeks" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="DBtorsoArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="DBtorsoBack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="DBtorsoBackArch" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="DBtorsoBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="DBtorsoBigBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="DBtorsoBigButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="CBBEBigTorso" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEBigTorso</Data>
+            <Data name="DBtorsoBigTorso" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastCenter" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastCenterBig" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastFlatness2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastFlatness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastGravity2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastPerkiness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreasts" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="CBBEBreastsFantasy" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEBreastsFantasy</Data>
+            <Data name="DBtorsoBreastsFantasy" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsGone" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsNewSH" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsSmall" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsSmall2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastsTogether" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastTopSlope" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="DBtorsoBreastWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="DBtorsoButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="DBtorsoButtClassic" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="DBtorsoButtCrack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="DBtorsoButtShape2" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="DBtorsoButtSmall" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="DBtorsoCalfSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="DBtorsoCalfSmooth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="DBtorsoChestDepth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="DBtorsoChestWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="CBBEChubbyArms" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEChubbyArms</Data>
+            <Data name="DBtorsoChubbyArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="DBtorsoChubbyButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="DBtorsoChubbyLegs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="DBtorsoChubbyWaist" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="DBtorsoCrotchBack" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="DBtorsoDoubleMelon" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="CBBEForearmSize" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEForearmSize</Data>
+            <Data name="DBtorsoForearmSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="DBtorsoGroin" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="DBtorsoHipBone" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="DBtorsoHipForward" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="DBtorsoHips" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="DBtorsoHipUpperWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="DBtorsoKneeHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="DBtorsoKneeShape" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="DBtorsoLegShapeClassic" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="DBtorsoLegsThin" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="DBtorsoMuscleAbs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="CBBEMuscleArms" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEMuscleArms</Data>
+            <Data name="DBtorsoMuscleArms" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="DBtorsoMuscleButt" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="DBtorsoMuscleLegs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="DBtorsoMusclePecs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="DBtorsoNeckSeam" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="DBtorsoNippleDown" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNippleDown</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="DBtorsoNipplePerkiness" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="DBtorsoNipplePerkManga" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="DBtorsoNippleUp" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="DBtorsoPregnancyBelly" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="DBtorsoPushUp" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="DBtorsoRibsProminance" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="DBtorsoRoundAss" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="DBtorsoShoulderSmooth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="DBtorsoShoulderTweak" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="DBtorsoShoulderWidth" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="DBtorsoSlimThighs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="DBtorsoThighs" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="DBtorsoTummyTuck" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="DBtorsoWaist" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="DBtorsoWaistHeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="DBtorsoWideWaistLine" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="CBBEWristSize" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEWristSize</Data>
+            <Data name="DBtorsoWristSize" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="DBtorso7B Lower" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorso7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="CBBE7B Upper" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBE7B Upper</Data>
+            <Data name="DBtorso7B Upper" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorso7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="CBBEVanillaSSEHi" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEVanillaSSEHi</Data>
+            <Data name="DBtorsoVanillaSSEHi" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="CBBEVanillaSSELo" target="CBBE" local="true">Dark Brotherhood Short-Sleeved.osd\CBBEVanillaSSELo</Data>
+            <Data name="DBtorsoVanillaSSELo" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="DBtorsoOldBaseShape" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Body - Tsun">
+        <DataFolder>CBBE MCE\Body</DataFolder>
+        <SourceFile>Tsun.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunCuirass</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="Mesh_001_Tsun_Cuirass_004">Mesh_001_Tsun_Cuirass_004</Shape>
+        <Shape target="Panty">Panty</Shape>
+        <Shape target="Tsun">Tsun</Shape>
+        <Shape target="Tsun_Breastplate">Tsun_Breastplate</Shape>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="TsunAppleCheeks" target="Tsun" local="true">Tsun.osd\TsunAppleCheeks</Data>
+            <Data name="Tsun_BreastplateAppleCheeks" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateAppleCheeks</Data>
+            <Data name="PantyAppleCheeks" target="Panty" local="true">Tsun.osd\PantyAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004Arms" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Arms</Data>
+            <Data name="Tsun_BreastplateArms" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004Back" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Back</Data>
+            <Data name="TsunBack" target="Tsun" local="true">Tsun.osd\TsunBack</Data>
+            <Data name="Tsun_BreastplateBack" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBack</Data>
+            <Data name="PantyBack" target="Panty" local="true">Tsun.osd\PantyBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="TsunBackArch" target="Tsun" local="true">Tsun.osd\TsunBackArch</Data>
+            <Data name="Tsun_BreastplateBackArch" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBackArch</Data>
+            <Data name="PantyBackArch" target="Panty" local="true">Tsun.osd\PantyBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="TsunBelly" target="Tsun" local="true">Tsun.osd\TsunBelly</Data>
+            <Data name="Tsun_BreastplateBelly" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBelly</Data>
+            <Data name="PantyBelly" target="Panty" local="true">Tsun.osd\PantyBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="TsunBigBelly" target="Tsun" local="true">Tsun.osd\TsunBigBelly</Data>
+            <Data name="Tsun_BreastplateBigBelly" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBigBelly</Data>
+            <Data name="PantyBigBelly" target="Panty" local="true">Tsun.osd\PantyBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="TsunBigButt" target="Tsun" local="true">Tsun.osd\TsunBigButt</Data>
+            <Data name="Tsun_BreastplateBigButt" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBigButt</Data>
+            <Data name="PantyBigButt" target="Panty" local="true">Tsun.osd\PantyBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BigTorso" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BigTorso</Data>
+            <Data name="TsunBigTorso" target="Tsun" local="true">Tsun.osd\TsunBigTorso</Data>
+            <Data name="Tsun_BreastplateBigTorso" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBigTorso</Data>
+            <Data name="PantyBigTorso" target="Panty" local="true">Tsun.osd\PantyBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastCenter" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastCenter</Data>
+            <Data name="Tsun_BreastplateBreastCenter" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastCleavage" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastCleavage</Data>
+            <Data name="TsunBreastCleavage" target="Tsun" local="true">Tsun.osd\TsunBreastCleavage</Data>
+            <Data name="Tsun_BreastplateBreastCleavage" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastFlatness2" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastFlatness2</Data>
+            <Data name="Tsun_BreastplateBreastFlatness2" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastFlatness" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastFlatness</Data>
+            <Data name="Tsun_BreastplateBreastFlatness" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastGravity2" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastGravity2</Data>
+            <Data name="Tsun_BreastplateBreastGravity2" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastHeight" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastHeight</Data>
+            <Data name="TsunBreastHeight" target="Tsun" local="true">Tsun.osd\TsunBreastHeight</Data>
+            <Data name="Tsun_BreastplateBreastHeight" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateBreastPerkiness" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004Breasts" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Breasts</Data>
+            <Data name="TsunBreasts" target="Tsun" local="true">Tsun.osd\TsunBreasts</Data>
+            <Data name="Tsun_BreastplateBreasts" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastsFantasy" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastsFantasy</Data>
+            <Data name="Tsun_BreastplateBreastsFantasy" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastsGone" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastsGone</Data>
+            <Data name="Tsun_BreastplateBreastsGone" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastsNewSH" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastsNewSH</Data>
+            <Data name="TsunBreastsNewSH" target="Tsun" local="true">Tsun.osd\TsunBreastsNewSH</Data>
+            <Data name="Tsun_BreastplateBreastsNewSH" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastsSmall" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastsSmall</Data>
+            <Data name="TsunBreastsSmall" target="Tsun" local="true">Tsun.osd\TsunBreastsSmall</Data>
+            <Data name="Tsun_BreastplateBreastsSmall" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastsSmall</Data>
+            <Data name="PantyBreastsSmall" target="Panty" local="true">Tsun.osd\PantyBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastsSmall2" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastsSmall2</Data>
+            <Data name="TsunBreastsSmall2" target="Tsun" local="true">Tsun.osd\TsunBreastsSmall2</Data>
+            <Data name="Tsun_BreastplateBreastsSmall2" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastsSmall2</Data>
+            <Data name="PantyBreastsSmall2" target="Panty" local="true">Tsun.osd\PantyBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastsTogether" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastsTogether</Data>
+            <Data name="Tsun_BreastplateBreastsTogether" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateBreastTopSlope" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004BreastWidth" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004BreastWidth</Data>
+            <Data name="Tsun_BreastplateBreastWidth" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="TsunButt" target="Tsun" local="true">Tsun.osd\TsunButt</Data>
+            <Data name="Tsun_BreastplateButt" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateButt</Data>
+            <Data name="PantyButt" target="Panty" local="true">Tsun.osd\PantyButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="TsunButtClassic" target="Tsun" local="true">Tsun.osd\TsunButtClassic</Data>
+            <Data name="Tsun_BreastplateButtClassic" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateButtClassic</Data>
+            <Data name="PantyButtClassic" target="Panty" local="true">Tsun.osd\PantyButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="TsunButtCrack" target="Tsun" local="true">Tsun.osd\TsunButtCrack</Data>
+            <Data name="PantyButtCrack" target="Panty" local="true">Tsun.osd\PantyButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="TsunButtShape2" target="Tsun" local="true">Tsun.osd\TsunButtShape2</Data>
+            <Data name="Tsun_BreastplateButtShape2" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateButtShape2</Data>
+            <Data name="PantyButtShape2" target="Panty" local="true">Tsun.osd\PantyButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="TsunButtSmall" target="Tsun" local="true">Tsun.osd\TsunButtSmall</Data>
+            <Data name="Tsun_BreastplateButtSmall" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateButtSmall</Data>
+            <Data name="PantyButtSmall" target="Panty" local="true">Tsun.osd\PantyButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="TsunCalfSize" target="Tsun" local="true">Tsun.osd\TsunCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="TsunCalfSmooth" target="Tsun" local="true">Tsun.osd\TsunCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004ChestDepth" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ChestDepth</Data>
+            <Data name="TsunChestDepth" target="Tsun" local="true">Tsun.osd\TsunChestDepth</Data>
+            <Data name="Tsun_BreastplateChestDepth" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateChestDepth</Data>
+            <Data name="PantyChestDepth" target="Panty" local="true">Tsun.osd\PantyChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004ChestWidth" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ChestWidth</Data>
+            <Data name="TsunChestWidth" target="Tsun" local="true">Tsun.osd\TsunChestWidth</Data>
+            <Data name="Tsun_BreastplateChestWidth" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateChestWidth</Data>
+            <Data name="PantyChestWidth" target="Panty" local="true">Tsun.osd\PantyChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004ChubbyArms" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ChubbyArms</Data>
+            <Data name="Tsun_BreastplateChubbyArms" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="TsunChubbyButt" target="Tsun" local="true">Tsun.osd\TsunChubbyButt</Data>
+            <Data name="Tsun_BreastplateChubbyButt" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateChubbyButt</Data>
+            <Data name="PantyChubbyButt" target="Panty" local="true">Tsun.osd\PantyChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="TsunChubbyLegs" target="Tsun" local="true">Tsun.osd\TsunChubbyLegs</Data>
+            <Data name="PantyChubbyLegs" target="Panty" local="true">Tsun.osd\PantyChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004ChubbyWaist" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ChubbyWaist</Data>
+            <Data name="TsunChubbyWaist" target="Tsun" local="true">Tsun.osd\TsunChubbyWaist</Data>
+            <Data name="Tsun_BreastplateChubbyWaist" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateChubbyWaist</Data>
+            <Data name="PantyChubbyWaist" target="Panty" local="true">Tsun.osd\PantyChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="TsunCrotchBack" target="Tsun" local="true">Tsun.osd\TsunCrotchBack</Data>
+            <Data name="PantyCrotchBack" target="Panty" local="true">Tsun.osd\PantyCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004DoubleMelon" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004DoubleMelon</Data>
+            <Data name="TsunDoubleMelon" target="Tsun" local="true">Tsun.osd\TsunDoubleMelon</Data>
+            <Data name="Tsun_BreastplateDoubleMelon" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004ForearmSize" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="TsunGroin" target="Tsun" local="true">Tsun.osd\TsunGroin</Data>
+            <Data name="PantyGroin" target="Panty" local="true">Tsun.osd\PantyGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="TsunHipBone" target="Tsun" local="true">Tsun.osd\TsunHipBone</Data>
+            <Data name="PantyHipBone" target="Panty" local="true">Tsun.osd\PantyHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004HipForward" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004HipForward</Data>
+            <Data name="TsunHipForward" target="Tsun" local="true">Tsun.osd\TsunHipForward</Data>
+            <Data name="Tsun_BreastplateHipForward" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateHipForward</Data>
+            <Data name="PantyHipForward" target="Panty" local="true">Tsun.osd\PantyHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="TsunHips" target="Tsun" local="true">Tsun.osd\TsunHips</Data>
+            <Data name="Tsun_BreastplateHips" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateHips</Data>
+            <Data name="PantyHips" target="Panty" local="true">Tsun.osd\PantyHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="TsunHipUpperWidth" target="Tsun" local="true">Tsun.osd\TsunHipUpperWidth</Data>
+            <Data name="Tsun_BreastplateHipUpperWidth" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateHipUpperWidth</Data>
+            <Data name="PantyHipUpperWidth" target="Panty" local="true">Tsun.osd\PantyHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="TsunKneeHeight" target="Tsun" local="true">Tsun.osd\TsunKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="TsunKneeShape" target="Tsun" local="true">Tsun.osd\TsunKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="TsunLegShapeClassic" target="Tsun" local="true">Tsun.osd\TsunLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="TsunLegsThin" target="Tsun" local="true">Tsun.osd\TsunLegsThin</Data>
+            <Data name="PantyLegsThin" target="Panty" local="true">Tsun.osd\PantyLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="TsunMuscleAbs" target="Tsun" local="true">Tsun.osd\TsunMuscleAbs</Data>
+            <Data name="Tsun_BreastplateMuscleAbs" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateMuscleAbs</Data>
+            <Data name="PantyMuscleAbs" target="Panty" local="true">Tsun.osd\PantyMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004MuscleArms" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004MuscleArms</Data>
+            <Data name="Tsun_BreastplateMuscleArms" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="TsunMuscleButt" target="Tsun" local="true">Tsun.osd\TsunMuscleButt</Data>
+            <Data name="PantyMuscleButt" target="Panty" local="true">Tsun.osd\PantyMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="TsunMuscleLegs" target="Tsun" local="true">Tsun.osd\TsunMuscleLegs</Data>
+            <Data name="PantyMuscleLegs" target="Panty" local="true">Tsun.osd\PantyMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateMusclePecs" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Mesh_001_Tsun_Cuirass_004NeckSeam" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004NeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNipBGone" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNippleDistance" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNippleDown" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNippleLength" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNippleManga" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNipplePerkiness" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNipplePerkManga" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNippleSize" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNippleTip" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNippleTipManga" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateNippleUp" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004PregnancyBelly" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004PregnancyBelly</Data>
+            <Data name="TsunPregnancyBelly" target="Tsun" local="true">Tsun.osd\TsunPregnancyBelly</Data>
+            <Data name="Tsun_BreastplatePregnancyBelly" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplatePregnancyBelly</Data>
+            <Data name="PantyPregnancyBelly" target="Panty" local="true">Tsun.osd\PantyPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004PushUp" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004PushUp</Data>
+            <Data name="Tsun_BreastplatePushUp" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplatePushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="Tsun_BreastplateRibsProminance" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="TsunRoundAss" target="Tsun" local="true">Tsun.osd\TsunRoundAss</Data>
+            <Data name="PantyRoundAss" target="Panty" local="true">Tsun.osd\PantyRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004ShoulderSmooth" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ShoulderSmooth</Data>
+            <Data name="Tsun_BreastplateShoulderSmooth" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004ShoulderTweak" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004ShoulderWidth" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ShoulderWidth</Data>
+            <Data name="Tsun_BreastplateShoulderWidth" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="TsunSlimThighs" target="Tsun" local="true">Tsun.osd\TsunSlimThighs</Data>
+            <Data name="PantySlimThighs" target="Panty" local="true">Tsun.osd\PantySlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="TsunThighs" target="Tsun" local="true">Tsun.osd\TsunThighs</Data>
+            <Data name="PantyThighs" target="Panty" local="true">Tsun.osd\PantyThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="TsunTummyTuck" target="Tsun" local="true">Tsun.osd\TsunTummyTuck</Data>
+            <Data name="Tsun_BreastplateTummyTuck" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateTummyTuck</Data>
+            <Data name="PantyTummyTuck" target="Panty" local="true">Tsun.osd\PantyTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004Waist" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Waist</Data>
+            <Data name="TsunWaist" target="Tsun" local="true">Tsun.osd\TsunWaist</Data>
+            <Data name="Tsun_BreastplateWaist" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateWaist</Data>
+            <Data name="PantyWaist" target="Panty" local="true">Tsun.osd\PantyWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004WaistHeight" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004WaistHeight</Data>
+            <Data name="TsunWaistHeight" target="Tsun" local="true">Tsun.osd\TsunWaistHeight</Data>
+            <Data name="Tsun_BreastplateWaistHeight" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateWaistHeight</Data>
+            <Data name="PantyWaistHeight" target="Panty" local="true">Tsun.osd\PantyWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004WideWaistLine" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004WideWaistLine</Data>
+            <Data name="TsunWideWaistLine" target="Tsun" local="true">Tsun.osd\TsunWideWaistLine</Data>
+            <Data name="Tsun_BreastplateWideWaistLine" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateWideWaistLine</Data>
+            <Data name="PantyWideWaistLine" target="Panty" local="true">Tsun.osd\PantyWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004WristSize" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004WristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="Tsun7B Lower" target="Tsun" local="true">Tsun.osd\Tsun7B Lower</Data>
+            <Data name="Tsun_Breastplate7B Lower" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_Breastplate7B Lower</Data>
+            <Data name="Panty7B Lower" target="Panty" local="true">Tsun.osd\Panty7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_0047B Upper" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_0047B Upper</Data>
+            <Data name="Tsun7B Upper" target="Tsun" local="true">Tsun.osd\Tsun7B Upper</Data>
+            <Data name="Tsun_Breastplate7B Upper" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_Breastplate7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004VanillaSSEHi" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004VanillaSSEHi</Data>
+            <Data name="TsunVanillaSSEHi" target="Tsun" local="true">Tsun.osd\TsunVanillaSSEHi</Data>
+            <Data name="Tsun_BreastplateVanillaSSEHi" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateVanillaSSEHi</Data>
+            <Data name="PantyVanillaSSEHi" target="Panty" local="true">Tsun.osd\PantyVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004VanillaSSELo" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004VanillaSSELo</Data>
+            <Data name="TsunVanillaSSELo" target="Tsun" local="true">Tsun.osd\TsunVanillaSSELo</Data>
+            <Data name="Tsun_BreastplateVanillaSSELo" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateVanillaSSELo</Data>
+            <Data name="PantyVanillaSSELo" target="Panty" local="true">Tsun.osd\PantyVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="Mesh_001_Tsun_Cuirass_004OldBaseShape" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004OldBaseShape</Data>
+            <Data name="TsunOldBaseShape" target="Tsun" local="true">Tsun.osd\TsunOldBaseShape</Data>
+            <Data name="Tsun_BreastplateOldBaseShape" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateOldBaseShape</Data>
+            <Data name="PantyOldBaseShape" target="Panty" local="true">Tsun.osd\PantyOldBaseShape</Data>
+        </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="BaseShapeHRBody Zap" target="BaseShapeHR" local="true">Tsun.osd\BaseShapeHRBody Zap</Data>
+        </Slider>
+        <Slider name="Remove Breastplate" invert="false" small="0" big="0" zap="true">
+            <Data name="Tsun_BreastplateRemove Breastplate" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateRemove Breastplate</Data>
+        </Slider>
+        <Slider name="Remove Wristbands" invert="false" small="0" big="0" zap="true">
+            <Data name="Mesh_001_Tsun_Cuirass_004Remove Wristbands" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Remove Wristbands</Data>
+        </Slider>
+        <Slider name="Remove Armbands" invert="false" small="0" big="0" zap="true">
+            <Data name="Mesh_001_Tsun_Cuirass_004Remove Armbands" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Remove Armbands</Data>
+        </Slider>
+        <Slider name="Remove Choker" invert="false" small="0" big="0" zap="true">
+            <Data name="Mesh_001_Tsun_Cuirass_004Remove Choker" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Remove Choker</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Hands - Giant">
+        <DataFolder>CBBE MCE\Hands</DataFolder>
+        <SourceFile>Giant.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
+        <OutputFile GenWeights="true">GiantGauntlets</OutputFile>
+        <Shape target="HandFemale3rd" DataFolder="GiantgauntletF">HandFemale3rd</Shape>
+        <Shape target="_GauntletsLight_1">_GauntletsLight_1</Shape>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1Arms" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1Arms</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1BigTorso" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1BigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1ChubbyArms" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1ForearmSize" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1ForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="HandFemale3rdMuscleArms" target="HandFemale3rd" local="true">Giant.osd\HandFemale3rdMuscleArms</Data>
+            <Data name="_GauntletsLight_1MuscleArms" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1MuscleArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="HandFemale3rdShoulderWidth" target="HandFemale3rd" local="true">Giant.osd\HandFemale3rdShoulderWidth</Data>
+            <Data name="_GauntletsLight_1ShoulderWidth" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandFemale3rdWristSize" target="HandFemale3rd" local="true">Giant.osd\HandFemale3rdWristSize</Data>
+            <Data name="_GauntletsLight_1WristSize" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1WristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_17B Upper" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_17B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1VanillaSSEHi" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1VanillaSSELo" target="_GauntletsLight_1" local="true">Giant.osd\_GauntletsLight_1VanillaSSELo</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Hands - Giant (Arg)">
+        <DataFolder>CBBE MCE\Hands</DataFolder>
+        <SourceFile>Giant (Arg).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
+        <OutputFile GenWeights="true">GiantGauntlets</OutputFile>
+        <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
+        <Shape target="_GauntletsLight_1">_GauntletsLight_1</Shape>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1Arms" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1Arms</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1BigTorso" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1BigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1ChubbyArms" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1ForearmSize" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1ForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1MuscleArms" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1MuscleArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1ShoulderWidth" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandsWristSize" target="Hands">CBBE Hands Beast.osd\HandsWristSize</Data>
+            <Data name="_GauntletsLight_1WristSize" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1WristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_17B Upper" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_17B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1VanillaSSEHi" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="_GauntletsLight_1VanillaSSELo" target="_GauntletsLight_1" local="true">Giant (Arg).osd\_GauntletsLight_1VanillaSSELo</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Hands - Tsun">
+        <DataFolder>CBBE MCE\Hands</DataFolder>
+        <SourceFile>Tsun.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntlets</OutputFile>
+        <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
+        <Shape target="TsunGauntlets">TsunGauntlets</Shape>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsArms" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsArms</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsBigTorso" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsChubbyArms" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsForearmSize" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsMuscleArms" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsMuscleArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsShoulderWidth" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandsWristSize" target="Hands">CBBE Hands.osd\HandsWristSize</Data>
+            <Data name="TsunGauntletsWristSize" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="TsunGauntlets7B Upper" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntlets7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsVanillaSSEHi" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsVanillaSSELo" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsVanillaSSELo</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Hands - Tsun (Arg)">
+        <DataFolder>CBBE MCE\Hands</DataFolder>
+        <SourceFile>Tsun (Arg).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntletsBeast</OutputFile>
+        <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
+        <Shape target="TsunGauntlets">TsunGauntlets</Shape>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsArms" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsArms</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsBigTorso" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsBigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsChubbyArms" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsForearmSize" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsMuscleArms" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsMuscleArms</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsShoulderWidth" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsShoulderWidth</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandsWristSize" target="Hands">CBBE Hands.osd\HandsWristSize</Data>
+            <Data name="TsunGauntletsWristSize" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="TsunGauntlets7B Upper" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntlets7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsVanillaSSEHi" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="TsunGauntletsVanillaSSELo" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsVanillaSSELo</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Hoods - Executioner">
+        <DataFolder>CBBE MCE\Hoods</DataFolder>
+        <SourceFile>Executioner.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputFile GenWeights="true">Hood</OutputFile>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="cap02AppleCheeks" target="cap02" local="true">Executioner.osd\cap02AppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="cap02Arms" target="cap02" local="true">Executioner.osd\cap02Arms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="cap02Back" target="cap02" local="true">Executioner.osd\cap02Back</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="cap02BackArch" target="cap02" local="true">Executioner.osd\cap02BackArch</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="cap02BigTorso" target="cap02" local="true">Executioner.osd\cap02BigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="cap02BreastCenter" target="cap02" local="true">Executioner.osd\cap02BreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="cap02BreastCleavage" target="cap02" local="true">Executioner.osd\cap02BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="cap02BreastFlatness2" target="cap02" local="true">Executioner.osd\cap02BreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="cap02BreastFlatness" target="cap02" local="true">Executioner.osd\cap02BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="cap02BreastGravity2" target="cap02" local="true">Executioner.osd\cap02BreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="cap02BreastHeight" target="cap02" local="true">Executioner.osd\cap02BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="cap02BreastPerkiness" target="cap02" local="true">Executioner.osd\cap02BreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="cap02Breasts" target="cap02" local="true">Executioner.osd\cap02Breasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="cap02BreastsFantasy" target="cap02" local="true">Executioner.osd\cap02BreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="cap02BreastsGone" target="cap02" local="true">Executioner.osd\cap02BreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSH" target="cap02" local="true">Executioner.osd\cap02BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSHSymmetry" target="cap02" local="true">Executioner.osd\cap02BreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="cap02BreastsSmall" target="cap02" local="true">Executioner.osd\cap02BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="cap02BreastsSmall2" target="cap02" local="true">Executioner.osd\cap02BreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="cap02BreastsTogether" target="cap02" local="true">Executioner.osd\cap02BreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="cap02BreastTopSlope" target="cap02" local="true">Executioner.osd\cap02BreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="cap02BreastWidth" target="cap02" local="true">Executioner.osd\cap02BreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="cap02Butt" target="cap02" local="true">Executioner.osd\cap02Butt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="cap02ButtClassic" target="cap02" local="true">Executioner.osd\cap02ButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="cap02ButtShape2" target="cap02" local="true">Executioner.osd\cap02ButtShape2</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="cap02ChestDepth" target="cap02" local="true">Executioner.osd\cap02ChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="cap02ChestWidth" target="cap02" local="true">Executioner.osd\cap02ChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyArms" target="cap02" local="true">Executioner.osd\cap02ChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyButt" target="cap02" local="true">Executioner.osd\cap02ChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyWaist" target="cap02" local="true">Executioner.osd\cap02ChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="cap02DoubleMelon" target="cap02" local="true">Executioner.osd\cap02DoubleMelon</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="cap02HipForward" target="cap02" local="true">Executioner.osd\cap02HipForward</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="cap02MuscleArms" target="cap02" local="true">Executioner.osd\cap02MuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="cap02MusclePecs" target="cap02" local="true">Executioner.osd\cap02MusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="cap02NeckSeam" target="cap02" local="true">Executioner.osd\cap02NeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="cap02NippleDistance" target="cap02" local="true">Executioner.osd\cap02NippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="cap02NippleDown" target="cap02" local="true">Executioner.osd\cap02NippleDown</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="cap02NipplePerkiness" target="cap02" local="true">Executioner.osd\cap02NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="cap02NippleSize" target="cap02" local="true">Executioner.osd\cap02NippleSize</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="cap02NippleUp" target="cap02" local="true">Executioner.osd\cap02NippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="cap02PregnancyBelly" target="cap02" local="true">Executioner.osd\cap02PregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="cap02PushUp" target="cap02" local="true">Executioner.osd\cap02PushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderSmooth" target="cap02" local="true">Executioner.osd\cap02ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderTweak" target="cap02" local="true">Executioner.osd\cap02ShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderWidth" target="cap02" local="true">Executioner.osd\cap02ShoulderWidth</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="cap02Waist" target="cap02" local="true">Executioner.osd\cap02Waist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="cap02WaistHeight" target="cap02" local="true">Executioner.osd\cap02WaistHeight</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="cap027B Lower" target="cap02" local="true">Executioner.osd\cap027B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="cap027B Upper" target="cap02" local="true">Executioner.osd\cap027B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="cap02VanillaSSEHi" target="cap02" local="true">Executioner.osd\cap02VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="cap02VanillaSSELo" target="cap02" local="true">Executioner.osd\cap02VanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="cap02OldBaseShape" target="cap02" local="true">Executioner.osd\cap02OldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Hoods - Executioner (Arg)">
+        <DataFolder>CBBE MCE\Hoods</DataFolder>
+        <SourceFile>Executioner (Arg).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputFile GenWeights="true">HoodArgonian</OutputFile>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="cap02AppleCheeks" target="cap02" local="true">Executioner (Arg).osd\cap02AppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="cap02Arms" target="cap02" local="true">Executioner (Arg).osd\cap02Arms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="cap02Back" target="cap02" local="true">Executioner (Arg).osd\cap02Back</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="cap02BackArch" target="cap02" local="true">Executioner (Arg).osd\cap02BackArch</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="cap02BigTorso" target="cap02" local="true">Executioner (Arg).osd\cap02BigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="cap02BreastCenter" target="cap02" local="true">Executioner (Arg).osd\cap02BreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="cap02BreastCleavage" target="cap02" local="true">Executioner (Arg).osd\cap02BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="cap02BreastFlatness2" target="cap02" local="true">Executioner (Arg).osd\cap02BreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="cap02BreastFlatness" target="cap02" local="true">Executioner (Arg).osd\cap02BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="cap02BreastGravity2" target="cap02" local="true">Executioner (Arg).osd\cap02BreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="cap02BreastHeight" target="cap02" local="true">Executioner (Arg).osd\cap02BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="cap02BreastPerkiness" target="cap02" local="true">Executioner (Arg).osd\cap02BreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="cap02Breasts" target="cap02" local="true">Executioner (Arg).osd\cap02Breasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="cap02BreastsFantasy" target="cap02" local="true">Executioner (Arg).osd\cap02BreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="cap02BreastsGone" target="cap02" local="true">Executioner (Arg).osd\cap02BreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSH" target="cap02" local="true">Executioner (Arg).osd\cap02BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSHSymmetry" target="cap02" local="true">Executioner (Arg).osd\cap02BreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="cap02BreastsSmall" target="cap02" local="true">Executioner (Arg).osd\cap02BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="cap02BreastsSmall2" target="cap02" local="true">Executioner (Arg).osd\cap02BreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="cap02BreastsTogether" target="cap02" local="true">Executioner (Arg).osd\cap02BreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="cap02BreastTopSlope" target="cap02" local="true">Executioner (Arg).osd\cap02BreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="cap02BreastWidth" target="cap02" local="true">Executioner (Arg).osd\cap02BreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="cap02Butt" target="cap02" local="true">Executioner (Arg).osd\cap02Butt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="cap02ButtClassic" target="cap02" local="true">Executioner (Arg).osd\cap02ButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="cap02ButtShape2" target="cap02" local="true">Executioner (Arg).osd\cap02ButtShape2</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="cap02ChestDepth" target="cap02" local="true">Executioner (Arg).osd\cap02ChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="cap02ChestWidth" target="cap02" local="true">Executioner (Arg).osd\cap02ChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyArms" target="cap02" local="true">Executioner (Arg).osd\cap02ChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyButt" target="cap02" local="true">Executioner (Arg).osd\cap02ChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyWaist" target="cap02" local="true">Executioner (Arg).osd\cap02ChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="cap02DoubleMelon" target="cap02" local="true">Executioner (Arg).osd\cap02DoubleMelon</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="cap02HipForward" target="cap02" local="true">Executioner (Arg).osd\cap02HipForward</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="cap02MuscleArms" target="cap02" local="true">Executioner (Arg).osd\cap02MuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="cap02MusclePecs" target="cap02" local="true">Executioner (Arg).osd\cap02MusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="cap02NeckSeam" target="cap02" local="true">Executioner (Arg).osd\cap02NeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="cap02NippleDistance" target="cap02" local="true">Executioner (Arg).osd\cap02NippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="cap02NippleDown" target="cap02" local="true">Executioner (Arg).osd\cap02NippleDown</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="cap02NipplePerkiness" target="cap02" local="true">Executioner (Arg).osd\cap02NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="cap02NippleSize" target="cap02" local="true">Executioner (Arg).osd\cap02NippleSize</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="cap02NippleUp" target="cap02" local="true">Executioner (Arg).osd\cap02NippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="cap02PregnancyBelly" target="cap02" local="true">Executioner (Arg).osd\cap02PregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="cap02PushUp" target="cap02" local="true">Executioner (Arg).osd\cap02PushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderSmooth" target="cap02" local="true">Executioner (Arg).osd\cap02ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderTweak" target="cap02" local="true">Executioner (Arg).osd\cap02ShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderWidth" target="cap02" local="true">Executioner (Arg).osd\cap02ShoulderWidth</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="cap02Waist" target="cap02" local="true">Executioner (Arg).osd\cap02Waist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="cap02WaistHeight" target="cap02" local="true">Executioner (Arg).osd\cap02WaistHeight</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="cap027B Lower" target="cap02" local="true">Executioner (Arg).osd\cap027B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="cap027B Upper" target="cap02" local="true">Executioner (Arg).osd\cap027B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="cap02VanillaSSEHi" target="cap02" local="true">Executioner (Arg).osd\cap02VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="cap02VanillaSSELo" target="cap02" local="true">Executioner (Arg).osd\cap02VanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="cap02OldBaseShape" target="cap02" local="true">Executioner (Arg).osd\cap02OldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Hoods - Executioner (Kha)">
+        <DataFolder>CBBE MCE\Hoods</DataFolder>
+        <SourceFile>Executioner (Kha).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputFile GenWeights="true">HoodKhajiit</OutputFile>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="cap02AppleCheeks" target="cap02" local="true">Executioner (Kha).osd\cap02AppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="cap02Arms" target="cap02" local="true">Executioner (Kha).osd\cap02Arms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="cap02Back" target="cap02" local="true">Executioner (Kha).osd\cap02Back</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="cap02BackArch" target="cap02" local="true">Executioner (Kha).osd\cap02BackArch</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="cap02BigTorso" target="cap02" local="true">Executioner (Kha).osd\cap02BigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="cap02BreastCenter" target="cap02" local="true">Executioner (Kha).osd\cap02BreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="cap02BreastCleavage" target="cap02" local="true">Executioner (Kha).osd\cap02BreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="cap02BreastFlatness2" target="cap02" local="true">Executioner (Kha).osd\cap02BreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="cap02BreastFlatness" target="cap02" local="true">Executioner (Kha).osd\cap02BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="cap02BreastGravity2" target="cap02" local="true">Executioner (Kha).osd\cap02BreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="cap02BreastHeight" target="cap02" local="true">Executioner (Kha).osd\cap02BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="cap02BreastPerkiness" target="cap02" local="true">Executioner (Kha).osd\cap02BreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="cap02Breasts" target="cap02" local="true">Executioner (Kha).osd\cap02Breasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="cap02BreastsFantasy" target="cap02" local="true">Executioner (Kha).osd\cap02BreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="cap02BreastsGone" target="cap02" local="true">Executioner (Kha).osd\cap02BreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSH" target="cap02" local="true">Executioner (Kha).osd\cap02BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="cap02BreastsNewSHSymmetry" target="cap02" local="true">Executioner (Kha).osd\cap02BreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="cap02BreastsSmall" target="cap02" local="true">Executioner (Kha).osd\cap02BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="cap02BreastsSmall2" target="cap02" local="true">Executioner (Kha).osd\cap02BreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="cap02BreastsTogether" target="cap02" local="true">Executioner (Kha).osd\cap02BreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="cap02BreastTopSlope" target="cap02" local="true">Executioner (Kha).osd\cap02BreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="cap02BreastWidth" target="cap02" local="true">Executioner (Kha).osd\cap02BreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="cap02Butt" target="cap02" local="true">Executioner (Kha).osd\cap02Butt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="cap02ButtClassic" target="cap02" local="true">Executioner (Kha).osd\cap02ButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="cap02ButtShape2" target="cap02" local="true">Executioner (Kha).osd\cap02ButtShape2</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="cap02ChestDepth" target="cap02" local="true">Executioner (Kha).osd\cap02ChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="cap02ChestWidth" target="cap02" local="true">Executioner (Kha).osd\cap02ChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyArms" target="cap02" local="true">Executioner (Kha).osd\cap02ChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyButt" target="cap02" local="true">Executioner (Kha).osd\cap02ChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="cap02ChubbyWaist" target="cap02" local="true">Executioner (Kha).osd\cap02ChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="cap02DoubleMelon" target="cap02" local="true">Executioner (Kha).osd\cap02DoubleMelon</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="cap02HipForward" target="cap02" local="true">Executioner (Kha).osd\cap02HipForward</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="cap02MuscleArms" target="cap02" local="true">Executioner (Kha).osd\cap02MuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="cap02MusclePecs" target="cap02" local="true">Executioner (Kha).osd\cap02MusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="cap02NeckSeam" target="cap02" local="true">Executioner (Kha).osd\cap02NeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="cap02NippleDistance" target="cap02" local="true">Executioner (Kha).osd\cap02NippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="cap02NippleDown" target="cap02" local="true">Executioner (Kha).osd\cap02NippleDown</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="cap02NipplePerkiness" target="cap02" local="true">Executioner (Kha).osd\cap02NipplePerkiness</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="cap02NippleSize" target="cap02" local="true">Executioner (Kha).osd\cap02NippleSize</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="cap02NippleUp" target="cap02" local="true">Executioner (Kha).osd\cap02NippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="cap02PregnancyBelly" target="cap02" local="true">Executioner (Kha).osd\cap02PregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="cap02PushUp" target="cap02" local="true">Executioner (Kha).osd\cap02PushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderSmooth" target="cap02" local="true">Executioner (Kha).osd\cap02ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderTweak" target="cap02" local="true">Executioner (Kha).osd\cap02ShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="cap02ShoulderWidth" target="cap02" local="true">Executioner (Kha).osd\cap02ShoulderWidth</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="cap02Waist" target="cap02" local="true">Executioner (Kha).osd\cap02Waist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="cap02WaistHeight" target="cap02" local="true">Executioner (Kha).osd\cap02WaistHeight</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="cap027B Lower" target="cap02" local="true">Executioner (Kha).osd\cap027B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="cap027B Upper" target="cap02" local="true">Executioner (Kha).osd\cap027B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="cap02VanillaSSEHi" target="cap02" local="true">Executioner (Kha).osd\cap02VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="cap02VanillaSSELo" target="cap02" local="true">Executioner (Kha).osd\cap02VanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="cap02OldBaseShape" target="cap02" local="true">Executioner (Kha).osd\cap02OldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

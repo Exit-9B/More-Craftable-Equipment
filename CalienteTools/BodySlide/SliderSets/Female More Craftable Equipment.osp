@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Female MCE - Body - Dark Brotherhood Short-Sleeved">
+        <DataFolder>Female MCE\Body</DataFolder>
+        <SourceFile>Dark Brotherhood Short-Sleeved.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\DBArmor</OutputPath>
+        <OutputFile GenWeights="true">DBArmorSleeveLess_F</OutputFile>
+        <Shape target="DBtorso">DBtorso</Shape>
+        <Shape target="FemaleUnderwearBody:0" DataFolder="MCE Female Dark Brotherhood Sleeveless">FemaleUnderwearBody:0</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="FemaleUnderwearBody:0Weight" target="FemaleUnderwearBody:0" local="true">Dark Brotherhood Short-Sleeved.osd\FemaleUnderwearBody:0Weight</Data>
+            <Data name="DBtorsoWeight" target="DBtorso" local="true">Dark Brotherhood Short-Sleeved.osd\DBtorsoWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Body - Executioner">
+        <DataFolder>Female MCE\Body</DataFolder>
+        <SourceFile>Executioner.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputFile GenWeights="true">Body</OutputFile>
+        <Shape target="FemaleUnderwearBody:0" DataFolder="MCE Female Executioner">FemaleUnderwearBody:0</Shape>
+        <Shape target="torsor">torsor</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="FemaleUnderwearBody:0Weight" target="FemaleUnderwearBody:0" local="true">Executioner.osd\FemaleUnderwearBody:0Weight</Data>
+            <Data name="torsorWeight" target="torsor" local="true">Executioner.osd\torsorWeight</Data>
+        </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="FemaleUnderwearBody:0Body Zap" target="FemaleUnderwearBody:0" local="true">Executioner.osd\FemaleUnderwearBody:0Body Zap</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Body - Giant">
+        <DataFolder>Female MCE\Body</DataFolder>
+        <SourceFile>Giant.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
+        <OutputFile GenWeights="true">GiantBody</OutputFile>
+        <Shape target="Bra">Bra</Shape>
+        <Shape target="FemaleUnderwear">FemaleUnderwear</Shape>
+        <Shape target="GiantFemaleBody" DataFolder="MCE Female Giant">GiantFemaleBody</Shape>
+        <Shape target="armband">armband</Shape>
+        <Shape target="cloth">cloth</Shape>
+        <Shape target="satchel">satchel</Shape>
+        <Shape target="skirt">skirt</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="GiantFemaleBodyWeight" target="GiantFemaleBody" local="true">Giant.osd\GiantFemaleBodyWeight</Data>
+            <Data name="FemaleUnderwearWeight" target="FemaleUnderwear" local="true">Giant.osd\FemaleUnderwearWeight</Data>
+            <Data name="BraWeight" target="Bra" local="true">Giant.osd\BraWeight</Data>
+            <Data name="satchelWeight" target="satchel" local="true">Giant.osd\satchelWeight</Data>
+            <Data name="armbandWeight" target="armband" local="true">Giant.osd\armbandWeight</Data>
+            <Data name="clothWeight" target="cloth" local="true">Giant.osd\clothWeight</Data>
+            <Data name="skirtWeight" target="skirt" local="true">Giant.osd\skirtWeight</Data>
+        </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="GiantFemaleBodyBody Zap" target="GiantFemaleBody" local="true">Giant.osd\GiantFemaleBodyBody Zap</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Body - Tsun">
+        <DataFolder>Female MCE\Body</DataFolder>
+        <SourceFile>Tsun.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunCuirass</OutputFile>
+        <Shape target="FemaleUnderwear">FemaleUnderwear</Shape>
+        <Shape target="Mesh_001_Tsun_Cuirass_004">Mesh_001_Tsun_Cuirass_004</Shape>
+        <Shape target="Tsun">Tsun</Shape>
+        <Shape target="TsunFemaleBody" DataFolder="MCE Female Tsun">TsunFemaleBody</Shape>
+        <Shape target="Tsun_Breastplate">Tsun_Breastplate</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="TsunFemaleBodyWeight" target="TsunFemaleBody" local="true">Tsun.osd\TsunFemaleBodyWeight</Data>
+            <Data name="Mesh_001_Tsun_Cuirass_004Weight" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Weight</Data>
+            <Data name="TsunWeight" target="Tsun" local="true">Tsun.osd\TsunWeight</Data>
+            <Data name="Tsun_BreastplateWeight" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateWeight</Data>
+            <Data name="FemaleUnderwearWeight" target="FemaleUnderwear" local="true">Tsun.osd\FemaleUnderwearWeight</Data>
+        </Slider>
+        <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
+            <Data name="TsunFemaleBodyBody Zap" target="TsunFemaleBody" local="true">Tsun.osd\TsunFemaleBodyBody Zap</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Feet - Giant">
+        <DataFolder>Female MCE\Feet</DataFolder>
+        <SourceFile>Giant.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
+        <OutputFile GenWeights="true">GiantBoots</OutputFile>
+        <Shape target="boots">boots</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="bootsWeight" target="boots" local="true">Giant.osd\bootsWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Hands - Tsun">
+        <DataFolder>Female MCE\Hands</DataFolder>
+        <SourceFile>Tsun.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntlets</OutputFile>
+        <Shape target="HandFemale3rd" DataFolder="MCE Female Tsun">HandFemale3rd</Shape>
+        <Shape target="TsunGauntlets">TsunGauntlets</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="HandFemale3rdWeight" target="HandFemale3rd" local="true">Tsun.osd\HandFemale3rdWeight</Data>
+            <Data name="TsunGauntletsWeight" target="TsunGauntlets" local="true">Tsun.osd\TsunGauntletsWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Hands - Tsun (Arg)">
+        <DataFolder>Female MCE\Hands</DataFolder>
+        <SourceFile>Tsun (Arg).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunGauntletsBeast</OutputFile>
+        <Shape target="HandFemaleArgonian3rdperson" DataFolder="MCE Female Tsun">HandFemaleArgonian3rdperson</Shape>
+        <Shape target="TsunGauntlets">TsunGauntlets</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="HandFemaleArgonian3rdpersonWeight" target="HandFemaleArgonian3rdperson" local="true">Tsun (Arg).osd\HandFemaleArgonian3rdpersonWeight</Data>
+            <Data name="TsunGauntletsWeight" target="TsunGauntlets" local="true">Tsun (Arg).osd\TsunGauntletsWeight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Hoods - Executioner (Arg)">
+        <DataFolder>Female MCE\Hoods</DataFolder>
+        <SourceFile>Executioner (Arg).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputFile GenWeights="true">HoodArgonian</OutputFile>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="cap02Weight" target="cap02" local="true">Executioner (Arg).osd\cap02Weight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Hoods - Executioner (Kha)">
+        <DataFolder>Female MCE\Hoods</DataFolder>
+        <SourceFile>Executioner (Kha).nif</SourceFile>
+        <OutputPath>Meshes\MCE\Clothes\Executioner\F</OutputPath>
+        <OutputFile GenWeights="true">HoodKhajiit</OutputFile>
+        <Shape target="cap02">cap02</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="cap02Weight" target="cap02" local="true">Executioner (Kha).osd\cap02Weight</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
