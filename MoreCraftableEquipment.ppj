@@ -3,7 +3,7 @@
   Flags="TESV_Papyrus_Flags.flg"
   Output="@myproject\Scripts"
   Game="sse"
-  Optimize="true" Anonymize="true" Package="false" Zip="false">
+  Optimize="true" Anonymize="true" Package="true" Zip="true">
   <Variables>
     <Variable Name="modname" Value="More Craftable Equipment"/>
     <Variable Name="plugin" Value="MoreCraftableEquipment"/>
@@ -18,9 +18,11 @@
   </Scripts>
   <Packages Output="@myproject">
     <Package Name="@plugin" RootDir="@myproject">
+      <!-- Assets -->
       <Include NoRecurse="false">Meshes</Include>
-      <Include NoRecurse="true">Scripts</Include>
       <Include NoRecurse="false">Textures</Include>
+      <!-- Implementation -->
+      <Include NoRecurse="true">Scripts</Include>
     </Package>
   </Packages>
   <ZipFiles Output="@myproject">
@@ -29,13 +31,18 @@
       <Include>@plugin.bsa</Include>
       <Include NoRecurse="true">Source\Scripts</Include>
     </ZipFile>
+    <ZipFile Name="@modname - WACCF Patch" RootDir="@myproject" Compression="deflate">
+      <Include>MoreCraftableEquipment_WACCF.esp</Include>
+    </ZipFile>
+    <ZipFile Name="@modname - Vanilla Bodyslide" RootDir="@myproject" Compression="deflate">
+      <Include>CalienteTools\Bodyslide\SliderSets\Female More Craftable Equipment.osp</Include>
+      <Include>CalienteTools\Bodyslide\SliderSets\Male More Craftable Equipment.osp</Include>
+      <Include NoRecurse="false">CalienteTools\Bodyslide\ShapeData\Female MCE</Include>
+      <Include NoRecurse="false">CalienteTools\Bodyslide\ShapeData\Male MCE</Include>
+    </ZipFile>
     <ZipFile Name="@modname - CBBE Bodyslide" RootDir="@myproject" Compression="deflate">
-      <Include>CalienteTools\Bodyslide\SliderSets\MCE CBBE Executioner.osp</Include>
-      <Include>CalienteTools\Bodyslide\SliderSets\MCE CBBE Giant.osp</Include>
-      <Include>CalienteTools\Bodyslide\SliderSets\MCE CBBE Tsun.osp</Include>
-      <Include NoRecurse="true">CalienteTools\Bodyslide\ShapeData\MCE CBBE Executioner</Include>
-      <Include NoRecurse="true">CalienteTools\Bodyslide\ShapeData\MCE CBBE Giant</Include>
-      <Include NoRecurse="true">CalienteTools\Bodyslide\ShapeData\MCE CBBE Tsun</Include>
+      <Include>CalienteTools\Bodyslide\SliderSets\CBBE More Craftable Equipment.osp</Include>
+      <Include NoRecurse="false">CalienteTools\Bodyslide\ShapeData\CBBE MCE</Include>
     </ZipFile>
   </ZipFiles>
 </PapyrusProject>
