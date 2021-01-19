@@ -19,8 +19,8 @@
   <Packages Output="@myproject">
     <Package Name="@plugin" RootDir="@myproject">
       <!-- Assets -->
-      <Include NoRecurse="false">Meshes</Include>
-      <Include NoRecurse="false">Textures</Include>
+      <Include NoRecurse="false">Meshes\MCE</Include>
+      <Include NoRecurse="false">Textures\MCE</Include>
       <!-- Implementation -->
       <Include NoRecurse="true">Scripts</Include>
     </Package>
@@ -29,6 +29,9 @@
     <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
       <Include>@plugin.esp</Include>
       <Include>@plugin.bsa</Include>
+      <Include NoRecurse="false">Meshes\Armor</Include>
+      <Include NoRecurse="false">Meshes\Clothes</Include>
+      <Include NoRecurse="false">Textures\Armor</Include>
       <Include NoRecurse="true">Source\Scripts</Include>
     </ZipFile>
     <ZipFile Name="@modname - WACCF Patch" RootDir="@myproject" Compression="deflate">
