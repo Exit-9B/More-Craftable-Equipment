@@ -3,7 +3,7 @@
   Flags="TESV_Papyrus_Flags.flg"
   Output="@myproject\Scripts"
   Game="sse"
-  Optimize="true" Anonymize="true" Package="true" Zip="true">
+  Optimize="true" Anonymize="true" Package="false" Zip="true">
   <Variables>
     <Variable Name="modname" Value="More Craftable Equipment"/>
     <Variable Name="plugin" Value="MoreCraftableEquipment"/>
@@ -16,22 +16,11 @@
   <Scripts>
     <Script>MCEInitScript.psc</Script>
   </Scripts>
-  <Packages Output="@myproject">
-    <Package Name="@plugin" RootDir="@myproject">
-      <!-- Assets -->
-      <Include NoRecurse="false">Meshes\MCE</Include>
-      <Include NoRecurse="false">Textures\MCE</Include>
-      <!-- Implementation -->
-      <Include NoRecurse="true">Scripts</Include>
-    </Package>
-  </Packages>
   <ZipFiles Output="@myproject">
     <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
       <Include>@plugin.esp</Include>
-      <Include>@plugin.bsa</Include>
-      <Include NoRecurse="false">Meshes\Armor</Include>
-      <Include NoRecurse="false">Meshes\Clothes</Include>
-      <Include NoRecurse="false">Textures\Armor</Include>
+      <Include NoRecurse="false">Meshes</Include>
+      <Include NoRecurse="false">Textures</Include>
       <Include NoRecurse="true">Source\Scripts</Include>
     </ZipFile>
     <ZipFile Name="@modname - WACCF Patch" RootDir="@myproject" Compression="deflate">
