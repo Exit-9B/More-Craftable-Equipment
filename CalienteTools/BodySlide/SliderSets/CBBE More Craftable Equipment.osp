@@ -2239,4 +2239,102 @@
             <Data name="cap02OldBaseShape" target="cap02" local="true">Executioner (Kha).osd\cap02OldBaseShape</Data>
         </Slider>
     </SliderSet>
+    <SliderSet name="CBBE MCE - Feet - Giant">
+        <DataFolder>CBBE MCE\Feet</DataFolder>
+        <SourceFile>Giant.nif</SourceFile>
+        <OutputPath>meshes\MCE\Clothes\Giant\F</OutputPath>
+        <OutputFile GenWeights="true">GiantBoots</OutputFile>
+        <Shape target="boots">boots</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="bootsAnkleSize" target="boots" local="true">Giant.osd\bootsAnkleSize</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="bootsCalfSize" target="boots" local="true">Giant.osd\bootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="bootsCalfSmooth" target="boots" local="true">Giant.osd\bootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="bootsChubbyLegs" target="boots" local="true">Giant.osd\bootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="bootsKneeHeight" target="boots" local="true">Giant.osd\bootsKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="bootsKneeShape" target="boots" local="true">Giant.osd\bootsKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="bootsLegShapeClassic" target="boots" local="true">Giant.osd\bootsLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="bootsLegsThin" target="boots" local="true">Giant.osd\bootsLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="bootsMuscleLegs" target="boots" local="true">Giant.osd\bootsMuscleLegs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="bootsThighs" target="boots" local="true">Giant.osd\bootsThighs</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="boots7B Lower" target="boots" local="true">Giant.osd\boots7B Lower</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="bootsVanillaSSEHi" target="boots" local="true">Giant.osd\bootsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="bootsVanillaSSELo" target="boots" local="true">Giant.osd\bootsVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="bootsOldBaseShape" target="boots" local="true">Giant.osd\bootsOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE MCE - Feet - Tsun">
+        <DataFolder>CBBE MCE\Feet</DataFolder>
+        <SourceFile>Tsun.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunBoots</OutputFile>
+        <Shape target="Tsun_Boots">Tsun_Boots</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="Tsun_BootsAnkleSize" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsAnkleSize</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsCalfSize" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsCalfSmooth" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsChubbyLegs" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsKneeHeight" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsKneeShape" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsLegShapeClassic" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsLegsThin" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsMuscleLegs" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsMuscleLegs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsThighs" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsThighs</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="Tsun_Boots7B Lower" target="Tsun_Boots" local="true">Tsun.osd\Tsun_Boots7B Lower</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsVanillaSSEHi" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsVanillaSSELo" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsOldBaseShape" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
 </SliderSetInfo>

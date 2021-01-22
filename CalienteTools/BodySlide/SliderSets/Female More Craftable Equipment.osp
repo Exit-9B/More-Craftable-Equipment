@@ -72,6 +72,12 @@
         <Slider name="Body Zap" invert="false" small="0" big="0" zap="true">
             <Data name="TsunFemaleBodyBody Zap" target="TsunFemaleBody" local="true">Tsun.osd\TsunFemaleBodyBody Zap</Data>
         </Slider>
+        <Slider name="Remove Armband" invert="false" small="0" big="0" zap="true">
+            <Data name="Mesh_001_Tsun_Cuirass_004Remove Armband" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Remove Armband</Data>
+        </Slider>
+        <Slider name="Remove Wires" invert="false" small="0" big="0" zap="true">
+            <Data name="Mesh_001_Tsun_Cuirass_004Remove Wires" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Remove Wires</Data>
+        </Slider>
     </SliderSet>
     <SliderSet name="Female MCE - Feet - Giant">
         <DataFolder>Female MCE\Feet</DataFolder>
@@ -125,6 +131,16 @@
         <Shape target="cap02">cap02</Shape>
         <Slider name="Weight" invert="false" small="0" big="0">
             <Data name="cap02Weight" target="cap02" local="true">Executioner (Kha).osd\cap02Weight</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Female MCE - Feet - Tsun">
+        <DataFolder>Female MCE\Feet</DataFolder>
+        <SourceFile>Tsun.nif</SourceFile>
+        <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
+        <OutputFile GenWeights="true">TsunBoots</OutputFile>
+        <Shape target="Tsun_Boots">Tsun_Boots</Shape>
+        <Slider name="Weight" invert="false" small="0" big="0">
+            <Data name="Tsun_BootsWeight" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsWeight</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>
