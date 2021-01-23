@@ -15,9 +15,9 @@
 					<plugins order="Explicit"> 
 						<plugin name="Unofficial Skyrim Special Edition Patch"> 
 							<description>Compatibility patch for Unofficial Skyrim Special Edition Patch.</description> 
-							<conditionFlags> 
-								<flag name="USSEP">On</flag> 
-							</conditionFlags> 
+							<files> 
+								<file source="Patch\MoreCraftableEquipment_USSEP.esp" destination="MoreCraftableEquipment_USSEP.esp" priority="0" /> 
+							</files> 
 							<typeDescriptor> 
 								<dependencyType> 
 									<defaultType name="Optional"/> 
@@ -25,6 +25,14 @@
 										<pattern> 
 											<dependencies operator="And"> 
 												<fileDependency file="Unofficial Skyrim Special Edition Patch.esp" state="Active"/> 
+												<fileDependency file="Weapons Armor Clothing &amp; Clutter Fixes.esp" state="Missing"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="Unofficial Skyrim Special Edition Patch.esp" state="Active"/> 
+												<fileDependency file="Weapons Armor Clothing &amp; Clutter Fixes.esp" state="Inactive"/> 
 											</dependencies> 
 											<type name="Recommended"/> 
 										</pattern> 
@@ -34,9 +42,9 @@
 						</plugin> 
 						<plugin name="Weapons Armor Clothing and Clutter Fixes"> 
 							<description>Compatibility patch for Weapons Armor Clothing and Clutter Fixes.</description> 
-							<conditionFlags> 
-								<flag name="WACCF">On</flag> 
-							</conditionFlags> 
+							<files> 
+								<file source="Patch\MoreCraftableEquipment_WACCF.esp" destination="MoreCraftableEquipment_WACCF.esp" priority="0" /> 
+							</files> 
 							<typeDescriptor> 
 								<dependencyType> 
 									<defaultType name="Optional"/> 
@@ -56,24 +64,4 @@
 			</optionalFileGroups> 
 		</installStep> 
 	</installSteps> 
-	<conditionalFileInstalls> 
-		<patterns> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="USSEP" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="Patch\MoreCraftableEquipment_USSEP.esp" destination="MoreCraftableEquipment_USSEP.esp" priority="0" /> 
-				</files> 
-			</pattern> 
-			<pattern> 
-				<dependencies operator="And"> 
-					<flagDependency flag="WACCF" value="On"/> 
-				</dependencies> 
-				<files> 
-					<file source="Patch\MoreCraftableEquipment_WACCF.esp" destination="MoreCraftableEquipment_WACCF.esp" priority="0" /> 
-				</files> 
-			</pattern> 
-		</patterns> 
-	</conditionalFileInstalls> 
 </config>
