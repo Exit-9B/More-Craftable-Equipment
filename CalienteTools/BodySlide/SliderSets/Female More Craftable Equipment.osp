@@ -138,6 +138,7 @@
         <SourceFile>Tsun.nif</SourceFile>
         <OutputPath>Meshes\MCE\Armor\Tsun\F</OutputPath>
         <OutputFile GenWeights="true">TsunBoots</OutputFile>
+        <Shape target="SteelBoots">SteelBoots</Shape>
         <Shape target="Tsun_Boots">Tsun_Boots</Shape>
         <Slider name="Weight" invert="false" small="0" big="0">
             <Data name="Tsun_BootsWeight" target="Tsun_Boots" local="true">Tsun.osd\Tsun_BootsWeight</Data>
