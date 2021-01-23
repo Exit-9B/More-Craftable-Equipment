@@ -20,12 +20,12 @@
   <ZipFiles Output="@myproject">
     <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
       <Include>@plugin.esp</Include>
+      <Include NoRecurse="false">FOMOD</Include>
       <Include NoRecurse="false">Meshes</Include>
+      <Include NoRecurse="false">Patch</Include>
+      <Include NoRecurse="true">Scripts</Include>
       <Include NoRecurse="false">Textures</Include>
       <Include NoRecurse="true">Source\Scripts</Include>
-    </ZipFile>
-    <ZipFile Name="@modname - WACCF Patch" RootDir="@myproject" Compression="deflate">
-      <Include>MoreCraftableEquipment_WACCF.esp</Include>
     </ZipFile>
     <ZipFile Name="@modname - Vanilla Bodyslide" RootDir="@myproject" Compression="deflate">
       <Include>CalienteTools\Bodyslide\SliderSets\Female More Craftable Equipment.osp</Include>

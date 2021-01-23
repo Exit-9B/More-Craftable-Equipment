@@ -1,0 +1,59 @@
+<!-- Created with FOMOD Creation Tool 1.7.0.37 [http://www.nexusmods.com/fallout4/mods/6821] --> 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd"> 
+	<moduleName>More Craftable Equipment</moduleName> 
+	<requiredInstallFiles> 
+		<file source="MoreCraftableEquipment.esp" destination="MoreCraftableEquipment.esp" /> 
+		<folder source="Meshes" destination="Meshes" /> 
+		<folder source="Scripts" destination="Scripts" /> 
+		<folder source="Source" destination="Source" /> 
+		<folder source="Textures" destination="Textures" /> 
+	</requiredInstallFiles> 
+	<installSteps order="Explicit"> 
+		<installStep name="Patches"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Patches" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Unofficial Skyrim Special Edition Patch"> 
+							<description>Compatibility patch for Unofficial Skyrim Special Edition Patch.</description> 
+							<conditionFlags> 
+								<flag name="USSEP">On</flag> 
+							</conditionFlags> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Weapons Armor Clothing and Clutter Fixes"> 
+							<description>Compatibility patch for Weapons Armor Clothing and Clutter Fixes.</description> 
+							<conditionFlags> 
+								<flag name="WACCF">On</flag> 
+							</conditionFlags> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+	</installSteps> 
+	<conditionalFileInstalls> 
+		<patterns> 
+			<pattern> 
+				<dependencies operator="And"> 
+					<flagDependency flag="USSEP" value="On"/> 
+				</dependencies> 
+				<files> 
+					<file source="Patch\MoreCraftableEquipment_USSEP.esp" destination="MoreCraftableEquipment_USSEP.esp" priority="0" /> 
+				</files> 
+			</pattern> 
+			<pattern> 
+				<dependencies operator="And"> 
+					<flagDependency flag="WACCF" value="On"/> 
+				</dependencies> 
+				<files> 
+					<file source="Patch\MoreCraftableEquipment_WACCF.esp" destination="MoreCraftableEquipment_WACCF.esp" priority="0" /> 
+				</files> 
+			</pattern> 
+		</patterns> 
+	</conditionalFileInstalls> 
+</config>
