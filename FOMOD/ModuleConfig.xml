@@ -19,7 +19,17 @@
 								<flag name="USSEP">On</flag> 
 							</conditionFlags> 
 							<typeDescriptor> 
-								<type name="Optional"/> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="Unofficial Skyrim Special Edition Patch.esp" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
 							</typeDescriptor> 
 						</plugin> 
 						<plugin name="Weapons Armor Clothing and Clutter Fixes"> 
@@ -28,7 +38,17 @@
 								<flag name="WACCF">On</flag> 
 							</conditionFlags> 
 							<typeDescriptor> 
-								<type name="Optional"/> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="Weapons Armor Clothing &amp; Clutter Fixes.esp" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
 							</typeDescriptor> 
 						</plugin> 
 					</plugins> 
