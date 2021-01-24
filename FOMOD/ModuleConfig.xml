@@ -9,6 +9,23 @@
 		<folder source="Textures" destination="Textures" /> 
 	</requiredInstallFiles> 
 	<installSteps order="Explicit"> 
+		<installStep name="Optional"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Hearthfire Add-on" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Hearthfire Add-on"> 
+							<description>This add-on makes it possible to build Weaving Looms in your Hearthfire homes.</description> 
+							<files> 
+								<file source="Optional\MoreCraftableEquipment_BYOHLooms.esp" destination="MoreCraftableEquipment_BYOHLooms.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<type name="Optional"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
 		<installStep name="Patches"> 
 			<optionalFileGroups order="Explicit"> 
 				<group name="Patches" type="SelectAny"> 
