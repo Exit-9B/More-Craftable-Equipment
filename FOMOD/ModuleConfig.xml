@@ -95,6 +95,26 @@
 								</dependencyType> 
 							</typeDescriptor> 
 						</plugin> 
+						<plugin name="JK's Radiant Raiment"> 
+							<description>Compatibility patch for JK's Radiant Raiment. Places the loom in a more accessible location.</description> 
+							<image path="Fomod\images\jkradiantraiment.png" /> 
+							<files> 
+								<file source="Patch\MoreCraftableEquipment_JKsRadiantRaiment.esp" destination="MoreCraftableEquipment_JKsRadiantRaiment.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="JK's Radiant Raiment.esp" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
 					</plugins> 
 				</group> 
 			</optionalFileGroups> 

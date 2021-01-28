@@ -26,7 +26,7 @@
       <Include NoRecurse="true">Scripts</Include>
       <Include NoRecurse="true">Source\Scripts</Include>
       <!-- FOMOD stuff -->
-      <Include NoRecurse="true">FOMOD</Include>
+      <Include NoRecurse="false">Fomod</Include>
       <Include NoRecurse="true">Optional</Include>
       <Include NoRecurse="true">Patch</Include>
     </ZipFile>
