@@ -95,6 +95,25 @@
 								</dependencyType> 
 							</typeDescriptor> 
 						</plugin> 
+						<plugin name="Hunterborn"> 
+							<description>Consistency patch for Hunterborn. Makes the Bone Armor use the same meshes as the Giant Clothes from MCE.</description> 
+							<files> 
+								<file source="Patch\MoreCraftableEquipment_Hunterborn.esp" destination="MoreCraftableEquipment_Hunterborn.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="Hunterborn.esp" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
 						<plugin name="JK's Radiant Raiment"> 
 							<description>Compatibility patch for JK's Radiant Raiment. Places the loom in a more accessible location.</description> 
 							<image path="Fomod\images\jkradiantraiment.png" /> 
