@@ -2,31 +2,30 @@
 <PapyrusProject
   xmlns="PapyrusProject.xsd"
   Flags="TESV_Papyrus_Flags.flg"
-  Output="@myproject\Scripts"
+  Output="Scripts"
   Game="sse"
   Optimize="true" Anonymize="true" Package="true" Zip="true">
   <Variables>
     <Variable Name="modname" Value="More Craftable Equipment"/>
     <Variable Name="plugin" Value="MoreCraftableEquipment"/>
-    <Variable Name="myproject" Value="E:\ModOrganizer\SkyrimSE\mods\@modname"/>
   </Variables>
   <Imports>
-    <Import>@myproject\Source\Scripts</Import>
-    <Import>E:\SteamLibrary\steamapps\common\Skyrim Special Edition\Data\Source\Scripts</Import>
+    <Import>Source\Scripts</Import>
+    <Import>%Skyrim64Path%\Data\Source\Scripts</Import>
   </Imports>
   <Scripts>
     <Script>MCEGiantClothesScript.psc</Script>
     <Script>MCEInitScript.psc</Script>
   </Scripts>
-  <Packages Output="@myproject">
-    <Package Name="@plugin" RootDir="@myproject">
+  <Packages Output=".">
+    <Package Name="@plugin" RootDir=".">
       <Include NoRecurse="false">Meshes</Include>
       <Include NoRecurse="false">Textures</Include>
       <Include NoRecurse="true">Scripts</Include>
     </Package>
   </Packages>
-  <ZipFiles Output="@myproject">
-    <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
+  <ZipFiles Output=".">
+    <ZipFile Name="@modname" RootDir="." Compression="deflate">
       <Include>@plugin.esp</Include>
       <Include>@plugin.bsa</Include>
       <!-- Core mod -->
@@ -36,13 +35,13 @@
       <Include NoRecurse="true">Optional</Include>
       <Include NoRecurse="true">Patch</Include>
     </ZipFile>
-    <ZipFile Name="@modname - Vanilla Bodyslide" RootDir="@myproject" Compression="deflate">
+    <ZipFile Name="@modname - Vanilla Bodyslide" RootDir="." Compression="deflate">
       <Include>CalienteTools\Bodyslide\SliderSets\Female More Craftable Equipment.osp</Include>
       <Include>CalienteTools\Bodyslide\SliderSets\Male More Craftable Equipment.osp</Include>
       <Include NoRecurse="false">CalienteTools\Bodyslide\ShapeData\Female MCE</Include>
       <Include NoRecurse="false">CalienteTools\Bodyslide\ShapeData\Male MCE</Include>
     </ZipFile>
-    <ZipFile Name="@modname - CBBE Bodyslide" RootDir="@myproject" Compression="deflate">
+    <ZipFile Name="@modname - CBBE Bodyslide" RootDir="." Compression="deflate">
       <Include>CalienteTools\Bodyslide\SliderSets\CBBE More Craftable Equipment.osp</Include>
       <Include NoRecurse="false">CalienteTools\Bodyslide\ShapeData\CBBE MCE</Include>
     </ZipFile>
