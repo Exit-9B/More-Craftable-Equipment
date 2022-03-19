@@ -1,9 +1,10 @@
+<?xml version="1.0"?>
 <PapyrusProject
   xmlns="PapyrusProject.xsd"
   Flags="TESV_Papyrus_Flags.flg"
   Output="@myproject\Scripts"
   Game="sse"
-  Optimize="true" Anonymize="true" Package="false" Zip="true">
+  Optimize="true" Anonymize="true" Package="true" Zip="true">
   <Variables>
     <Variable Name="modname" Value="More Craftable Equipment"/>
     <Variable Name="plugin" Value="MoreCraftableEquipment"/>
@@ -17,13 +18,18 @@
     <Script>MCEGiantClothesScript.psc</Script>
     <Script>MCEInitScript.psc</Script>
   </Scripts>
-  <ZipFiles Output="@myproject">
-    <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
-      <Include>@plugin.esp</Include>
-      <!-- Core mod -->
+  <Packages Output="@myproject">
+    <Package Name="@plugin" RootDir="@myproject">
       <Include NoRecurse="false">Meshes</Include>
       <Include NoRecurse="false">Textures</Include>
       <Include NoRecurse="true">Scripts</Include>
+    </Package>
+  </Packages>
+  <ZipFiles Output="@myproject">
+    <ZipFile Name="@modname" RootDir="@myproject" Compression="deflate">
+      <Include>@plugin.esp</Include>
+      <Include>@plugin.bsa</Include>
+      <!-- Core mod -->
       <Include NoRecurse="true">Source\Scripts</Include>
       <!-- FOMOD stuff -->
       <Include NoRecurse="false">Fomod</Include>

@@ -3,10 +3,8 @@
 	<moduleName>More Craftable Equipment</moduleName> 
 	<requiredInstallFiles> 
 		<file source="MoreCraftableEquipment.esp" destination="MoreCraftableEquipment.esp" /> 
-		<folder source="Meshes" destination="Meshes" /> 
-		<folder source="Scripts" destination="Scripts" /> 
+		<file source="MoreCraftableEquipment.bsa" destination="MoreCraftableEquipment.bsa" /> 
 		<folder source="Source" destination="Source" /> 
-		<folder source="Textures" destination="Textures" /> 
 	</requiredInstallFiles> 
 	<installSteps order="Explicit"> 
 		<installStep name="Optional"> 
@@ -26,10 +24,32 @@
 				</group> 
 			</optionalFileGroups> 
 		</installStep> 
-		<installStep name="Patches"> 
+		<installStep name="Patches (1)"> 
 			<optionalFileGroups order="Explicit"> 
-				<group name="Patches" type="SelectAny"> 
+				<group name="USSEP etc." type="SelectExactlyOne"> 
 					<plugins order="Explicit"> 
+						<plugin name="None"> 
+							<description>Skip patches for USSEP.</description> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="Unofficial Skyrim Special Edition Patch.esp" state="Missing"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="Unofficial Skyrim Special Edition Patch.esp" state="Inactive"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
 						<plugin name="Unofficial Skyrim Special Edition Patch"> 
 							<description>Compatibility patch for Unofficial Skyrim Special Edition Patch.</description> 
 							<files> 
@@ -76,6 +96,14 @@
 								</dependencyType> 
 							</typeDescriptor> 
 						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Patches (2)"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Patches" type="SelectAny"> 
+					<plugins order="Explicit"> 
 						<plugin name="Skyrim Unbound"> 
 							<description>Compatibility patch for Skyrim Unbound / Skyrim Unbound Reborn. Changes recipe unlocks for becoming Thane of Whiterun to use the alternative quest.</description> 
 							<files> 
@@ -127,6 +155,25 @@
 										<pattern> 
 											<dependencies operator="And"> 
 												<fileDependency file="JK's Radiant Raiment.esp" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Cloaks and Capes"> 
+							<description>Consistency patch for Cloaks and Capes. Items are now crafted at the loom.</description> 
+							<files> 
+								<file source="Patch\MoreCraftableEquipment_CloaksandCapes.esp" destination="MoreCraftableEquipment_CloaksandCapes.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="Cloaks&amp;Capes.esp" state="Active"/> 
 											</dependencies> 
 											<type name="Recommended"/> 
 										</pattern> 
