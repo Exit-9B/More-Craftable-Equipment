@@ -1885,7 +1885,7 @@
         <DataFolder>CBBE MCE\Hands</DataFolder>
         <SourceFile>Giant (Arg).nif</SourceFile>
         <OutputPath>Meshes\MCE\Clothes\Giant\F</OutputPath>
-        <OutputFile GenWeights="true">GiantGauntlets</OutputFile>
+        <OutputFile GenWeights="true">GiantGauntletsBeast</OutputFile>
         <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
         <Shape target="_GauntletsLight_1">_GauntletsLight_1</Shape>
         <Slider name="Arms" invert="false" small="0" big="0">
