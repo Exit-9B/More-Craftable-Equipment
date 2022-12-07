@@ -1555,7 +1555,6 @@
         </Slider>
         <Slider name="ForearmSize" invert="false" small="0" big="0">
             <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
-            <Data name="Mesh_001_Tsun_Cuirass_004ForearmSize" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004ForearmSize</Data>
         </Slider>
         <Slider name="Groin" invert="false" small="0" big="0">
             <Data name="BaseShapeHRGroin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRGroin</Data>
@@ -1750,7 +1749,6 @@
         </Slider>
         <Slider name="WristSize" invert="false" small="100" big="0">
             <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
-            <Data name="Mesh_001_Tsun_Cuirass_004WristSize" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004WristSize</Data>
         </Slider>
         <Slider name="7B Lower" invert="false" small="0" big="0">
             <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
@@ -1790,9 +1788,6 @@
         </Slider>
         <Slider name="Remove Breastplate" invert="false" small="0" big="0" zap="true">
             <Data name="Tsun_BreastplateRemove Breastplate" target="Tsun_Breastplate" local="true">Tsun.osd\Tsun_BreastplateRemove Breastplate</Data>
-        </Slider>
-        <Slider name="Remove Wristbands" invert="false" small="0" big="0" zap="true">
-            <Data name="Mesh_001_Tsun_Cuirass_004Remove Wristbands" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Remove Wristbands</Data>
         </Slider>
         <Slider name="Remove Armbands" invert="false" small="0" big="0" zap="true">
             <Data name="Mesh_001_Tsun_Cuirass_004Remove Armbands" target="Mesh_001_Tsun_Cuirass_004" local="true">Tsun.osd\Mesh_001_Tsun_Cuirass_004Remove Armbands</Data>
