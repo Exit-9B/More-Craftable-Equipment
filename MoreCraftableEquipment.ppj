@@ -29,7 +29,7 @@
       <Include>@plugin.esp</Include>
       <Include>@plugin.bsa</Include>
       <!-- Core mod -->
-      <Include NoRecurse="true">Source\Scripts</Include>
+      <Include NoRecurse="false">Source</Include>
       <!-- FOMOD stuff -->
       <Include NoRecurse="false">Fomod</Include>
       <Include NoRecurse="true">Optional</Include>
