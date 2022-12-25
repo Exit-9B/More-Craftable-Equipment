@@ -4,6 +4,9 @@
 	<requiredInstallFiles> 
 		<file source="MoreCraftableEquipment.esp" destination="MoreCraftableEquipment.esp" /> 
 		<file source="MoreCraftableEquipment.bsa" destination="MoreCraftableEquipment.bsa" /> 
+		<file source="MoreCraftableEquipment_KID.ini" destination="MoreCraftableEquipment_KID.ini" /> 
+		<folder source="Interface" destination="Interface" /> 
+		<folder source="SKSE" destination="SKSE" /> 
 		<folder source="Source" destination="Source" /> 
 	</requiredInstallFiles> 
 	<installSteps order="Explicit"> 

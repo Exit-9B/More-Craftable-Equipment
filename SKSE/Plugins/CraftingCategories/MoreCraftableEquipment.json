@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "$CLOTHING": {
+      "keywords": [ "BYOHAdoptionClothesKeyword" ]
+    }
+  },
+  "categories": {
+    "$Hide": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "ArmorMaterialForsworn", "MCE_ArmorMaterialExecutioner", "MCE_ArmorMaterialGiant" ]
+    },
+    "$Steel": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "MCE_ArmorMaterialTsun" ]
+    },
+    "$Guard": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "ArmorMaterialStormcloak", "WAF_ArmorMaterialGuard" ]
+    },
+    "$Stormcloak": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "ArmorMaterialBearStormcloak" ]
+    },
+    "$Blades": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "ArmorMaterialBlades" ]
+    },
+    "$Companions": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "MCE_ArmorMaterialWolf", "WAF_ArmorWolf" ]
+    },
+    "$DBArmor": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "ArmorDarkBrotherhood" ]
+    },
+    "$Thieves Guild": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [
+        "ArmorMaterialThievesGuild",
+        "ArmorMaterialThievesGuildLeader",
+        "MCE_ArmorMaterialThievesGuildAlt",
+        "MCE_ArmorMaterialThievesGuildKarliah"
+      ]
+    },
+    "$Dawnguard": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "DLC1ArmorMaterialDawnguard" ]
+    },
+    "$Vampire": {
+      "section": "$WEAPONS & ARMOR",
+      "keywords": [ "DLC1ArmorMaterialVampire" ]
+    },
+    "$Common": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingCommon", "MCE_ClothingVampire" ]
+    },
+    "$Beggar": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingBeggar" ]
+    },
+    "$Noble": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingNoble" ]
+    },
+    "$Royal": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingRoyal" ]
+    },
+    "$Monk": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingGreybeard", "MCE_ClothingMonk", "MCE_ClothingMothPriest" ]
+    },
+    "$Mage": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingCollege", "MCE_ClothingNecromancer" ]
+    },
+    "$DBClothes": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingDBRobes", "MCE_ClothingDBJester" ]
+    },
+    "$Mythic Dawn": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingMythicDawn" ]
+    },
+    "$Psijic Order": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingPsijicOrder" ]
+    },
+    "$Redguard": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingRedguard" ]
+    },
+    "$Thalmor": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingThalmor" ]
+    },
+    "$Wedding": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingWedding" ]
+    },
+    "$Dunmer": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingDunmer", "MCE_ClothingTemplePriest" ]
+    },
+    "$Cultist": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingCultist", "MCE_ClothingVaermina" ]
+    },
+    "$Telvanni": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingTelvanni" ]
+    },
+    "$Child": {
+      "section": "$CLOTHING",
+      "keywords": [ "BYOHAdoptionClothesKeyword" ]
+    }
+  }
+}

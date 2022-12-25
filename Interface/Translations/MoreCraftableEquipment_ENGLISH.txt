@@ -1,0 +1,11 @@
+$Beggar	Beggar
+$Blades	Blades
+$Child	Child
+$Companions	Companions
+$DBArmor	Dark Brotherhood
+$DBClothes	Dark Brotherhood
+$Guard	Guard
+$Mage	Mage
+$Monk	Monk
+$Noble	Noble
+$Thieves Guild	Thieves Guild
