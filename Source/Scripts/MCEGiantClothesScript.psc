@@ -7,6 +7,7 @@ Event OnContainerChanged(ObjectReference akNewContainer, ObjectReference akOldCo
 		Actor oldHost = akOldContainer as Actor
 		if oldHost.IsEquipped(GiantClothes)
 			oldHost.UnequipItem(GiantClothes)
+			oldHost.QueueNiNodeUpdate()
 		endif
 	endif
 EndEvent

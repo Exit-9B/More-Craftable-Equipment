@@ -11,6 +11,7 @@
   </Variables>
   <Imports>
     <Import>Source\Scripts</Import>
+    <Import>%SKSE64Path%\Scripts\Source</Import>
     <Import>%Skyrim64Path%\Data\Source\Scripts</Import>
   </Imports>
   <Scripts>
