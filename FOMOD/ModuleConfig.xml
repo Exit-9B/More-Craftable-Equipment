@@ -5,6 +5,7 @@
 		<file source="MoreCraftableEquipment.esp" destination="MoreCraftableEquipment.esp" /> 
 		<file source="MoreCraftableEquipment.bsa" destination="MoreCraftableEquipment.bsa" /> 
 		<file source="MoreCraftableEquipment_KID.ini" destination="MoreCraftableEquipment_KID.ini" /> 
+		<file source="MoreCraftableEquipmentAE_KID.ini" destination="MoreCraftableEquipmentAE_KID.ini" /> 
 		<folder source="Interface" destination="Interface" /> 
 		<folder source="SKSE" destination="SKSE" /> 
 		<folder source="Source" destination="Source" /> 
@@ -21,6 +22,52 @@
 							</files> 
 							<typeDescriptor> 
 								<type name="Recommended"/> 
+							</typeDescriptor> 
+						</plugin> 
+					</plugins> 
+				</group> 
+			</optionalFileGroups> 
+		</installStep> 
+		<installStep name="Creation Club"> 
+			<optionalFileGroups order="Explicit"> 
+				<group name="Creation Club" type="SelectAny"> 
+					<plugins order="Explicit"> 
+						<plugin name="Fishing"> 
+							<description>Support for Creation Club: Fishing.</description> 
+							<files> 
+								<file source="Patch\MoreCraftableEquipment_Fish.esp" destination="MoreCraftableEquipment_Fish.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccBGSSSE001-Fish.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
+							</typeDescriptor> 
+						</plugin> 
+						<plugin name="Dead Man's Dread"> 
+							<description>Support for Creation Club: Dead Man&apos;s Dread.</description> 
+							<files> 
+								<file source="Patch\MoreCraftableEquipment_AdvCyrus.esp" destination="MoreCraftableEquipment_AdvCyrus.esp" priority="0" /> 
+							</files> 
+							<typeDescriptor> 
+								<dependencyType> 
+									<defaultType name="Optional"/> 
+									<patterns> 
+										<pattern> 
+											<dependencies operator="And"> 
+												<fileDependency file="ccBGSSSE031-AdvCyrus.esm" state="Active"/> 
+											</dependencies> 
+											<type name="Recommended"/> 
+										</pattern> 
+									</patterns> 
+								</dependencyType> 
 							</typeDescriptor> 
 						</plugin> 
 					</plugins> 

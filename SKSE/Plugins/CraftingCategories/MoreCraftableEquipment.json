@@ -111,6 +111,10 @@
       "section": "$CLOTHING",
       "keywords": [ "MCE_ClothingTelvanni" ]
     },
+    "$Sailor": {
+      "section": "$CLOTHING",
+      "keywords": [ "MCE_ClothingSailor" ]
+    },
     "$Child": {
       "section": "$CLOTHING",
       "keywords": [ "BYOHAdoptionClothesKeyword" ]

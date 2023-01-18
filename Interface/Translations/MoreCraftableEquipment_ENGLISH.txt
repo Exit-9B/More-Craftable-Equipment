@@ -14,6 +14,7 @@ $Noble	Noble
 $Psijic Order	Psijic Order
 $Redguard	Redguard
 $Royal	Royal
+$Sailor	Sailor
 $Telvanni	Telvanni
 $Thalmor	Thalmor
 $Thieves Guild	Thieves Guild
