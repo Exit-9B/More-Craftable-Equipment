@@ -2,10 +2,19 @@ $Beggar	Beggar
 $Blades	Blades
 $Child	Child
 $Companions	Companions
+$Cultist	Cultist
 $DBArmor	Dark Brotherhood
 $DBClothes	Dark Brotherhood
+$Dunmer	Dunmer
 $Guard	Guard
 $Mage	Mage
 $Monk	Monk
+$Mythic Dawn	Mythic Dawn
 $Noble	Noble
+$Psijic Order	Psijic Order
+$Redguard	Redguard
+$Royal	Royal
+$Telvanni	Telvanni
+$Thalmor	Thalmor
 $Thieves Guild	Thieves Guild
+$Wedding	Wedding
