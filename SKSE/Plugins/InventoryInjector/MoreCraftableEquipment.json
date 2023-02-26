@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/InventoryInjector/main/docs/InventoryInjector.schema.json",
+  "rules": [
+    {
+      "match": {
+        "formType": "MiscItem",
+        "formId": "Update.esm|6CE001"
+      },
+      "assign": {
+        "subTypeDisplay": "$Thread",
+        "iconSource": "MCE/icons.swf",
+        "iconLabel": "misc_thread",
+        "iconColor": "#B6AC62"
+      }
+    },
+    {
+      "match": {
+        "formType": "MiscItem",
+        "formId": "MoreCraftableEquipment.esp|889"
+      },
+      "assign": {
+        "iconLabel": "armor_body"
+      }
+    },
+    {
+      "match": {
+        "formType": "MiscItem",
+        "formId": "MoreCraftableEquipment.esp|88A"
+      },
+      "assign": {
+        "iconLabel": "lightarmor_feet"
+      }
+    },
+    {
+      "match": {
+        "formType": "MiscItem",
+        "formId": "MoreCraftableEquipment.esp|88B"
+      },
+      "assign": {
+        "iconLabel": "lightarmor_hands"
+      }
+    }
+  ]
+}

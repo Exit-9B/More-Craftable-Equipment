@@ -18,4 +18,5 @@ $Sailor	Sailor
 $Telvanni	Telvanni
 $Thalmor	Thalmor
 $Thieves Guild	Thieves Guild
+$Thread	Thread
 $Wedding	Wedding
